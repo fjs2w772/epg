@@ -1,0 +1,19 @@
+<tv>
+  <programme start="20251119002500 +0000" stop="20251119011000 +0000" channel="HistoryChannel.it">
+    <title lang="de">Enigmi alieni</title>
+    <desc lang="de">La lista dei principali ritrovamenti archeologici.</desc>
+  </programme>
+  <programme start="20251119011000 +0000" stop="20251119015000 +0000" channel="HistoryChannel.it">
+    <title lang="de">Breve storia del fascismo</title>
+    <desc lang="de">Il Fascismo narrato attraverso filmati e documenti d'epoca.</desc>
+  </programme>
+
+  <programme start="20251119020000 +0000" stop="20251119024500 +0000" channel="SkyAdventure.it">
+    <title lang="de">Avventure estreme</title>
+    <desc lang="de">Documentario su viaggi e spedizioni estreme.</desc>
+  </programme>
+  <programme start="20251119024500 +0000" stop="20251119033000 +0000" channel="SkyAdventure.it">
+    <title lang="de">Escursioni in montagna</title>
+    <desc lang="de">Tour attraverso le montagne europee.</desc>
+  </programme>
+</tv>
