@@ -9,36 +9,55 @@ feeds = {
     "SportMovies": "http://www.xmltvepg.nl/rytecIT_SportMovies.xz"
 }
 
-# Lista per salvare tutti gli eventi
-all_programs = []
+# Root del nuovo XMLTV
+root_combined = ET.Element("tv")
+
+# Set per evitare duplicati
+seen_channels = set()
+seen_programmes = set()
 
 for name, url in feeds.items():
     print(f"Scarico feed {name}...")
     resp = requests.get(url)
     resp.raise_for_status()
-    # Decomprimi l'xz
-    decompressed = lzma.decompress(resp.content)
+
+    # Decomprimi
+    xml_data = lzma.decompress(resp.content)
+
     # Parse XML
-    root = ET.fromstring(decompressed)
-    # Aggiungi tutti gli eventi alla lista
-    for program in root.findall("programme"):
-        all_programs.append(program)
+    feed_root = ET.fromstring(xml_data)
 
-# Creiamo il nuovo XML combinato
-root_combined = ET.Element("tv")
+    # ---------------------------
+    # 1️⃣ Copia i CHANNEL
+    # ---------------------------
+    for ch in feed_root.findall("channel"):
+        channel_id = ch.attrib.get("id")
 
-for program in all_programs:
-    root_combined.append(program)
+        if channel_id not in seen_channels:
+            root_combined.append(ch)
+            seen_channels.add(channel_id)
 
+    # ---------------------------
+    # 2️⃣ Copia i PROGRAMMES
+    # ---------------------------
+    for pr in feed_root.findall("programme"):
+        key = (
+            pr.attrib.get("start"),
+            pr.attrib.get("stop"),
+            pr.attrib.get("channel")
+        )
+
+        if key not in seen_programmes:
+            root_combined.append(pr)
+            seen_programmes.add(key)
+
+# Salva XMLTV finale
 tree = ET.ElementTree(root_combined)
+tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
 
-# Salviamo in epg.xml temporaneo
-tree.write("epg.xml", encoding="utf-8")
-
-# Comprimiamo in xz
+# Crea epg.xz compresso
 with lzma.open("epg.xz", "wb") as f:
     with open("epg.xml", "rb") as infile:
         f.write(infile.read())
 
-print("EPG combinata salvata in epg.xz")
-
+print("🎉 EPG XMLTV generata correttamente e compatibile con TiviMate!")
