@@ -61,3 +61,4 @@ with lzma.open("epg.xz", "wb") as f:
         f.write(infile.read())
 
 print("🎉 EPG XMLTV generata correttamente e compatibile con TiviMate!")
+
