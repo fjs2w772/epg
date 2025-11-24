@@ -5,28 +5,8 @@ from datetime import datetime, timedelta
 import copy
 
 # ---------------------------------------------------
-# FUNZIONI DI SUPPORTO: RINOMINA E +1
+# FUNZIONI UTILI
 # ---------------------------------------------------
-
-def rinomina_canale(root, channel_id, nuovo_nome):
-    """
-    Rinomina il display-name di un canale esistente.
-    """
-    trovato = False
-    for ch in root.findall("channel"):
-        if ch.get("id") == channel_id:
-            dn = ch.find("display-name")
-            if dn is not None:
-                dn.text = nuovo_nome
-            else:
-                dn = ET.SubElement(ch, "display-name")
-                dn.text = nuovo_nome
-            print(f"[OK] RINOMINATO: {channel_id} -> {nuovo_nome}")
-            trovato = True
-            break
-    if not trovato:
-        print(f"[ATTENZIONE] Canale {channel_id} non trovato (rinomina)")
-
 
 def _shift_orario_xmltv(value, ore=1):
     """
@@ -34,79 +14,169 @@ def _shift_orario_xmltv(value, ore=1):
     """
     if not value:
         return value
-
-    base = value[:14]   # YYYYMMDDHHMMSS
-    resto = value[14:]  # timezone o altro
-
+    base = value[:14]
+    resto = value[14:]
     dt = datetime.strptime(base, "%Y%m%d%H%M%S")
     dt_new = dt + timedelta(hours=ore)
     return dt_new.strftime("%Y%m%d%H%M%S") + resto
 
 
+def aggiungi_metadati_canale(ch):
+    """
+    Aggiunge metadati minimi per rendere il canale compatibile con TiviMate:
+    - display-name senza lingua
+    - display-name lang="it"
+    - display-name lang="en"
+    - url placeholder
+    """
+    nome = None
+    for dn in ch.findall("display-name"):
+        nome = dn.text
+        break
+
+    if nome:
+        # display-name senza lingua
+        if ch.find("display-name[@lang]") is None:
+            ET.SubElement(ch, "display-name").text = nome
+
+        # display-name lang="it"
+        if ch.find("display-name[@lang='it']") is None:
+            dn = ET.SubElement(ch, "display-name")
+            dn.set("lang", "it")
+            dn.text = nome
+
+        # display-name lang="en"
+        if ch.find("display-name[@lang='en']") is None:
+            dn = ET.SubElement(ch, "display-name")
+            dn.set("lang", "en")
+            dn.text = nome
+
+    # url generico richiesto da TiviMate
+    if ch.find("url") is None:
+        ET.SubElement(ch, "url").text = "https://example.com"
+
+
+def rinomina_canale(root, channel_id, nuovo_nome):
+    """
+    Cambia il nome commerciale del canale.
+    """
+    for ch in root.findall("channel"):
+        if ch.get("id") == channel_id:
+            # elimina vecchi display-name
+            for dn in list(ch.findall("display-name")):
+                ch.remove(dn)
+            # ricrea i display-name standard
+            dn = ET.SubElement(ch, "display-name")
+            dn.text = nuovo_nome
+
+            dn_it = ET.SubElement(ch, "display-name")
+            dn_it.set("lang", "it")
+            dn_it.text = nuovo_nome
+
+            dn_en = ET.SubElement(ch, "display-name")
+            dn_en.set("lang", "en")
+            dn_en.text = nuovo_nome
+
+            print(f"[OK] RINOMINATO: {channel_id} -> {nuovo_nome}")
+            return
+
+    print(f"[ATTENZIONE] Canale {channel_id} non trovato (rinomina)")
+
+
 def crea_canale_plus1(root, original_id, nuovo_id, nuovo_nome):
     """
-    Duplica un canale + i suoi programme con shift +1h.
+    Duplica il canale e crea un +1 con programmi shiftati.
     """
-    # Trova il channel originale
+
+    # trova channel originale
     originale = None
     for ch in root.findall("channel"):
         if ch.get("id") == original_id:
             originale = ch
             break
-
     if originale is None:
-        print(f"[ERRORE] Channel {original_id} non trovato (crea +1)")
+        print(f"[ERRORE] {original_id} non trovato (crea +1)")
         return
 
-    # Duplica <channel>
-    nuovo_canale = copy.deepcopy(originale)
-    nuovo_canale.set("id", nuovo_id)
+    # duplica channel
+    nuovo_ch = copy.deepcopy(originale)
+    nuovo_ch.set("id", nuovo_id)
 
-    dn = nuovo_canale.find("display-name")
-    if dn is not None:
-        dn.text = nuovo_nome
-    else:
-        ET.SubElement(nuovo_canale, "display-name").text = nuovo_nome
+    # display-name personalizzato
+    for dn in list(nuovo_ch.findall("display-name")):
+        nuovo_ch.remove(dn)
 
-    root.insert(0, nuovo_canale)
+    dn = ET.SubElement(nuovo_ch, "display-name")
+    dn.text = nuovo_nome
 
-    # FIX IMPORTANTE: crea una lista fissa dei programme
+    dn_it = ET.SubElement(nuovo_ch, "display-name")
+    dn_it.set("lang", "it")
+    dn_it.text = nuovo_nome
+
+    dn_en = ET.SubElement(nuovo_ch, "display-name")
+    dn_en.set("lang", "en")
+    dn_en.text = nuovo_nome
+
+    # metadati
+    aggiungi_metadati_canale(nuovo_ch)
+
+    root.insert(0, nuovo_ch)
+
+    # FIX: lista fissa dei programmes
     all_programmes = list(root.findall("programme"))
-
-    programmi_da_aggiungere = []
     count = 0
+    nuovi_prog = []
 
     for prog in all_programmes:
         if prog.get("channel") == original_id:
-            nuovo_prog = copy.deepcopy(prog)
-            nuovo_prog.set("channel", nuovo_id)
+            np = copy.deepcopy(prog)
+            np.set("channel", nuovo_id)
 
             for attr in ("start", "stop"):
-                old = nuovo_prog.get(attr)
-                if old:
-                    nuovo_prog.set(attr, _shift_orario_xmltv(old, ore=1))
+                v = np.get(attr)
+                if v:
+                    np.set(attr, _shift_orario_xmltv(v, ore=1))
 
-            programmi_da_aggiungere.append(nuovo_prog)
             count += 1
+            nuovi_prog.append(np)
 
-    for p in programmi_da_aggiungere:
+    for p in nuovi_prog:
         root.append(p)
 
-    print(f"[OK] CREATO +1: {original_id} -> {nuovo_id} ({nuovo_nome}) | Programmi copiati: {count}")
+    print(f"[OK] +1 CREATO: {original_id} → {nuovo_id} ({nuovo_nome}) — Programmi copiati: {count}")
 
 
 def modifica_epg(root):
     """
-    Crea canali +1 e rinomina.
+    Rinomina e crea +1 SOLO per i canali della tua lista.
+    Aggiunge metadati completi a TUTTI i canali.
     """
-    # Mappa ID reali trovati nei <channel>
-    id_map = {}
-    for ch in root.findall("channel"):
-        cid = ch.get("id")
-        if cid:
-            id_map[cid.lower()] = cid
 
-    # 🔵 Duplica +1
+    # MAPPA ID REALI
+    id_map = {ch.get("id").lower(): ch.get("id") for ch in root.findall("channel")}
+
+    # RINOMINE
+    rinomina = {
+        "Nove.it": "Nove",
+        "20Mediaset.it": "Mediaset 20",
+        "RaiSport.it": "Rai Sport+",
+        "TopCrime.it": "TopCrime",
+        "LA7Cinema.it": "LA 7 Cinema",
+        "HGTV.it": "HGTV Home Garden",
+        "SkySportAction.it": "Sky Sport Golf",
+        "DAZNZona.it": "Dazn 1",
+        "ZonaDAZN2.it": "Dazn 2",
+        "Tgcom24.it": "Tgcom 24",
+    }
+
+    for user_id, nome in rinomina.items():
+        key = user_id.lower()
+        if key in id_map:
+            rinomina_canale(root, id_map[key], nome)
+        else:
+            print(f"[WARN] Cannot rename {user_id}: not found")
+
+    # +1
     plus1 = {
         "Italia1.it": "Italia 1 +1",
         "La7.it": "La7 +1",
@@ -125,43 +195,21 @@ def modifica_epg(root):
         "SkyCinemaSuspense.it": "Sky Cinema Suspense +1",
     }
 
-    for user_id, nuovo_nome in plus1.items():
+    for user_id, nome in plus1.items():
         key = user_id.lower()
-        if key not in id_map:
-            print(f"[ATTENZIONE] Nessun channel simile a {user_id} trovato (per +1)")
-            continue
+        if key in id_map:
+            real = id_map[key]
+            crea_canale_plus1(root, real, real + ".plus1", nome)
+        else:
+            print(f"[WARN] Cannot create +1 for {user_id}: not found")
 
-        real_id = id_map[key]
-        nuovo_id = real_id + ".plus1"
-
-        crea_canale_plus1(root, real_id, nuovo_id, nuovo_nome)
-
-    # 🟡 Rinomina
-    rinomina = {
-        "Nove.it": "Nove",
-        "20Mediaset.it": "Mediaset 20",
-        "RaiSport.it": "Rai Sport+",
-        "TopCrime.it": "TopCrime",
-        "LA7Cinema.it": "LA 7 Cinema",
-        "HGTV.it": "HGTV Home Garden",
-        "SkySportAction.it": "Sky Sport Golf",
-        "DAZNZona.it": "Dazn 1",
-        "ZonaDAZN2.it": "Dazn 2",
-        "Tgcom24.it": "Tgcom 24",
-    }
-
-    for user_id, nuovo_nome in rinomina.items():
-        key = user_id.lower()
-        if key not in id_map:
-            print(f"[ATTENZIONE] Nessun channel simile a {user_id} trovato (rinomina)")
-            continue
-
-        real_id = id_map[key]
-        rinomina_canale(root, real_id, nuovo_nome)
+    # METADATI COMPLETI PER TUTTI I CANALI
+    for ch in root.findall("channel"):
+        aggiungi_metadati_canale(ch)
 
 
 # ---------------------------------------------------
-# DOWNLOAD E MERGE DEI FEED RYTEC
+# DOWNLOAD E UNIONE FEED RYTEC
 # ---------------------------------------------------
 
 feeds = {
@@ -171,52 +219,39 @@ feeds = {
 }
 
 root_combined = ET.Element("tv")
-
 seen_channels = set()
 seen_programmes = set()
 
 for name, url in feeds.items():
     print(f"Scarico feed {name}...")
-    resp = requests.get(url)
-    resp.raise_for_status()
+    r = requests.get(url)
+    r.raise_for_status()
 
-    xml_data = lzma.decompress(resp.content)
+    xml_data = lzma.decompress(r.content)
     feed_root = ET.fromstring(xml_data)
 
-    # CHANNEL
     for ch in feed_root.findall("channel"):
         cid = ch.get("id")
         if cid not in seen_channels:
             root_combined.append(ch)
             seen_channels.add(cid)
 
-    # PROGRAMMES
     for pr in feed_root.findall("programme"):
-        key = (
-            pr.get("start"),
-            pr.get("stop"),
-            pr.get("channel")
-        )
+        key = (pr.get("start"), pr.get("stop"), pr.get("channel"))
         if key not in seen_programmes:
             root_combined.append(pr)
             seen_programmes.add(key)
 
-# ---------------------------------------------------
-# MODIFICHE FINALI (RINOMINE + +1)
-# ---------------------------------------------------
-
-print("Applico modifiche (rinomine + canali +1)...")
+print("Applico modifiche personalizzate...")
 modifica_epg(root_combined)
 
-# ---------------------------------------------------
-# SALVATAGGIO XML + COMPRESSO
-# ---------------------------------------------------
-
+# SALVA XML
 tree = ET.ElementTree(root_combined)
 tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
 
+# CREA COMPRESSO
 with lzma.open("epg.xz", "wb") as f:
     with open("epg.xml", "rb") as infile:
         f.write(infile.read())
 
-print("🎉 EPG XMLTV generata correttamente e compatibile con TiviMate!")
+print("🎉 EPG generata correttamente e compatibile con TiviMate!")
