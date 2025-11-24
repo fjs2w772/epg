@@ -2,9 +2,9 @@ import requests
 import gzip
 import xml.etree.ElementTree as ET
 
-# ✔️ Feed unico completo Italia (Sky + DTT + Premium + Cinema + Sport)
+# Feed unico completo Italia
 feeds = {
-    "ItalyFull": "http://rytecepg.wanwizard.eu/rytecxmltvItaly.gz"
+    "ItalyFull": "http://rytecepg.ipservers.eu/epg_data/rytecxmltvItaly.gz"
 }
 
 # Root del nuovo XMLTV
@@ -19,32 +19,22 @@ for name, url in feeds.items():
     resp = requests.get(url)
     resp.raise_for_status()
 
-    # ✔️ Decompressione GZIP
+    # Decompressione GZIP
     xml_data = gzip.decompress(resp.content)
 
     # Parse XML
     feed_root = ET.fromstring(xml_data)
 
-    # ---------------------------
-    # 1️⃣ Copia i CHANNEL
-    # ---------------------------
+    # Copia CHANNEL
     for ch in feed_root.findall("channel"):
-        channel_id = ch.attrib.get("id")
-
-        if channel_id not in seen_channels:
+        cid = ch.get("id")
+        if cid not in seen_channels:
             root_combined.append(ch)
-            seen_channels.add(channel_id)
+            seen_channels.add(cid)
 
-    # ---------------------------
-    # 2️⃣ Copia i PROGRAMMES
-    # ---------------------------
+    # Copia PROGRAMMES
     for pr in feed_root.findall("programme"):
-        key = (
-            pr.attrib.get("start"),
-            pr.attrib.get("stop"),
-            pr.attrib.get("channel")
-        )
-
+        key = (pr.get("start"), pr.get("stop"), pr.get("channel"))
         if key not in seen_programmes:
             root_combined.append(pr)
             seen_programmes.add(key)
@@ -59,4 +49,4 @@ with lzma.open("epg.xz", "wb") as f:
     with open("epg.xml", "rb") as infile:
         f.write(infile.read())
 
-print("🎉 EPG XMLTV generata correttamente (TEST BASE).")
+print("🎉 EPG XMLTV generata correttamente (TEST BASE - MIRROR IPServers).")
