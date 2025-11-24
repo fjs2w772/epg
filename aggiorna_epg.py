@@ -168,6 +168,7 @@ feeds = {
     "Sky": "http://www.xmltvepg.nl/rytecIT_Sky.xz",
     "Basic": "http://www.xmltvepg.nl/rytecIT_Basic.xz",
     "SportMovies": "http://www.xmltvepg.nl/rytecIT_SportMovies.xz"
+    "DTT": "http://www.xmltvepg.nl/rytecIT_DTT.xz"
 }
 
 root_combined = ET.Element("tv")
