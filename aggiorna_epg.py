@@ -2,8 +2,8 @@ import requests
 import gzip
 import xml.etree.ElementTree as ET
 
-# FEED UNICO COMPLETO RYTEC
-FEED_URL = "http://91.121.106.172/~rytecepg/epg_data/rytecxmltvItaly.gz"
+# FEED UNICO COMPLETO RYTEC - MIRROR VUPLUS
+FEED_URL = "http://www.vuplus-community.net/rytec/rytecxmltvItaly.gz"
 
 print(f"Scarico feed unico Rytec...")
 resp = requests.get(FEED_URL)
