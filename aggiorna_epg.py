@@ -3,6 +3,7 @@ import lzma
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import copy
+import xml.dom.minidom as minidom
 
 # ---------------------------------------------------
 # SHIFT ORARIO PROGRAMMES
@@ -18,16 +19,17 @@ def shift_orario(value, ore=1):
     return dt_new.strftime("%Y%m%d%H%M%S") + resto
 
 # ---------------------------------------------------
-# FORMATTAZIONE XMLTV STANDARD (MULTILINEA)
+# FORMATTAZIONE XMLTV MULTILINEA
 # ---------------------------------------------------
 
 def formatta_canale(channel_element, nome):
-    """Ricrea la struttura del canale in formato XMLTV standard multilinea."""
-    # Rimuovi tutto dentro
+    """Ricrea struttura del canale in formato XMLTV standard (multilinea)."""
+
+    # Rimuovi nodi esistenti
     for child in list(channel_element):
         channel_element.remove(child)
 
-    # display-name lang="it" FIRST (standard Rytec)
+    # display-name lang="it" → primo (standard Rytec)
     dn_it = ET.SubElement(channel_element, "display-name")
     dn_it.set("lang", "it")
     dn_it.text = nome
@@ -37,7 +39,7 @@ def formatta_canale(channel_element, nome):
     dn_en.set("lang", "en")
     dn_en.text = nome
 
-    # display-name senza lingua (ultimo)
+    # display-name default
     dn_default = ET.SubElement(channel_element, "display-name")
     dn_default.text = nome
 
@@ -49,15 +51,17 @@ def rinomina_canale(root, channel_id, nuovo_nome):
     for ch in root.findall("channel"):
         if ch.get("id") == channel_id:
             formatta_canale(ch, nuovo_nome)
-            print(f"[OK] Rinominato: {channel_id} -> {nuovo_nome}")
+            print(f"[OK] Rinominato: {channel_id} → {nuovo_nome}")
             return
-    print(f"[WARN] Non trovato per rinomina: {channel_id}")
+    print(f"[WARN] Canale da rinominare non trovato: {channel_id}")
 
 # ---------------------------------------------------
 # CREA CANALE +1
 # ---------------------------------------------------
 
 def crea_canale_plus1(root, original_id, nuovo_id, nuovo_nome):
+
+    # Trova canale originale
     originale = None
     for ch in root.findall("channel"):
         if ch.get("id") == original_id:
@@ -65,16 +69,16 @@ def crea_canale_plus1(root, original_id, nuovo_id, nuovo_nome):
             break
 
     if originale is None:
-        print(f"[ERRORE] Originale non trovato: {original_id}")
+        print(f"[ERRORE] Canale originale non trovato: {original_id}")
         return
 
-    # DUPLICA CANALE
+    # Crea nuovo channel da zero
     nuovo_ch = ET.Element("channel")
     nuovo_ch.set("id", nuovo_id)
     formatta_canale(nuovo_ch, nuovo_nome)
     root.insert(0, nuovo_ch)
 
-    # DUPLICA PROGRAMMES
+    # Duplica programmes
     all_programmes = list(root.findall("programme"))
     count = 0
     nuovi_prog = []
@@ -84,73 +88,77 @@ def crea_canale_plus1(root, original_id, nuovo_id, nuovo_nome):
             np = copy.deepcopy(prog)
             np.set("channel", nuovo_id)
 
+            # Shift orari
             for attr in ("start", "stop"):
-                old = np.get(attr)
-                if old:
-                    np.set(attr, shift_orario(old, 1))
+                oldval = np.get(attr)
+                if oldval:
+                    np.set(attr, shift_orario(oldval, 1))
 
             nuovi_prog.append(np)
             count += 1
 
+    # Append finali
     for p in nuovi_prog:
         root.append(p)
 
-    print(f"[OK] Creato +1: {original_id} -> {nuovo_id} | programmi duplicati: {count}")
+    print(f"[OK] Creato +1: {original_id} → {nuovo_id}  |  Programmi duplicati: {count}")
 
 # ---------------------------------------------------
-# RINOMINE + CANALI +1
+# MODIFICHE FINALI
 # ---------------------------------------------------
 
 def modifica_epg(root):
 
-    # Mappa ID reali
+    # Mappa ID reali presenti nell'EPG
     id_map = {ch.get("id").lower(): ch.get("id") for ch in root.findall("channel")}
 
     # --- RINOMINE ---
     rinomina = {
         "Nove.it": "Nove",
-        "20Mediaset.it": "Mediaset 20",
-        "RaiSport.it": "Rai Sport+",
-        "TopCrime.it": "TopCrime",
-        "LA7Cinema.it": "LA 7 Cinema",
-        "HGTV.it": "HGTV Home Garden",
-        "SkySportAction.it": "Sky Sport Golf",
-        "DAZNZona.it": "Dazn 1",
-        "ZonaDAZN2.it": "Dazn 2",
-        "Tgcom24.it": "Tgcom 24"
+        "20mediaset.it": "Mediaset 20",
+        "raisport.it": "Rai Sport+",
+        "topcrime.it": "TopCrime",
+        "la7cinema.it": "LA 7 Cinema",
+        "hgtv.it": "HGTV Home Garden",
+        "skysportaction.it": "Sky Sport Golf",
+        "daznzona.it": "Dazn 1",
+        "zonadazn2.it": "Dazn 2",
+        "tgcom24.it": "Tgcom 24"
     }
 
-    for user_id, name in rinomina.items():
+    for user_id, newname in rinomina.items():
         key = user_id.lower()
         if key in id_map:
-            rinomina_canale(root, id_map[key], name)
+            rinomina_canale(root, id_map[key], newname)
+        else:
+            print(f"[WARN] Non trovato per rinomina: {user_id}")
 
-    # --- CANALI +1 ---
+    # --- +1 ---
     plus1 = {
-        "Italia1.it": "Italia 1 +1",
-        "La7.it": "La7 +1",
-        "Cielo.it": "Cielo +1",
-        "20Mediaset.it": "Mediaset 20 +1",
-        "Giallo.it": "Giallo +1",
-        "Cine34.it": "Cine 34 +1",
-        "SkyArte.it": "Sky Arte HD +1",
-        "SkyNature.it": "Sky Nature +1",
-        "SkyCinemaDue.it": "Sky Cinema Due +1",
-        "SkyCinemaAction.it": "Sky Cinema Action +1",
-        "SkyCinemaCollection.it": "Sky Cinema Collection +1",
-        "SkyCinemaComedy.it": "Sky Cinema Comedy +1",
-        "SkyCinemaDrama.it": "Sky Cinema Drama +1",
-        "SkyCinemaRomance.it": "Sky Cinema Romance +1",
-        "SkyCinemaSuspense.it": "Sky Cinema Suspense +1"
+        "italia1.it": "Italia 1 +1",
+        "la7.it": "La7 +1",
+        "cielo.it": "Cielo +1",
+        "20mediaset.it": "Mediaset 20 +1",
+        "giallo.it": "Giallo +1",
+        "cine34.it": "Cine 34 +1",
+        "skyarte.it": "Sky Arte HD +1",
+        "skynature.it": "Sky Nature +1",
+        "skycinemadue.it": "Sky Cinema Due +1",
+        "skycinemaaction.it": "Sky Cinema Action +1",
+        "skycinemacollection.it": "Sky Cinema Collection +1",
+        "skycinemacomedy.it": "Sky Cinema Comedy +1",
+        "skycinemadrama.it": "Sky Cinema Drama +1",
+        "skycinemaromance.it": "Sky Cinema Romance +1",
+        "skycinemasuspense.it": "Sky Cinema Suspense +1"
     }
 
-    for user_id, name in plus1.items():
+    for user_id, newname in plus1.items():
         key = user_id.lower()
         if key in id_map:
             real = id_map[key]
-            crea_canale_plus1(root, real, real + ".plus1", name)
+            crea_canale_plus1(root, real, real + ".plus1", newname)
         else:
-            print(f"[WARN] Canale +1 non trovato: {user_id}")
+            print(f"[WARN] Non trovato per +1: {user_id}")
 
 # ---------------------------------------------------
 # MERGE FEED RYTEC
@@ -167,7 +175,7 @@ seen_channels = set()
 seen_programmes = set()
 
 for name, url in feeds.items():
-    print(f"Scarico feed {name}…")
+    print(f"Scarico feed {name}...")
     r = requests.get(url)
     r.raise_for_status()
 
@@ -189,21 +197,24 @@ for name, url in feeds.items():
             seen_programmes.add(key)
 
 # ---------------------------------------------------
-# APPLICO MODIFICHE
+# APPLICO LE MODIFICHE
 # ---------------------------------------------------
 
-print("Applico rinomine e canali +1…")
+print("Applico rinomine e creazione canali +1...")
 modifica_epg(root_combined)
 
 # ---------------------------------------------------
-# SALVATAGGIO
+# SALVATAGGIO PRETTY PRINT
 # ---------------------------------------------------
 
-tree = ET.ElementTree(root_combined)
-tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+xml_bytes = ET.tostring(root_combined, encoding="utf-8")
+xml_pretty = minidom.parseString(xml_bytes).toprettyxml(indent="  ")
 
+with open("epg.xml", "w", encoding="utf-8") as f:
+    f.write(xml_pretty)
+
+# Creazione compressa
 with lzma.open("epg.xz", "wb") as f:
-    with open("epg.xml", "rb") as infile:
-        f.write(infile.read())
+    f.write(xml_pretty.encode("utf-8"))
 
-print("🎉 EPG generata correttamente! Compatibile al 100% con TiviMate.")
+print("🎉 EPG generata con successo! XML formattato correttamente per TiviMate.")
