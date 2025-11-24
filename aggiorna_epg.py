@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import copy
 import xml.dom.minidom as minidom
+import gzip
 
 # ---------------------------------------------------
 # SHIFT ORARIO PROGRAMMES
@@ -114,7 +115,7 @@ def modifica_epg(root):
 
     # --- RINOMINE ---
     rinomina = {
-        "Nove.it": "Nove",
+        "nove.it": "Nove",
         "20mediaset.it": "Mediaset 20",
         "raisport.it": "Rai Sport+",
         "topcrime.it": "TopCrime",
@@ -168,7 +169,7 @@ feeds = {
     "Sky": "http://www.xmltvepg.nl/rytecIT_Sky.xz",
     "Basic": "http://www.xmltvepg.nl/rytecIT_Basic.xz",
     "SportMovies": "http://www.xmltvepg.nl/rytecIT_SportMovies.xz",
-    "DTT": "http://www.xmltvepg.nl/rytecIT_DTT.xz"
+    "DTT": "http://www.xmltvepg.nl/rytecIT_DTT.xz.gz"
 }
 
 root_combined = ET.Element("tv")
@@ -180,7 +181,15 @@ for name, url in feeds.items():
     r = requests.get(url)
     r.raise_for_status()
 
-    xml_data = lzma.decompress(r.content)
+    data = r.content
+
+    # Se .gz → decompress gzip prima
+    if url.endswith(".gz"):
+        data = gzip.decompress(data)
+
+    # Decompressione xz
+    xml_data = lzma.decompress(data)
+
     feed_root = ET.fromstring(xml_data)
 
     # CHANNELS
