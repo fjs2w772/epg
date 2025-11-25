@@ -31,128 +31,177 @@ rename_map = {
 }
 
 # ----------------------------------------------------
-#  FORCED DISPLAY-NAME PER AGGANCIO AUTOMATICO TIVIMATE
+#  DISPLAY-NAME EXTRA PER MATCH AUTOMATICO TIVIMATE
+#  (mappa: id Rytec -> lista di nomi da aggiungere)
 # ----------------------------------------------------
 
 forced_displaynames = {
-
-    # --- NOVE ---
+    # Discovery Nove
     "Nove.it": [
-        "Discovery Nove FHD", "Nove", "NOVE"
+        "Discovery Nove FHD",
+        "Nove"
     ],
 
-    # --- ITALIA 1 +1 ---
+    # Italia 1 +1
     "Italia1.it.plus1": [
-        "Italia 1 +1 HD", "Italia 1 +1", "Italia1 +1"
+        "Italia 1 + 1 HD",
+        "Italia 1 +1 HD",
+        "Italia 1 +1",
+        "Italia1 +1"
     ],
 
-    # --- LA7 +1 ---
+    # La 7 +1
     "La7.it.plus1": [
-        "La 7 +1 HD", "La 7 +1", "La7 +1"
+        "La 7 + 1 HD",
+        "La 7 +1 HD",
+        "La 7 +1",
+        "La7 +1"
     ],
 
-    # --- TV8 ---
+    # TV8
     "Tv8.it": [
-        "Tv 8 FHD", "TV 8", "Tv8", "TV8"
+        "Tv 8 FHD",
+        "TV 8",
+        "Tv8",
+        "TV8"
     ],
     "Tv8.it.plus1": [
-        "TV 8 +1 HD", "TV 8 +1", "TV8 +1", "Tv8 +1"
+        "TV 8 +1 HD",
+        "TV 8 +1",
+        "TV8 +1",
+        "Tv8 +1"
     ],
 
-    # --- CIELO ---
+    # Cielo
     "Cielo.it": [
-        "Cielo FHD", "Cielo"
+        "Cielo FHD",
+        "Cielo"
     ],
     "Cielo.it.plus1": [
-        "Cielo +1 HD", "Cielo +1"
+        "Cielo +1 HD",
+        "Cielo +1"
     ],
 
-    # --- GIALLO ---
+    # Giallo
     "Giallo.it": [
-        "Discovery Giallo FHD", "Giallo"
+        "Discovery Giallo FHD",
+        "Giallo"
     ],
     "Giallo.it.plus1": [
-        "Discovery Giallo +1 HD", "Giallo +1"
+        "Discovery Giallo +1 HD",
+        "Giallo +1"
     ],
 
-    # --- LA7D / LA7 CINEMA ---
+    # La7d (usato come La7 Cinema)
     "La7d.it": [
-        "La 7d FHD", "La7d", "La7 Cinema"
+        "La 7d FHD",
+        "La7d",
+        "La7 Cinema"
     ],
 
-    # --- CINE34 ---
+    # Cine 34
     "Cine34.it": [
-        "Cine 34 FHD", "Cine34", "Cine 34"
+        "Cine 34 FHD",
+        "Cine34",
+        "Cine 34"
     ],
     "Cine34.it.plus1": [
-        "Cine 34 +1 HD", "Cine34 +1", "Cine 34 +1"
+        "Cine 34 +1 HD",
+        "Cine34 +1",
+        "Cine 34 +1"
     ],
 
-    # --- HGTV ---
+    # HGTV
     "HGTV.it": [
-        "Discovery HGTV Home Garden FHD", "HGTV Home Garden", "HGTV"
+        "Discovery HGTV Home Garden FHD",
+        "HGTV Home Garden",
+        "HGTV"
     ],
 
-    # --- TOP CRIME ---
+    # Top Crime
     "TopCrime.it": [
-        "Top Crime FHD", "TopCrime", "Top Crime"
+        "Top Crime FHD",
+        "TopCrime",
+        "Top Crime"
     ],
 
-    # --- REAL TIME ---
+    # Real Time
     "RealTime.it": [
-        "Real Time FHD", "Real Time", "RealTime"
+        "Real Time FHD",
+        "Real Time",
+        "RealTime"
     ],
     "RealTime.it.plus1": [
-        "Real Time +1 HD", "Real Time +1", "RealTime +1"
+        "Real Time +1 HD",
+        "Real Time +1",
+        "RealTime +1"
     ],
 
-    # --- FOOD NETWORK ---
+    # Food Network
     "FoodNetwork.it": [
-        "Food Network FHD", "Food Network"
+        "Food Network FHD",
+        "Food Network"
     ],
     "FoodNetwork.it.plus1": [
-        "Food Network +1 HD", "Food Network +1"
+        "Food Network +1 HD",
+        "Food Network +1"
     ],
 
-    # --- 27 / TWENTYSEVEN ---
+    # 27 Twentyseven
     "TwentySeven.it": [
-        "27 Twentyseven FHD", "TwentySeven", "27"
+        "27 Twentyseven FHD",
+        "TwentySeven",
+        "27"
     ],
     "TwentySeven.it.plus1": [
-        "27 Twentyseven +1 HD", "TwentySeven +1", "27 +1"
+        "27 Twentyseven +1 HD",
+        "TwentySeven +1",
+        "27 +1"
     ],
 
-    # --- DMAX ---
+    # DMAX
     "DMAX.it": [
-        "Discovery Dmax FHD", "DMAX", "Dmax"
+        "Discovery Dmax FHD",
+        "DMAX",
+        "Dmax"
     ],
     "DMAX.it.plus1": [
-        "Discovery Dmax +1 HD", "DMAX +1", "Dmax +1"
+        "Discovery Dmax +1 HD",
+        "DMAX +1",
+        "Dmax +1"
     ],
 
-    # --- RAI 5 ---
+    # Rai 5
     "Rai5.it": [
-        "Rai 5 FHD", "Rai 5", "Rai5"
+        "Rai 5 FHD",
+        "Rai 5",
+        "Rai5"
     ],
     "Rai5.it.plus1": [
-        "Rai 5 +1 HD", "Rai 5 +1", "Rai5 +1"
+        "Rai 5 +1 HD",
+        "Rai 5 +1",
+        "Rai5 +1"
     ],
 
-    # --- RAI 4 ---
+    # Rai 4
     "Rai4.it": [
-        "Rai 4 Fhd", "Rai 4", "Rai4"
+        "Rai 4 Fhd",
+        "Rai 4",
+        "Rai4"
     ],
     "Rai4.it.plus1": [
-        "Rai 4 +1 HD", "Rai4 +1", "Rai 4 +1"
+        "Rai 4 +1 HD",
+        "Rai 4 +1",
+        "Rai4 +1"
     ],
 
-    # --- RAI SPORT+ ---
+    # Rai Sport+
     "RaiSport.it": [
-        "Rai Sport + FHD", "Rai Sport+", "RaiSport+"
+        "Rai Sport + FHD",
+        "Rai Sport+",
+        "RaiSport+"
     ]
 }
-
-
 
 # ------------------------------------------
 #  CANALI +1 DA CREARE (come concordato)
@@ -160,7 +209,7 @@ forced_displaynames = {
 
 plus1_map = {
     "Italia1.it": "Italia 1 +1",
-    "La7.it": "La7 +1",
+    "La7.it": "La 7 +1",
     "Cielo.it": "Cielo +1",
     "Giallo.it": "Giallo +1",
     "Cine34.it": "Cine 34 +1",
@@ -222,7 +271,7 @@ for name, url in feeds.items():
     for ch in feed_root.findall("channel"):
         cid = ch.attrib["id"]
 
-        # RINOMINA CANALI
+        # RINOMINA CANALI (cosmetico)
         if cid in rename_map:
             for dn in ch.findall("display-name"):
                 dn.text = rename_map[cid]
@@ -270,8 +319,6 @@ for name, url in feeds.items():
         # Duplica +1?
         cid = pr.attrib["channel"]
         if cid in plus1_map:
-
-            # Shift orario di +1 ora
             fmt = "%Y%m%d%H%M%S %z"
             start = datetime.strptime(pr.attrib["start"], fmt) + timedelta(hours=1)
             stop = datetime.strptime(pr.attrib["stop"], fmt) + timedelta(hours=1)
@@ -291,15 +338,19 @@ for name, url in feeds.items():
             root_combined.append(new_pr)
 
 # ------------------------------------------
-#  AGGIUNTA DISPLAY-NAME FORZATI PER MATCH TIVIMATE
+#  AGGIUNTA DISPLAY-NAME FORZATI (MATCH TIVIMATE)
 # ------------------------------------------
 
 for ch in root_combined.findall("channel"):
-    cid = ch.attrib["id"]
+    cid = ch.attrib.get("id")
     if cid in forced_displaynames:
+        # evitiamo duplicati
+        existing = { (dn.text or "").strip() for dn in ch.findall("display-name") }
         for name in forced_displaynames[cid]:
-            dn = ET.SubElement(ch, "display-name")
-            dn.text = name
+            if name and name not in existing:
+                dn = ET.SubElement(ch, "display-name")
+                dn.text = name
+                existing.add(name)
 
 # ------------------------------------------
 #  FORMATTAZIONE FINALE XML
