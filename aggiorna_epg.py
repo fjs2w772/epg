@@ -14,7 +14,7 @@ feeds = {
 }
 
 # ------------------------------------------
-#  RINOMINE CANALI (come concordato)
+#  RINOMINE CANALI (come volevi tu)
 # ------------------------------------------
 
 rename_map = {
@@ -30,13 +30,137 @@ rename_map = {
     "RaiSport.it": "Rai Sport+"
 }
 
+# ----------------------------------------------------
+#  FORCED DISPLAY-NAME PER AGGANCIO AUTOMATICO TIVIMATE
+# ----------------------------------------------------
+
+forced_displaynames = {
+
+    # --- NOVE ---
+    "Nove.it": [
+        "Discovery Nove FHD", "Nove", "NOVE"
+    ],
+
+    # --- ITALIA 1 +1 ---
+    "Italia1.it.plus1": [
+        "Italia 1 +1 HD", "Italia 1 +1", "Italia1 +1"
+    ],
+
+    # --- LA7 +1 ---
+    "La7.it.plus1": [
+        "La 7 +1 HD", "La 7 +1", "La7 +1"
+    ],
+
+    # --- TV8 ---
+    "Tv8.it": [
+        "Tv 8 FHD", "TV 8", "Tv8", "TV8"
+    ],
+    "Tv8.it.plus1": [
+        "TV 8 +1 HD", "TV 8 +1", "TV8 +1", "Tv8 +1"
+    ],
+
+    # --- CIELO ---
+    "Cielo.it": [
+        "Cielo FHD", "Cielo"
+    ],
+    "Cielo.it.plus1": [
+        "Cielo +1 HD", "Cielo +1"
+    ],
+
+    # --- GIALLO ---
+    "Giallo.it": [
+        "Discovery Giallo FHD", "Giallo"
+    ],
+    "Giallo.it.plus1": [
+        "Discovery Giallo +1 HD", "Giallo +1"
+    ],
+
+    # --- LA7D / LA7 CINEMA ---
+    "La7d.it": [
+        "La 7d FHD", "La7d", "La7 Cinema"
+    ],
+
+    # --- CINE34 ---
+    "Cine34.it": [
+        "Cine 34 FHD", "Cine34", "Cine 34"
+    ],
+    "Cine34.it.plus1": [
+        "Cine 34 +1 HD", "Cine34 +1", "Cine 34 +1"
+    ],
+
+    # --- HGTV ---
+    "HGTV.it": [
+        "Discovery HGTV Home Garden FHD", "HGTV Home Garden", "HGTV"
+    ],
+
+    # --- TOP CRIME ---
+    "TopCrime.it": [
+        "Top Crime FHD", "TopCrime", "Top Crime"
+    ],
+
+    # --- REAL TIME ---
+    "RealTime.it": [
+        "Real Time FHD", "Real Time", "RealTime"
+    ],
+    "RealTime.it.plus1": [
+        "Real Time +1 HD", "Real Time +1", "RealTime +1"
+    ],
+
+    # --- FOOD NETWORK ---
+    "FoodNetwork.it": [
+        "Food Network FHD", "Food Network"
+    ],
+    "FoodNetwork.it.plus1": [
+        "Food Network +1 HD", "Food Network +1"
+    ],
+
+    # --- 27 / TWENTYSEVEN ---
+    "TwentySeven.it": [
+        "27 Twentyseven FHD", "TwentySeven", "27"
+    ],
+    "TwentySeven.it.plus1": [
+        "27 Twentyseven +1 HD", "TwentySeven +1", "27 +1"
+    ],
+
+    # --- DMAX ---
+    "DMAX.it": [
+        "Discovery Dmax FHD", "DMAX", "Dmax"
+    ],
+    "DMAX.it.plus1": [
+        "Discovery Dmax +1 HD", "DMAX +1", "Dmax +1"
+    ],
+
+    # --- RAI 5 ---
+    "Rai5.it": [
+        "Rai 5 FHD", "Rai 5", "Rai5"
+    ],
+    "Rai5.it.plus1": [
+        "Rai 5 +1 HD", "Rai 5 +1", "Rai5 +1"
+    ],
+
+    # --- RAI 4 ---
+    "Rai4.it": [
+        "Rai 4 Fhd", "Rai 4", "Rai4"
+    ],
+    "Rai4.it.plus1": [
+        "Rai 4 +1 HD", "Rai4 +1", "Rai 4 +1"
+    ],
+
+    # --- RAI SPORT+ ---
+    "RaiSport.it": [
+        "Rai Sport + FHD", "Rai Sport+", "RaiSport+"
+    ]
+}
+
+
+
 # ------------------------------------------
-#  CANALI PER I QUALI CREARE VERSIONE +1
+#  CANALI +1 DA CREARE (come concordato)
 # ------------------------------------------
 
 plus1_map = {
-    "Italia1.it": "Italia 1 +1 HD",
-    "La7.it": "La 7 +1 HD",
+    "Italia1.it": "Italia 1 +1",
+    "La7.it": "La7 +1",
     "Cielo.it": "Cielo +1",
     "Giallo.it": "Giallo +1",
     "Cine34.it": "Cine 34 +1",
@@ -58,22 +182,16 @@ plus1_map = {
 }
 
 # ------------------------------------------
-#  ECCEZIONI PER XTREAM CODES
-# (usano lo stesso id del canale base!)
-# ------------------------------------------
-
-xtream_same_id_plus1 = {
-    "Italia1.it": "Italia 1 +1 HD",
-    "La7.it": "La 7 +1 HD"
-}
-
-# ------------------------------------------
-#  CREAZIONE XML COMBINATO
+#  CREAZIONE STRUTTURA XML COMBINATA
 # ------------------------------------------
 
 root_combined = ET.Element("tv")
 seen_channels = set()
 seen_programmes = set()
+
+# ------------------------------------------
+#  FUNZIONE: FORMATTARE XML (indent)
+# ------------------------------------------
 
 def indent(elem, level=0):
     i = "\n" + level * "  "
@@ -88,7 +206,7 @@ def indent(elem, level=0):
         elem.tail = i
 
 # ------------------------------------------
-#  ELABORAZIONE FEED
+#  SCARICO E PROCESSO I FEED ORIGINALI
 # ------------------------------------------
 
 for name, url in feeds.items():
@@ -98,7 +216,9 @@ for name, url in feeds.items():
     xml_data = lzma.decompress(resp.content)
     feed_root = ET.fromstring(xml_data)
 
-    # CANALI ORIGINALI
+    # -------------------------
+    #  CHANNELS ORIGINALI
+    # -------------------------
     for ch in feed_root.findall("channel"):
         cid = ch.attrib["id"]
 
@@ -111,39 +231,47 @@ for name, url in feeds.items():
             root_combined.append(ch)
             seen_channels.add(cid)
 
-        # CREAZIONE +1 — CASO NORMALE
-        if cid in plus1_map and cid not in xtream_same_id_plus1:
+        # AGGIUNTA CANALE +1
+        if cid in plus1_map:
             new_id = cid + ".plus1"
             if new_id not in seen_channels:
                 plus_ch = ET.Element("channel", id=new_id)
-                dn = ET.SubElement(plus_ch, "display-name")
-                dn.text = plus1_map[cid]
+
+                # display-name senza lingue
+                dn0 = ET.SubElement(plus_ch, "display-name")
+                dn0.text = plus1_map[cid]
+
+                # display-name IT
+                dn1 = ET.SubElement(plus_ch, "display-name", lang="it")
+                dn1.text = plus1_map[cid]
+
+                # display-name EN
+                dn2 = ET.SubElement(plus_ch, "display-name", lang="en")
+                dn2.text = plus1_map[cid]
+
                 root_combined.append(plus_ch)
                 seen_channels.add(new_id)
 
-        # CREAZIONE +1 — CASO XTREAM (STESSO ID)
-        if cid in xtream_same_id_plus1:
-            new_id = cid  # stesso id!
-            alias_name = xtream_same_id_plus1[cid]
-
-            plus_ch = ET.Element("channel", id=new_id)
-            dn = ET.SubElement(plus_ch, "display-name")
-            dn.text = alias_name
-
-            root_combined.append(plus_ch)
-
-    # PROGRAMMI
+    # -------------------------
+    # PROGRAMMI ORIGINALI
+    # -------------------------
     for pr in feed_root.findall("programme"):
-        key = (pr.attrib["start"], pr.attrib["stop"], pr.attrib["channel"])
+        key = (
+            pr.attrib["start"],
+            pr.attrib["stop"],
+            pr.attrib["channel"]
+        )
 
+        # Aggiungi programma originale
         if key not in seen_programmes:
             root_combined.append(pr)
             seen_programmes.add(key)
 
+        # Duplica +1?
         cid = pr.attrib["channel"]
+        if cid in plus1_map:
 
-        # CREAZIONE PROGRAMMI +1 NORMALI
-        if cid in plus1_map and cid not in xtream_same_id_plus1:
+            # Shift orario di +1 ora
             fmt = "%Y%m%d%H%M%S %z"
             start = datetime.strptime(pr.attrib["start"], fmt) + timedelta(hours=1)
             stop = datetime.strptime(pr.attrib["stop"], fmt) + timedelta(hours=1)
@@ -155,25 +283,7 @@ for name, url in feeds.items():
                 channel=cid + ".plus1"
             )
 
-            for child in pr:
-                new_child = ET.SubElement(new_pr, child.tag, child.attrib)
-                new_child.text = child.text
-
-            root_combined.append(new_pr)
-
-        # CREAZIONE PROGRAMMI +1 XTREAM (STESSO ID)
-        if cid in xtream_same_id_plus1:
-            fmt = "%Y%m%d%H%M%S %z"
-            start = datetime.strptime(pr.attrib["start"], fmt) + timedelta(hours=1)
-            stop = datetime.strptime(pr.attrib["stop"], fmt) + timedelta(hours=1)
-
-            new_pr = ET.Element(
-                "programme",
-                start=start.strftime(fmt),
-                stop=stop.strftime(fmt),
-                channel=cid
-            )
-
+            # Copia i sotto-elementi (title, desc, etc.)
             for child in pr:
                 new_child = ET.SubElement(new_pr, child.tag, child.attrib)
                 new_child.text = child.text
@@ -181,15 +291,31 @@ for name, url in feeds.items():
             root_combined.append(new_pr)
 
 # ------------------------------------------
-#  SALVATAGGIO XML + XZ
+#  AGGIUNTA DISPLAY-NAME FORZATI PER MATCH TIVIMATE
+# ------------------------------------------
+
+for ch in root_combined.findall("channel"):
+    cid = ch.attrib["id"]
+    if cid in forced_displaynames:
+        for name in forced_displaynames[cid]:
+            dn = ET.SubElement(ch, "display-name")
+            dn.text = name
+
+# ------------------------------------------
+#  FORMATTAZIONE FINALE XML
 # ------------------------------------------
 
 indent(root_combined)
+
 tree = ET.ElementTree(root_combined)
 tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+
+# ------------------------------------------
+#  CREO epg.xz COME DA TUO SCRIPT ORIGINALE
+# ------------------------------------------
 
 with lzma.open("epg.xz", "wb") as f:
     with open("epg.xml", "rb") as infile:
         f.write(infile.read())
 
-print("✅ EPG generata con +1 corretti per XTream Codes!")
+print("🎉 EPG Completata con rinomine, alias e +1!")
