@@ -1,0 +1,2451 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv><channel id="Nove.it">
+    <display-name lang="it">Nove</display-name>
+  </channel>
+  <channel id="RealTimePlus1.it">
+    <display-name lang="it">RealTime +1</display-name>
+  </channel>
+  <channel id="DMAXPlus1.it">
+    <display-name lang="it">DMAX +1</display-name>
+  </channel>
+  <programme start="20251125000000 +0100" stop="20251125010500 +0100" channel="Nove.it">
+    <title lang="it">Little Big Italy</title>
+    <sub-title lang="it">S7E10 ║ Sofia</sub-title>
+    <desc lang="it">Francesco Panella scopre i migliori ristoranti italiani all'estero.</desc>
+  </programme>
+  <programme start="20251125010500 +0100" stop="20251125022500 +0100" channel="Nove.it">
+    <title lang="it">Real TV: crimini di strada</title>
+    <sub-title lang="it">S1E1 ║ Ladri e snack</sub-title>
+    <desc lang="it">Andrea Agresti analizza i crimini ripresi dalle telecamere e diventati virali. Manuel Spadaccini ci consiglia come comportarci in situazioni ad alto rischio.</desc>
+  </programme>
+  <programme start="20251125022500 +0100" stop="20251125034000 +0100" channel="Nove.it">
+    <title lang="it">Real TV: crimini di strada</title>
+    <sub-title lang="it">S1E2 ║ Risse e fughe</sub-title>
+    <desc lang="it">Andrea Agresti analizza i crimini ripresi dalle telecamere e diventati virali. Manuel Spadaccini ci consiglia come comportarci in situazioni ad alto rischio.</desc>
+  </programme>
+  <programme start="20251125034000 +0100" stop="20251125053000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E3 ║ Nella savana</sub-title>
+    <desc lang="it">Nel Brasile centrale, Wes e Jesse devono scegliere fra le valli allagate e le savane battute dal Sole. Inoltre, devono affrontare vespe letali, serpenti e giaguari.</desc>
+  </programme>
+  <programme start="20251125053000 +0100" stop="20251125060000 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E30 ║ Uccelli</sub-title>
+    <desc lang="it">Perche' i cani rosicchiano gli ossi? Gli elefanti individuano le bombe? E perche' gli uccelli cantano la mattina? Poi, scopriamo cosa rende quasi indistruttibile i cavallucci marini.</desc>
+  </programme>
+  <programme start="20251125060000 +0100" stop="20251125063000 +0100" channel="Nove.it">
+    <title lang="it">Borneo: paradiso da proteggere</title>
+    <sub-title lang="it">S1E9 ║ Un grave pericolo</sub-title>
+    <desc lang="it">Il dottor Rahim affronta il pericolo durante il tentativo di immortalare la fauna selvaggia della Danum Valley. Inoltre, una famiglia di macachi crea scompiglio in un piccolo villaggio.</desc>
+  </programme>
+  <programme start="20251125063000 +0100" stop="20251125073000 +0100" channel="Nove.it">
+    <title lang="it">La magia della natura: Thailandia</title>
+    <sub-title lang="it">S1E1</sub-title>
+    <desc lang="it">Un affascinante viaggio in Thailandia, vero e proprio paradiso tropicale che ospita creature selvagge.</desc>
+  </programme>
+  <programme start="20251125073000 +0100" stop="20251125080000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E21 ║ Il dente del giudizio</sub-title>
+    <desc lang="it">Mara e Alfonso sono felicemente sposati. Tutto cambia quando la crisi mette in ginocchio la ditta di impianti idraulici di Alfonso. Lei incontra Samuele, rappresentante farmaceutico a caccia di avventure...</desc>
+  </programme>
+  <programme start="20251125080000 +0100" stop="20251125083000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E22 ║ Robin Hood</sub-title>
+    <desc lang="it">Da sempre, Gigi tradisce sua moglie Marina. Lei non si e' mai accorta di nulla, ma anche a lei quel matrimonio comincia a stare stretto. Si iscrive cosi' a un forum cittadino e stringe nuove e ammiccanti amicizie.</desc>
+  </programme>
+  <programme start="20251125083000 +0100" stop="20251125090000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S4E33 ║ Scherzi del destino</sub-title>
+    <desc lang="it">Dario e Francesca sono felicemente innamorati e pronti per avere un bambino. Ma Francesca non e' l'unica donna della vita di Dario a dover armeggiare con un test di gravidanza...</desc>
+  </programme>
+  <programme start="20251125090000 +0100" stop="20251125092500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S4E34 ║ Miti consigli</sub-title>
+    <desc lang="it">Il rapporto tra Diego e Maria ha una sfumatura paterna. Quando la giovane naive incappa in Max, fascinoso cantautore che a differenza di Diego la mette sul suo stesso piano, con l'empatia arriva l'attrazione...</desc>
+  </programme>
+  <programme start="20251125092500 +0100" stop="20251125100000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E31 ║ Camera 251</sub-title>
+    <desc lang="it">Ad Amedeo piace fare il portiere di notte e a Franca va bene cosi'. Finche' lui non incontra Daria, una neo assunta dell'hotel con cui inizia a passare piacevolmente i turni di notte.</desc>
+  </programme>
+  <programme start="20251125100000 +0100" stop="20251125103000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E32 ║ Lungo il fiume</sub-title>
+    <desc lang="it">Il sogno di Roberto e' sempre stato quello di diventare un grande canottiere ma si e' dovuto dedicare alla famiglia. Fino a quando non incontra Emma, che lo spinge a inseguire la sua passione e della quale si innamora.</desc>
+  </programme>
+  <programme start="20251125103000 +0100" stop="20251125110500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta': nuovi modi di tradire</title>
+    <sub-title lang="it">S6E9 ║ Baby Light Our Fire</sub-title>
+    <desc lang="it">Laura e Mattia, una coppia da tempo in crisi, grazie a Dani scoprono la bellezza di amare liberamente senza definizioni di genere.</desc>
+  </programme>
+  <programme start="20251125110500 +0100" stop="20251125122000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S5E27</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251125122000 +0100" stop="20251125134000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S5E32</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251125134000 +0100" stop="20251125144500 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa</title>
+    <sub-title lang="it">S1E116</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251125144500 +0100" stop="20251125164500 +0100" channel="Nove.it">
+    <title lang="it">Crimini italiani</title>
+    <sub-title lang="it">S1E7 ║ Il delitto Rosboch</sub-title>
+    <desc lang="it">Un'analisi su alcuni terribili crimini italiani.</desc>
+  </programme>
+  <programme start="20251125164500 +0100" stop="20251125175500 +0100" channel="Nove.it">
+    <title lang="it">Delitti a circuito chiuso</title>
+    <sub-title lang="it">S9E1 ║ Quella telefonata misteriosa</sub-title>
+    <desc lang="it">I detective usano le telecamere per indagare sull'uccisione di un barman.</desc>
+  </programme>
+  <programme start="20251125175500 +0100" stop="20251125193000 +0100" channel="Nove.it">
+    <title lang="it">Little Big Italy</title>
+    <sub-title lang="it">S3E8 ║ Cartagena</sub-title>
+    <desc lang="it">Francesco Panella torna in America, dove incontra tre italiani che lo porteranno a mangiare nel loro ristorante del cuore, il luogo che piu' li fa sentire a casa.</desc>
+  </programme>
+  <programme start="20251125193000 +0100" stop="20251125204000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S7E6</sub-title>
+    <desc lang="it">Alcuni mercanti cercano di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251125204000 +0100" stop="20251125213000 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa - 1^TV</title>
+    <sub-title lang="it">S1E121</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251125213000 +0100" stop="20251126000000 +0100" channel="Nove.it">
+    <title lang="it">Only Fun - Comico Show</title>
+    <sub-title lang="it">S5E7</sub-title>
+    <desc lang="it">Belen Rodriguez e i PanPers conducono lo show comico di Nove.</desc>
+  </programme>
+  <programme start="20251126000000 +0100" stop="20251126001000 +0100" channel="Nove.it">
+    <title lang="it">Only Fun - Comico Show</title>
+    <sub-title lang="it">S5E7</sub-title>
+    <desc lang="it">Belen Rodriguez e i PanPers conducono lo show comico di Nove.</desc>
+  </programme>
+  <programme start="20251126001000 +0100" stop="20251126025000 +0100" channel="Nove.it">
+    <title lang="it">Ufficiale e gentiluomo</title>
+    <sub-title lang="it">St. Ep</sub-title>
+    <desc lang="it">Una giovane recluta dell'Accademia Militare, vessato da un addestramento ai limiti del sopportabile, riuscira' a trovare anche il tempo per il vero amore.</desc>
+  </programme>
+  <programme start="20251126025000 +0100" stop="20251126040000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E5 ║ La giungla</sub-title>
+    <desc lang="it">Due survivalisti affrontano le grotte della foresta pluviale colombiana. I due lottano con i serpenti velenosi, i piranha e gli insetti.</desc>
+  </programme>
+  <programme start="20251126040000 +0100" stop="20251126050500 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E6 ║ Su un'isola brasiliana</sub-title>
+    <desc lang="it">Su un'isola brasiliana, le anaconda aggressive e le mortali mante tormentano i survivalisti Whitney e Nathan, spingendoli oltre il loro limite.</desc>
+  </programme>
+  <programme start="20251126050500 +0100" stop="20251126060000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E7 ║ Le paludi</sub-title>
+    <desc lang="it">Jake e Melissa sono nelle paludi della Florida. I due affrontano i serpenti e gli alligatori e quando uno dei due si perde, le autorita' locali devono intervenire per i soccorsi.</desc>
+  </programme>
+  <programme start="20251126060000 +0100" stop="20251126063500 +0100" channel="Nove.it">
+    <title lang="it">Borneo: paradiso da proteggere</title>
+    <sub-title lang="it">S1E10 ║ La scuola</sub-title>
+    <desc lang="it">Michael ha viaggiato in tutto il mondo per costruire una scuola per i bambini Bajau Laut. Ma riuscire a coinvolgere gli studenti sara' la sfida piu' grande.</desc>
+  </programme>
+  <programme start="20251126063500 +0100" stop="20251126074000 +0100" channel="Nove.it">
+    <title lang="it">La magia della natura: Thailandia</title>
+    <sub-title lang="it">S1E2</sub-title>
+    <desc lang="it">Un affascinante viaggio in Thailandia, vero e proprio paradiso tropicale che ospita creature selvagge.</desc>
+  </programme>
+  <programme start="20251126074000 +0100" stop="20251126081000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E23 ║ Massaggi d'amore</sub-title>
+    <desc lang="it">Walter e' sposato con Flavia. Un acuto dolore alla schiena costringe la donna ad incontrare Karim, un fisioterapista che sembra trovare la chiave giusta per curare il suo corpo e la sua anima.</desc>
+  </programme>
+  <programme start="20251126081000 +0100" stop="20251126084000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E24 ║ Amore precario</sub-title>
+    <desc lang="it">Sergio e Simona lottano contro la precarieta'. Lui riesce a trovare un lavoro modesto in una paninoteca. A raccogliere le confidenze e le preoccupazioni di Sergio e' Aurora, cameriera giovane e carina.</desc>
+  </programme>
+  <programme start="20251126084000 +0100" stop="20251126091000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S4E35 ║ Bang Bang</sub-title>
+    <desc lang="it">Laura e' una ricca ereditiera. Si reca spesso al circolo sportivo accompagnata dal fidanzato Costantino, che per ingannare il tempo siede al bar. Un giorno, a servire il caffe', appare una nuova cameriera.</desc>
+  </programme>
+  <programme start="20251126091000 +0100" stop="20251126094000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S4E36 ║ Lezioni di infedelta'</sub-title>
+    <desc lang="it">Vanessa e' una bella trentenne italo spagnola, sposata con il grande amore della sua vita, conosciuto da adolescente. Dopo quindici anni di matrimonio, tuttavia, l'irremovibile monogama mostra dei segni di cedimento.</desc>
+  </programme>
+  <programme start="20251126094000 +0100" stop="20251126101500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E33 ║ Love stylist</sub-title>
+    <desc lang="it">Salvatore porta avanti da anni una relazione extraconiugale con Greta. In realta', lei ignora il fatto che lui abbia divorziato. Quando, pero', l'uomo inizia una seconda relazione con Loredana, le cose si complicano.</desc>
+  </programme>
+  <programme start="20251126101500 +0100" stop="20251126105000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E34 ║ Acqua cheta</sub-title>
+    <desc lang="it">Regina sta bene con suo marito Pietro ma quando incontra Gianni, un simpaticissimo allievo nel suo corso di acqua gym, scopre il vero amore. Quando Pietro lo scopre, decide di perdonarla, ma ormai e' troppo tardi.</desc>
+  </programme>
+  <programme start="20251126105000 +0100" stop="20251126112000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta': nuovi modi di tradire</title>
+    <sub-title lang="it">S6E10 ║ Keira</sub-title>
+    <desc lang="it">Durante il lockdown Erika ha una storia di sesso virtuale che ben presto diventa reale. Peccato che sia fidanzata con Flavio che sogna di sposarla.</desc>
+  </programme>
+  <programme start="20251126112000 +0100" stop="20251126123000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S5E28</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251126123000 +0100" stop="20251126134500 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S5E33</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251126134500 +0100" stop="20251126144500 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa</title>
+    <sub-title lang="it">S1E117</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251126144500 +0100" stop="20251126164500 +0100" channel="Nove.it">
+    <title lang="it">Crimini italiani</title>
+    <sub-title lang="it">S1E5</sub-title>
+    <desc lang="it">Un'analisi su alcuni terribili crimini italiani.</desc>
+  </programme>
+  <programme start="20251126164500 +0100" stop="20251126175000 +0100" channel="Nove.it">
+    <title lang="it">Delitti a circuito chiuso</title>
+    <sub-title lang="it">S9E2 ║ Papa' scomparso</sub-title>
+    <desc lang="it">La scomparsa di un uomo viene risolta grazie alle telecamere di sorveglianza.</desc>
+  </programme>
+  <programme start="20251126175000 +0100" stop="20251126192000 +0100" channel="Nove.it">
+    <title lang="it">Little Big Italy</title>
+    <sub-title lang="it">S3E9 ║ Santo Domingo</sub-title>
+    <desc lang="it">Francesco Panella torna in America, dove incontra tre italiani che lo porteranno a mangiare nel loro ristorante del cuore, il luogo che piu' li fa sentire a casa.</desc>
+  </programme>
+  <programme start="20251126192000 +0100" stop="20251126203000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S7E7</sub-title>
+    <desc lang="it">Alcuni mercanti cercano di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251126203000 +0100" stop="20251126213000 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa - 1^TV</title>
+    <sub-title lang="it">S1E122</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251126213000 +0100" stop="20251127000000 +0100" channel="Nove.it">
+    <title lang="it">La Corrida - 1^TV</title>
+    <sub-title lang="it">S2E4</sub-title>
+    <desc lang="it">Amadeus conduce La Corrida. I dilettanti allo sbaraglio si esibiscono giudicati dal pubblico in studio.</desc>
+  </programme>
+  <programme start="20251127000000 +0100" stop="20251127004000 +0100" channel="Nove.it">
+    <title lang="it">La Corrida - 1^TV</title>
+    <sub-title lang="it">S2E4</sub-title>
+    <desc lang="it">Amadeus conduce La Corrida. I dilettanti allo sbaraglio si esibiscono giudicati dal pubblico in studio.</desc>
+  </programme>
+  <programme start="20251127004000 +0100" stop="20251127024000 +0100" channel="Nove.it">
+    <title lang="it">Save the Dating - Amori in corso</title>
+    <sub-title lang="it">S1E3</sub-title>
+    <desc lang="it">La stand-up comedy incontra il dating in un format con protagonisti Marta e Gianluca.</desc>
+  </programme>
+  <programme start="20251127024000 +0100" stop="20251127034000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E8 ║ Il morso</sub-title>
+    <desc lang="it">Un sopravvissuto a numerosi attacchi animali si unisce a un survivalista in Africa. Una giungla colombiana e pericolose creature mettono a dura prova due survivalisti.</desc>
+  </programme>
+  <programme start="20251127034000 +0100" stop="20251127044000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E7 ║ Le paludi</sub-title>
+    <desc lang="it">Jake e Melissa sono nelle paludi della Florida. I due affrontano i serpenti e gli alligatori e quando uno dei due si perde, le autorita' locali devono intervenire per i soccorsi.</desc>
+  </programme>
+  <programme start="20251127044000 +0100" stop="20251127052000 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E15 ║ Leoni</sub-title>
+    <desc lang="it">Cosa dicono i leoni quando ruggiscono? Inoltre, cosa ci fanno le formiche tagliafoglie con la roba che raccolgono? Gli esperti rispondono a queste curiosita'.</desc>
+  </programme>
+  <programme start="20251127052000 +0100" stop="20251127060000 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E16 ║ Uova giganti</sub-title>
+    <desc lang="it">Perche' i gatti domestici trovano cosi' difficile scendere dagli alberi e come si sono evoluti due felini della giungla? Inoltre, perche' gli uccelli kiwi depositano uova enormi?</desc>
+  </programme>
+  <programme start="20251127060000 +0100" stop="20251127063500 +0100" channel="Nove.it">
+    <title lang="it">Borneo: paradiso da proteggere</title>
+    <sub-title lang="it">S1E1 ║ Il coccodrillo</sub-title>
+    <desc lang="it">Gli abitanti del villaggio di Sarawak sono minacciati da un coccodrillo, che ha trovato dimora nei pressi di un parco giochi per bambini. Il Ranger Christopher Kri deve catturare l'alligatore.</desc>
+  </programme>
+  <programme start="20251127063500 +0100" stop="20251127074000 +0100" channel="Nove.it">
+    <title lang="it">La magia della natura: Thailandia</title>
+    <sub-title lang="it">S1E3</sub-title>
+    <desc lang="it">Un affascinante viaggio in Thailandia, vero e proprio paradiso tropicale che ospita creature selvagge.</desc>
+  </programme>
+  <programme start="20251127074000 +0100" stop="20251127081000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E25 ║ Tramonti e tradimenti</sub-title>
+    <desc lang="it">Priscilla e Aldo sembrano avere poche cose in comune. Ad acuire le differenze della coppia e' il licenziamento di Aldo. L'uomo accetta un posto come segretario e inizia a lavorare per l'avvenente manager Marzia.</desc>
+  </programme>
+  <programme start="20251127081000 +0100" stop="20251127084000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E26 ║ Turn Over</sub-title>
+    <desc lang="it">Luca, 36 anni, vive con Stefania, 34 anni. L'eccessivo impegno di Stefania nella nuova attivita' comincia a creare qualche incomprensione nella coppia e Luca si rifugia nell'amicizia di Maria.</desc>
+  </programme>
+  <programme start="20251127084000 +0100" stop="20251127091000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S4E37 ║ Cuori di carciofo</sub-title>
+    <desc lang="it">Virginia sogna di aprire un bistrot vegano. Un giorno incontra Massimo, produttore di verdura biologica, con il quale la ragazza ritrova quella affinita' che con il compagno Piero era sempre mancata...</desc>
+  </programme>
+  <programme start="20251127091000 +0100" stop="20251127094000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S4E38 ║ Voglio il divorzio</sub-title>
+    <desc lang="it">Nel matrimonio con Gaia, cosi' come all'interno del loro studio di avvocati divorzisti, Giorgio percepisce di non avere alcun ruolo decisionale. e' con la semplice e spensierata Doriana che l'uomo si sente di nuovo valorizzato.</desc>
+  </programme>
+  <programme start="20251127094000 +0100" stop="20251127101500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E35 ║ Principio attivo</sub-title>
+    <desc lang="it">Carmine e Serena, sposati da qualche anno, attraversano una crisi di coppia. Lui inizia una storia con Giorgia, una collega. Ma per fare l'amore con l'amante, Carmine deve usare un farmaco che lo aiuti.</desc>
+  </programme>
+  <programme start="20251127101500 +0100" stop="20251127105000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E36 ║ Boogie Boogie Brahms</sub-title>
+    <desc lang="it">Sofia e Stefano stanno insieme da poco. Anche Marta, timida amica di Sofia, ha delle mire su Stefano e riesce di conquistarlo, grazie alla comune passione per la musica.</desc>
+  </programme>
+  <programme start="20251127105000 +0100" stop="20251127112000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta': nuovi modi di tradire</title>
+    <sub-title lang="it">S6E11 ║ Love Market</sub-title>
+    <desc lang="it">Antonia ha un amante, Saverio. Durante la pandemia, l'unico luogo in cui vedersi e' il parcheggio di un supermarket.</desc>
+  </programme>
+  <programme start="20251127112000 +0100" stop="20251127123500 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S5E29</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251127123500 +0100" stop="20251127135500 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S5E34</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251127135500 +0100" stop="20251127150000 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa</title>
+    <sub-title lang="it">S1E118</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251127150000 +0100" stop="20251127164500 +0100" channel="Nove.it">
+    <title lang="it">Pietro Maso - Io ho ucciso</title>
+    <sub-title lang="it">St. Ep</sub-title>
+    <desc lang="it">Nel 1991 Pietro Maso, appena ventenne, massacro' i genitori per appropriarsi del loro patrimonio. In esclusiva e' lui stesso a ripercorrere l'atroce vicenda che lo ha reso protagonista.</desc>
+  </programme>
+  <programme start="20251127164500 +0100" stop="20251127175000 +0100" channel="Nove.it">
+    <title lang="it">Delitti a circuito chiuso</title>
+    <sub-title lang="it">S9E3 ║ Prison Break!</sub-title>
+    <desc lang="it">I detective tentano di catturare una pericolosa criminale.</desc>
+  </programme>
+  <programme start="20251127175000 +0100" stop="20251127192000 +0100" channel="Nove.it">
+    <title lang="it">Little Big Italy</title>
+    <sub-title lang="it">S3E10 ║ Miami</sub-title>
+    <desc lang="it">Francesco Panella riparte alla scoperta dei piu' autentici ristoranti italiani nel mondo. Oggi la sfida sara' a Miami, dove business, divertimento e street art sono all'ordine del giorno.</desc>
+  </programme>
+  <programme start="20251127192000 +0100" stop="20251127203000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S7E8</sub-title>
+    <desc lang="it">Alcuni mercanti cercano di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251127203000 +0100" stop="20251127213000 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa - 1^TV</title>
+    <sub-title lang="it">S1E123</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251127213000 +0100" stop="20251127234000 +0100" channel="Nove.it">
+    <title lang="it">Save the Dating - Amori in corso - 1^TV</title>
+    <sub-title lang="it">S1E4</sub-title>
+    <desc lang="it">La stand-up comedy incontra il dating in un format con protagonisti Marta e Gianluca.</desc>
+  </programme>
+  <programme start="20251127234000 +0100" stop="20251128000000 +0100" channel="Nove.it">
+    <title lang="it">Che tempo che fa - Il tavolo</title>
+    <sub-title lang="it">S3E8</sub-title>
+    <desc lang="it">Torna.</desc>
+  </programme>
+  <programme start="20251128000000 +0100" stop="20251128021000 +0100" channel="Nove.it">
+    <title lang="it">Che tempo che fa - Il tavolo</title>
+    <sub-title lang="it">S3E8</sub-title>
+    <desc lang="it">Torna.</desc>
+  </programme>
+  <programme start="20251128021000 +0100" stop="20251128031000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E1A ║ Spaventati</sub-title>
+    <desc lang="it">Su un ghiacciaio in Alaska, i survivalisti lottano per superare l'ipotermia. A migliaia di chilometri piu' a sud, due survivalisti affrontano un'assolata isola brasiliana.</desc>
+  </programme>
+  <programme start="20251128031000 +0100" stop="20251128041000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E11 ║ In Honduras</sub-title>
+    <desc lang="it">Nella foresta pluviale dell'Honduras, un survivalista e un detective tentano di sopravvivere per 21 giorni. Ma i giaguari, le formiche e le loro ferite sono un problema.</desc>
+  </programme>
+  <programme start="20251128041000 +0100" stop="20251128050500 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E12 ║ Pericoli</sub-title>
+    <desc lang="it">La prima coppia mette alla prova le proprie abilita' e le capacita' di sopravvivenza. I due devono affrontare i giaguari, le anaconda e i caimani nella giungla della Guyana.</desc>
+  </programme>
+  <programme start="20251128050500 +0100" stop="20251128060000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E13 ║ Il fuoco</sub-title>
+    <desc lang="it">Due survivalisti devono sopravvivere per 21 giorni senza cibo, acqua e vestiti in uno dei luoghi piu' estremi e remoti del pianeta. Ce la faranno?</desc>
+  </programme>
+  <programme start="20251128060000 +0100" stop="20251128063500 +0100" channel="Nove.it">
+    <title lang="it">Borneo: paradiso da proteggere</title>
+    <sub-title lang="it">S1E2 ║ Barriere</sub-title>
+    <desc lang="it">Gli elefanti stanno saccheggiando le piantagioni di olio di palma e distruggendo le coltivazioni. Il ricercatore Simon Louvard spera di risolvere il problema con l'aiuto delle api.</desc>
+  </programme>
+  <programme start="20251128063500 +0100" stop="20251128074000 +0100" channel="Nove.it">
+    <title lang="it">La magia della natura: Patagonia</title>
+    <sub-title lang="it">E1 ║ 1a parte</sub-title>
+    <desc lang="it">Un affascinante viaggio in Patagonia.</desc>
+  </programme>
+  <programme start="20251128074000 +0100" stop="20251128081000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E27 ║ Luna di miele</sub-title>
+    <desc lang="it">Per Giacomo e Ilaria, la luna di miele e' l'occasione per mettere piede per la prima volta fuori dalla Calabria. Lui pero' ha una crisi intestinale e Ilaria trova un diversivo con un affascinante maestro di ballo.</desc>
+  </programme>
+  <programme start="20251128081000 +0100" stop="20251128084000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E28 ║ Gioco, partita, incontro</sub-title>
+    <desc lang="it">Esther sta con Luca e sogna di sposarlo, ma Luca non si decide a lasciare da sola la madre. Esther aspetta pazientemente, finche' un giorno al campo non si presenta una nuova allieva...</desc>
+  </programme>
+  <programme start="20251128084000 +0100" stop="20251128091000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S4E39 ║ Due cuori in affitto</sub-title>
+    <desc lang="it">Paolo e Grazia sono due persone diverse. Ultimamente, le insoddisfazioni di Grazia fanno sentire Paolo trascurato, tanto da portarlo a passare piu' tempo nell'appartamento che ha affittato a una prorompente infermiera.</desc>
+  </programme>
+  <programme start="20251128091000 +0100" stop="20251128094000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S4E40 ║ Chi scherza col fuoco</sub-title>
+    <desc lang="it">Giada e Andrea sono una coppia molto particolare, tanto da decidere di iscriversi ad una chat di incontri. Sara' Giada, la meno convinta dei due di questo.</desc>
+  </programme>
+  <programme start="20251128094000 +0100" stop="20251128101500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E37 ║ Il miglior amico dell'uomo</sub-title>
+    <desc lang="it">Vincenzo e Laura non possono avere figli e, per compensazione, hanno preso un cane; portandolo a spasso Vincenzo incontra Martina e i due iniziano una storia. Ma Laura scopre il tradimento.</desc>
+  </programme>
+  <programme start="20251128101500 +0100" stop="20251128105000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E38 ║ Il nuovo socio</sub-title>
+    <desc lang="it">Corrado e Camilla sono sposati da tre anni. Il nuovo socio di Corrado, Marcello, conquista Camilla. Quando Corrado li scopre, non solo divorzia da Camilla, ma fa perdere tutti i soldi al socio.</desc>
+  </programme>
+  <programme start="20251128105000 +0100" stop="20251128112000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta': nuovi modi di tradire</title>
+    <sub-title lang="it">S6E12 ║ #senzacuore</sub-title>
+    <desc lang="it">Giorgio e' uno studente di economia, Barbara un'influencer. Maria, ex amica di lei, cerca vendetta da anni e tenta di rubarle il fidanzato.</desc>
+  </programme>
+  <programme start="20251128112000 +0100" stop="20251128123000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S5E30</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251128123000 +0100" stop="20251128134500 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S5E35</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251128134500 +0100" stop="20251128144500 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa</title>
+    <sub-title lang="it">S1E119</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251128144500 +0100" stop="20251128164500 +0100" channel="Nove.it">
+    <title lang="it">Il caso Vannini</title>
+    <sub-title lang="it">E1 ║ St</sub-title>
+    <desc lang="it">Nove racconta il clamoroso caso di Marco Vannini cercando di analizzare e dare delle risposte ai vari aspetti ancora irrisolti della vicenda. Marco e' davvero morto per un fatale incidente?</desc>
+  </programme>
+  <programme start="20251128164500 +0100" stop="20251128175000 +0100" channel="Nove.it">
+    <title lang="it">Delitti a circuito chiuso</title>
+    <sub-title lang="it">S9E4 ║ Ferito alla testa</sub-title>
+    <desc lang="it">La polizia si affida alle telecamere per catturare un sospettato.</desc>
+  </programme>
+  <programme start="20251128175000 +0100" stop="20251128192000 +0100" channel="Nove.it">
+    <title lang="it">Little Big Italy</title>
+    <sub-title lang="it">S3E11 ║ Dallas</sub-title>
+    <desc lang="it">Francesco Panella riparte alla scoperta dei piu' autentici ristoranti italiani nel mondo. Oggi la sfida sara' a Dallas, nel cuore del Texas, la citta' piu' moderna del vecchio West!</desc>
+  </programme>
+  <programme start="20251128192000 +0100" stop="20251128203000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S7E9</sub-title>
+    <desc lang="it">Alcuni mercanti cercano di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251128203000 +0100" stop="20251128213000 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa - 1^TV</title>
+    <sub-title lang="it">S1E124</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251128213000 +0100" stop="20251128232000 +0100" channel="Nove.it">
+    <title lang="it">Fratelli di Crozza - 1^TV</title>
+    <sub-title lang="it">S18E9</sub-title>
+    <desc lang="it">Una satira unica: Maurizio Crozza torna sul Nove con il suo show.</desc>
+  </programme>
+  <programme start="20251128232000 +0100" stop="20251129000000 +0100" channel="Nove.it">
+    <title lang="it">Che tempo che fa Bis</title>
+    <sub-title lang="it">S3E8</sub-title>
+    <desc lang="it">Fabio Fazio torna con le sue grandi interviste.</desc>
+  </programme>
+  <programme start="20251129000000 +0100" stop="20251129004500 +0100" channel="Nove.it">
+    <title lang="it">Che tempo che fa Bis</title>
+    <sub-title lang="it">S3E8</sub-title>
+    <desc lang="it">Fabio Fazio torna con le sue grandi interviste.</desc>
+  </programme>
+  <programme start="20251129004500 +0100" stop="20251129022500 +0100" channel="Nove.it">
+    <title lang="it">Fratelli di Crozza</title>
+    <sub-title lang="it">S18E9</sub-title>
+    <desc lang="it">Una satira unica: Maurizio Crozza torna sul Nove con il suo show.</desc>
+  </programme>
+  <programme start="20251129022500 +0100" stop="20251129041500 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S5E15 ║ Protezione</sub-title>
+    <desc lang="it">I survivalisti Matt e Gary vengono messi alla prova dai mortali cobra e dagli elefanti nelle pericolose zone africane. Tutto cio' mentre dovranno proteggere un novizio.</desc>
+  </programme>
+  <programme start="20251129041500 +0100" stop="20251129045000 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E17</sub-title>
+    <desc lang="it">Come fanno i bruchi a diventare splendide farfalle all'interno del loro bozzolo? Perche' le lingue dei gatti hanno una particolare forma? Gli esperti tentano di dare delle risposte.</desc>
+  </programme>
+  <programme start="20251129045000 +0100" stop="20251129052500 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E18</sub-title>
+    <desc lang="it">Perche' alcuni gatti sono strabici? E come fanno i suricati a mangiare gli scorpioni velenosi? Inoltre come fanno gli ippopotami a dormire mentre trattengono il respiro?</desc>
+  </programme>
+  <programme start="20251129052500 +0100" stop="20251129060000 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E19</sub-title>
+    <desc lang="it">Come fa uno scoiattolo ad affrontare un pericoloso serpente a sonagli? E come fanno le aquile ad avere degli occhi cosi' potenti? Inoltre, perche' il pianeta e' pieno di insetti?</desc>
+  </programme>
+  <programme start="20251129060000 +0100" stop="20251129063500 +0100" channel="Nove.it">
+    <title lang="it">Borneo: paradiso da proteggere</title>
+    <sub-title lang="it">S1E8 ║ Una dura sfida</sub-title>
+    <desc lang="it">Gli scalatori sono giunti sul monte Kinabalu per affrontare una delle sfide piu' dure del mondo. La recente morte di un escursionista pero' mette tutti in ansia.</desc>
+  </programme>
+  <programme start="20251129063500 +0100" stop="20251129074500 +0100" channel="Nove.it">
+    <title lang="it">La magia della natura: Messico</title>
+    <sub-title lang="it">St. Ep</sub-title>
+    <desc lang="it">Un viaggio unico che ci portera' in Messico, alla scoperta delle tradizioni e la cultura di questo straordinario Paese.</desc>
+  </programme>
+  <programme start="20251129074500 +0100" stop="20251129085500 +0100" channel="Nove.it">
+    <title lang="it">Hawaii - L'arcipelago delle meraviglie</title>
+    <sub-title lang="it">St. Ep</sub-title>
+    <desc lang="it">Scopriamo l'epica storia che ha creato il mito delle isole Hawaii e osserviamo le numerose meraviglie di questi luoghi.</desc>
+  </programme>
+  <programme start="20251129085500 +0100" stop="20251129121000 +0100" channel="Nove.it">
+    <title lang="it">Il regno dei felini</title>
+    <sub-title lang="it">S1E1</sub-title>
+    <desc lang="it">Immagini spettacolari consentono di svelare i segreti dei piu' grandi predatori del pianeta.</desc>
+  </programme>
+  <programme start="20251129121000 +0100" stop="20251129132500 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S6E49</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251129132500 +0100" stop="20251129144000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S6E50</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251129144000 +0100" stop="20251129183000 +0100" channel="Nove.it">
+    <title lang="it">La Corrida</title>
+    <sub-title lang="it">S2E4</sub-title>
+    <desc lang="it">Amadeus conduce La Corrida. I dilettanti allo sbaraglio si esibiscono giudicati dal pubblico in studio.</desc>
+  </programme>
+  <programme start="20251129183000 +0100" stop="20251129200000 +0100" channel="Nove.it">
+    <title lang="it">Little Big Italy</title>
+    <sub-title lang="it">S5E8 ║ Phoenix</sub-title>
+    <desc lang="it">Francesco Panella attraversa tre continenti in cerca della vera italianita': riuscira' a trovare l'autenticita' italiana nel deserto di Phoenix?</desc>
+  </programme>
+  <programme start="20251129200000 +0100" stop="20251129213000 +0100" channel="Nove.it">
+    <title lang="it">Fratelli di Crozza</title>
+    <sub-title lang="it">S18E9</sub-title>
+    <desc lang="it">Una satira unica: Maurizio Crozza torna sul Nove con il suo show.</desc>
+  </programme>
+  <programme start="20251129213000 +0100" stop="20251130000000 +0100" channel="Nove.it">
+    <title lang="it">Accordi &amp; disaccordi - 1^TV</title>
+    <sub-title lang="it">S17E11</sub-title>
+    <desc lang="it">Luca Sommi e Andrea Scanzi conducono il talk show di informazione e attualita'.</desc>
+  </programme>
+  <programme start="20251130000000 +0100" stop="20251130023000 +0100" channel="Nove.it">
+    <title lang="it">Accordi &amp; disaccordi</title>
+    <sub-title lang="it">S17E11</sub-title>
+    <desc lang="it">Luca Sommi e Andrea Scanzi conducono il talk show di informazione e attualita'.</desc>
+  </programme>
+  <programme start="20251130023000 +0100" stop="20251130032500 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S6E1 ║ All'inferno</sub-title>
+    <desc lang="it">Una coppia affronta la pericolosa giungla filippina. La loro relazione viene messa alla prova dagli insetti fastidiosi, i cinghiali mortali e la pioggia torrenziale.</desc>
+  </programme>
+  <programme start="20251130032500 +0100" stop="20251130042000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S6E2 ║ Incontri ravvicinati</sub-title>
+    <desc lang="it">Due sconosciuti vengono abbandonati in uno dei luoghi piu' pericolosi d'Africa durante l'estate. I due dovranno affrontare gli ippopotami e gli elefanti.</desc>
+  </programme>
+  <programme start="20251130042000 +0100" stop="20251130045500 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E20</sub-title>
+    <desc lang="it">I pappagalli sanno davvero cosa stanno dicendo? E come fanno le anguille elettriche a non auto colpirsi? Inoltre, perche' i panda sono bianchi e neri?</desc>
+  </programme>
+  <programme start="20251130045500 +0100" stop="20251130053000 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E21 ║ Koala ed elefanti</sub-title>
+    <desc lang="it">Come fanno i koala a sopportare il caldo australiano? E come comunicano gli elefanti anche se sono a chilometri di distanza tra loro?</desc>
+  </programme>
+  <programme start="20251130053000 +0100" stop="20251130060000 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E22 ║ Gatti</sub-title>
+    <desc lang="it">I gatti tentano di comunicare con gli esseri umani? E perche' alcune delle scimmie piu' intelligenti del mondo sono diventate creature 'criminali'?</desc>
+  </programme>
+  <programme start="20251130060000 +0100" stop="20251130071000 +0100" channel="Nove.it">
+    <title lang="it">Il ciclo della vita</title>
+    <sub-title lang="it">S1E4 ║ Il potere</sub-title>
+    <desc lang="it">David Attenborough ci accompagna in un viaggio attraverso le fasi cruciali della vita. In questo episodio gli animali dovranno combattere tra loro per aggiudicarsi il dominio sugli altri.</desc>
+  </programme>
+  <programme start="20251130071000 +0100" stop="20251130082000 +0100" channel="Nove.it">
+    <title lang="it">Il ciclo della vita</title>
+    <sub-title lang="it">S1E5 ║ Il corteggiamento</sub-title>
+    <desc lang="it">David Attenborough ci accompagna in un viaggio attraverso le fasi cruciali della vita. In questo episodio gli animali attraversano un momento fondamentale: il corteggiamento.</desc>
+  </programme>
+  <programme start="20251130082000 +0100" stop="20251130113500 +0100" channel="Nove.it">
+    <title lang="it">Un pianeta perfetto - 1^TV</title>
+    <sub-title lang="it">S1E1</sub-title>
+    <desc lang="it">Affascinanti immagini ci mostrano le meraviglie del nostro pianeta.</desc>
+  </programme>
+  <programme start="20251130113500 +0100" stop="20251130125000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S6E51</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251130125000 +0100" stop="20251130140500 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S6E52</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251130140500 +0100" stop="20251130160500 +0100" channel="Nove.it">
+    <title lang="it">Only Fun - Comico Show</title>
+    <sub-title lang="it">S2E1</sub-title>
+    <desc lang="it">Elettra Lamborghini e i PanPers conducono il nuovo show comico di Nove, per una serata di risate e divertimento assicurato. Contro la paura c'e' una sola cura: Only Fun!</desc>
+  </programme>
+  <programme start="20251130160500 +0100" stop="20251130180000 +0100" channel="Nove.it">
+    <title lang="it">Comedy Match</title>
+    <sub-title lang="it">S1E5</sub-title>
+    <desc lang="it">Due squadre di comedians si sfidano a colpi di risate!</desc>
+  </programme>
+  <programme start="20251130180000 +0100" stop="20251130193000 +0100" channel="Nove.it">
+    <title lang="it">Little Big Italy</title>
+    <sub-title lang="it">S7E12 ║ Atene</sub-title>
+    <desc lang="it">Francesco Panella scopre i migliori ristoranti italiani all'estero.</desc>
+  </programme>
+  <programme start="20251130193000 +0100" stop="20251130200000 +0100" channel="Nove.it">
+    <title lang="it">Che tempo che fara' - 1^TV</title>
+    <sub-title lang="it">S3E9</sub-title>
+    <desc lang="it">Fabio Fazio presenta interviste dal mondo della cultura e dell'arte.</desc>
+  </programme>
+  <programme start="20251130200000 +0100" stop="20251130224500 +0100" channel="Nove.it">
+    <title lang="it">Che tempo che fa - 1^TV</title>
+    <sub-title lang="it">S3E9</sub-title>
+    <desc lang="it">Fabio Fazio, con Luciana Littizzetto, torna con le sue grandi interviste.</desc>
+  </programme>
+  <programme start="20251130224500 +0100" stop="20251201000000 +0100" channel="Nove.it">
+    <title lang="it">Che tempo che fa - Il tavolo - 1^TV</title>
+    <sub-title lang="it">S3E9</sub-title>
+    <desc lang="it">Torna.</desc>
+  </programme>
+  <programme start="20251201000000 +0100" stop="20251201011500 +0100" channel="Nove.it">
+    <title lang="it">Che tempo che fa - Il tavolo - 1^TV</title>
+    <sub-title lang="it">S3E9</sub-title>
+    <desc lang="it">Torna.</desc>
+  </programme>
+  <programme start="20251201011500 +0100" stop="20251201025500 +0100" channel="Nove.it">
+    <title lang="it">Fratelli di Crozza</title>
+    <sub-title lang="it">S18E9</sub-title>
+    <desc lang="it">Una satira unica: Maurizio Crozza torna sul Nove con il suo show.</desc>
+  </programme>
+  <programme start="20251201025500 +0100" stop="20251201030500 +0100" channel="Nove.it">
+    <title lang="it">Motors</title>
+    <sub-title lang="it">S8E7 ║ Renault</sub-title>
+    <desc lang="it">Forme ispirate al passato e tecnologia moderna per una citycar vivace e colorata che non passa inosservata.</desc>
+  </programme>
+  <programme start="20251201030500 +0100" stop="20251201041000 +0100" channel="Nove.it">
+    <title lang="it">Nudi e crudi</title>
+    <sub-title lang="it">S6E5 ║ I leoni</sub-title>
+    <desc lang="it">Due survivalisti percorrono circa 30 chilometri fra i letali terreni di caccia africani. I due devono trovare dell'acqua ed evitare un pericoloso branco di leoni.</desc>
+  </programme>
+  <programme start="20251201041000 +0100" stop="20251201045000 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E23 ║ Cani e tartarughe</sub-title>
+    <desc lang="it">Perche' le falene sono attratte dal fuoco e perche' le tartarughe piangono? Inoltre, perche' le lontre marine amano cosi' tanto le pietre?</desc>
+  </programme>
+  <programme start="20251201045000 +0100" stop="20251201052500 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E24 ║ Volpi e ragni</sub-title>
+    <desc lang="it">Perche' i ragni non restano bloccati nelle loro reti? E come fanno le volpi a trovare l'acqua nel deserto?</desc>
+  </programme>
+  <programme start="20251201052500 +0100" stop="20251201060000 +0100" channel="Nove.it">
+    <title lang="it">Come fanno gli animali</title>
+    <sub-title lang="it">S1E25 ║ Cammelli</sub-title>
+    <desc lang="it">Analizziamo i comportamenti bizzarri dei criceti. Inoltre, perche' i cammelli hanno la gobba? E perche' le ali dei piccioni fanno cosi' tanto rumore?</desc>
+  </programme>
+  <programme start="20251201060000 +0100" stop="20251201063500 +0100" channel="Nove.it">
+    <title lang="it">Borneo: paradiso da proteggere</title>
+    <sub-title lang="it">S1E3 ║ Mazlan e il coccodrillo</sub-title>
+    <desc lang="it">Quando un pescatore locale sparisce, si sospetta inizialmente di un coccodrillo che si aggirava per i corsi d'acqua. Il cacciatore Mazlan prova a seguire l'alligatore.</desc>
+  </programme>
+  <programme start="20251201063500 +0100" stop="20251201074000 +0100" channel="Nove.it">
+    <title lang="it">La magia della natura: Patagonia</title>
+    <sub-title lang="it">E2 ║ 2a parte</sub-title>
+    <desc lang="it">Un affascinante viaggio in Patagonia.</desc>
+  </programme>
+  <programme start="20251201074000 +0100" stop="20251201081500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E29 ║ La giusta motivazione</sub-title>
+    <desc lang="it">Luigi e Anna sono sposati da 3 anni. A mettere in crisi la loro storia e' il tradimento di Anna. Da quel momento per Luigi tutto cambia e la recente amicizia con Lucilla inizia ad assumere importanza.</desc>
+  </programme>
+  <programme start="20251201081500 +0100" stop="20251201085000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S3E30 ║ L'uomo che sussurrava ai cani</sub-title>
+    <desc lang="it">Bernardo e Marina sono sposati ma non hanno figli. Per cercare di placare le ansie di concepimento di sua moglie, Bernardo le regala un cane. Ma la piccola Daisy sara' l'occasione per conoscere il bel dogsitter.</desc>
+  </programme>
+  <programme start="20251201085000 +0100" stop="20251201092500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S5E1 ║ Gelosia, portami via</sub-title>
+    <desc lang="it">Diana e' sposata con Ernesto. Lui e' un farmacista che viene invitato ai convegni. Proprio ad uno di questi eventi Diana conosce Pierpaolo, marito geloso a sua volta, di una farmacista.</desc>
+  </programme>
+  <programme start="20251201092500 +0100" stop="20251201095500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S5E2 ║ Me'nage a' trois</sub-title>
+    <desc lang="it">Giulia e Paolo sono sposati da sette anni e lei, per rianimare la coppia, propone al marito un esperimento: includere una terza persona nella relazione. Tramite una comunita', conoscono Irene.</desc>
+  </programme>
+  <programme start="20251201095500 +0100" stop="20251201103000 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E39 ║ Flatmates</sub-title>
+    <desc lang="it">Chiara e Angelo da coinquilini sono diventati fidanzati e decidono affittare la terza stanza della casa a Sara. La nuova inquilina seduce Angelo, ma Michela scopre tutto.</desc>
+  </programme>
+  <programme start="20251201103000 +0100" stop="20251201110500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta</title>
+    <sub-title lang="it">S1E40 ║ Amore assicurato</sub-title>
+    <desc lang="it">Arianna e' la moglie di Dino ma anche il suo capo e non disdegna relazioni fugaci e occasionali. Le cose cambiano quando Arianna assume Vincenzo che diventa suo amante e perde la testa per lei.</desc>
+  </programme>
+  <programme start="20251201110500 +0100" stop="20251201113500 +0100" channel="Nove.it">
+    <title lang="it">Alta infedelta': nuovi modi di tradire</title>
+    <sub-title lang="it">S6E13 ║ Passeggiata al mare</sub-title>
+    <desc lang="it">Durante la pandemia, Federica ossessionata dalla paura del contagio costringe il suo compagno a trasferirsi momentaneamente al mare. Ma qui Umberto conosce Cecilia.</desc>
+  </programme>
+  <programme start="20251201113500 +0100" stop="20251201124500 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S5E31</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251201124500 +0100" stop="20251201140000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S6E1</sub-title>
+    <desc lang="it">Cinque mercanti cercheranno di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251201140000 +0100" stop="20251201150000 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa</title>
+    <sub-title lang="it">S1E120</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251201150000 +0100" stop="20251201164500 +0100" channel="Nove.it">
+    <title lang="it">Lady Gucci - La storia di Patrizia Reggiani</title>
+    <sub-title lang="it">St. Ep</sub-title>
+    <desc lang="it">Tutta la storia di Patrizia Reggiani: dall'incontro con Maurizio Gucci, al loro amore travagliato, per ricostruire le tappe di questa tragica ed intricata vicenda.</desc>
+  </programme>
+  <programme start="20251201164500 +0100" stop="20251201175000 +0100" channel="Nove.it">
+    <title lang="it">Delitti a circuito chiuso</title>
+    <sub-title lang="it">S9E5 ║ Esecuzione in ciclabile</sub-title>
+    <desc lang="it">In Alaska, la polizia deve risolvere dei casi di omicidio.</desc>
+  </programme>
+  <programme start="20251201175000 +0100" stop="20251201192000 +0100" channel="Nove.it">
+    <title lang="it">Little Big Italy</title>
+    <sub-title lang="it">S3E12 ║ Los Angeles</sub-title>
+    <desc lang="it">Francesco Panella riparte alla scoperta dei piu' autentici ristoranti italiani nel mondo. Per il finale di stagione la sfida sara' a Los Angeles, nel cuore pulsante della California.</desc>
+  </programme>
+  <programme start="20251201192000 +0100" stop="20251201203000 +0100" channel="Nove.it">
+    <title lang="it">Cash or Trash - Chi offre di piu'</title>
+    <sub-title lang="it">S7E10</sub-title>
+    <desc lang="it">Alcuni mercanti cercano di aggiudicarsi preziosi oggetti.</desc>
+  </programme>
+  <programme start="20251201203000 +0100" stop="20251201213000 +0100" channel="Nove.it">
+    <title lang="it">The Cage - Prendi e scappa - 1^TV</title>
+    <sub-title lang="it">S1E125</sub-title>
+    <desc lang="it">Due coppie di concorrenti si sfidano in una gara a tempo per aggiudicarsi i premi di diverso valore racchiusi dentro una enorme gabbia trasparente. Conduce Amadeus con Giulia Salemi.</desc>
+  </programme>
+  <programme start="20251201213000 +0100" stop="20251201231500 +0100" channel="Nove.it">
+    <title lang="it">Little Big Italy</title>
+    <sub-title lang="it">S8E1 ║ Rio</sub-title>
+    <desc lang="it">Francesco Panella scopre i migliori ristoranti italiani all'estero.</desc>
+  </programme>
+  <programme start="20251125010000 +0100" stop="20251125010500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Hercai - Amore e vendetta - 1^TV</title>
+    <sub-title lang="it">S3E30</sub-title>
+    <desc lang="it">L'ultimo capitolo della storia d'amore tra Reyyan e Miran.</desc>
+  </programme>
+  <programme start="20251125010500 +0100" stop="20251125021000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica per rinascere: Obesity Center Caserta</title>
+    <sub-title lang="it">S3E7 ║ Davide</sub-title>
+    <desc lang="it">Fin dall'adolescenza, Davide lotta con il suo peso. Col tempo, la situazione peggiora e, alla morte dell'amata madre, Davide decide di affidarsi finalmente alle cure di Pineta Grande.</desc>
+  </programme>
+  <programme start="20251125021000 +0100" stop="20251125031500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica per rinascere: Obesity Center Caserta</title>
+    <sub-title lang="it">S3E8 ║ Michela</sub-title>
+    <desc lang="it">La vita e' sempre stata avversa a Michela, riservandole dolorosi traumi. Quando incontra Dario, tutto cambia, ma il suo peso resta critico: 171 kg. Cosi' si affida al dottor Giardiello.</desc>
+  </programme>
+  <programme start="20251125031500 +0100" stop="20251125042000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica per rinascere: Obesity Center Caserta</title>
+    <sub-title lang="it">S1E1</sub-title>
+    <desc lang="it">Raccontiamo le storie di persone obese che hanno deciso di tornare a un peso normale. Verranno seguiti dal dottor Giardiello, della Clinica Pineta Grande di Castel Volturno in provincia di Caserta.</desc>
+  </programme>
+  <programme start="20251125042000 +0100" stop="20251125052000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica per rinascere: Obesity Center Caserta</title>
+    <sub-title lang="it">S1E2</sub-title>
+    <desc lang="it">Raccontiamo le storie di persone obese che hanno deciso di tornare a un peso normale. Verranno seguiti dal dottor Giardiello, della Clinica Pineta Grande di Castel Volturno in provincia di Caserta.</desc>
+  </programme>
+  <programme start="20251125052000 +0100" stop="20251125061000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica per rinascere: Obesity Center Caserta</title>
+    <sub-title lang="it">S1E3</sub-title>
+    <desc lang="it">Raccontiamo le storie di persone obese che hanno deciso di tornare a un peso normale. Verranno seguiti dal dottor Giardiello, della Clinica Pineta Grande di Castel Volturno in provincia di Caserta.</desc>
+  </programme>
+  <programme start="20251125061000 +0100" stop="20251125070000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica per rinascere: Obesity Center Caserta</title>
+    <sub-title lang="it">S1E6</sub-title>
+    <desc lang="it">Raccontiamo le storie di persone obese che hanno deciso di tornare a un peso normale. Verranno seguiti dal dottor Giardiello, della Clinica Pineta Grande di Castel Volturno in provincia di Caserta.</desc>
+  </programme>
+  <programme start="20251125070000 +0100" stop="20251125075500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica per rinascere: Obesity Center Caserta</title>
+    <sub-title lang="it">S3E5 ║ Giuseppe</sub-title>
+    <desc lang="it">Dopo la morte prematura della madre, Giuseppe ha vissuto in simbiosi con la nonna che ha colmato il suo grande vuoto attraverso il cibo. Ora pero' pesa 252 kg ed e' in serio pericolo.</desc>
+  </programme>
+  <programme start="20251125075500 +0100" stop="20251125085500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica per rinascere: Obesity Center Caserta</title>
+    <sub-title lang="it">S3E6 ║ Antonietta</sub-title>
+    <desc lang="it">Figlia di ragazza madre, Antonietta fin da bambina e' stata vittima di bullismo. Sposata e con figli, a causa dello stress ha raggiunto i 179 kg. Per operarsi, dovra' perderne 17.</desc>
+  </programme>
+  <programme start="20251125085500 +0100" stop="20251125095000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica per rinascere: Obesity Center Caserta</title>
+    <sub-title lang="it">S3E7 ║ Davide</sub-title>
+    <desc lang="it">Fin dall'adolescenza, Davide lotta con il suo peso. Col tempo, la situazione peggiora e, alla morte dell'amata madre, Davide decide di affidarsi finalmente alle cure di Pineta Grande.</desc>
+  </programme>
+  <programme start="20251125095000 +0100" stop="20251125104000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S5E6</sub-title>
+    <desc lang="it">Esploriamo la folkloristica cultura della comunita' gipsy statunitense. Tra vestiti fuori dal comune, ispirazioni incredibili, fantasie e sogni, osserviamo alcuni dei piu' coloriti matrimoni americani.</desc>
+  </programme>
+  <programme start="20251125104000 +0100" stop="20251125113500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S5E7 ║ Non ci conosci!</sub-title>
+    <desc lang="it">La ragazza gorger Sabrina deve dimostrare alla comunita' gipsy di essere in grado di sopportare l'umiliante e antico rito per diventare una sposa. Il codice gipsy non deve essere infranto!</desc>
+  </programme>
+  <programme start="20251125113500 +0100" stop="20251125123000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S5E8</sub-title>
+    <desc lang="it">Esploriamo la folkloristica cultura della comunita' gipsy statunitense. Tra vestiti fuori dal comune, ispirazioni incredibili, fantasie e sogni, osserviamo alcuni dei piu' coloriti matrimoni americani.</desc>
+  </programme>
+  <programme start="20251125123000 +0100" stop="20251125133500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E3 ║ Viviana e Stefania vs. Alessia e Alessandro</sub-title>
+    <desc lang="it">I nostri giudici sono pronti per un viaggio nel tempo tra Natale anticipato e gli anni '50.</desc>
+  </programme>
+  <programme start="20251125133500 +0100" stop="20251125144000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E4 ║ Benedetta e Achille vs. Paolo e Tiziana</sub-title>
+    <desc lang="it">L'amicizia tra uomo e donna esiste, e oggi queste due coppie lo dimostreranno.</desc>
+  </programme>
+  <programme start="20251125144000 +0100" stop="20251125154500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E59</sub-title>
+    <desc lang="it">Chi tra Nadia, Blasco e Corrado riuscira' a soddisfare le richieste di Roberta?</desc>
+  </programme>
+  <programme start="20251125154500 +0100" stop="20251125165000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E61</sub-title>
+    <desc lang="it">Chi tra Nico, Matteo e Moira riuscira' a trovare la soluzione migliore per Alessia e Lidia?</desc>
+  </programme>
+  <programme start="20251125165000 +0100" stop="20251125185000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Bake Off Italia: dolci in forno</title>
+    <sub-title lang="it">S13E12 ║ Dolci note</sub-title>
+    <desc lang="it">Tra note pop e liriche gli aspiranti pasticceri affrontano i New York Rolls e la Torta Opera tra fallimenti, rivalita' e colpi di scena.</desc>
+  </programme>
+  <programme start="20251125185000 +0100" stop="20251125202500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Primo appuntamento</title>
+    <sub-title lang="it">S7E30</sub-title>
+    <desc lang="it">Rosangela ha 69 anni e non ha ancora abbandonato il sogno di potersi innamorare di nuovo.</desc>
+  </programme>
+  <programme start="20251125202500 +0100" stop="20251125213000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E60</sub-title>
+    <desc lang="it">Chi tra Corrado, Nadia e Blasco riuscira' a trovare la combinazione perfetta per Alessandro e Gianluca?</desc>
+  </programme>
+  <programme start="20251125213000 +0100" stop="20251125223000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista - 1^TV</title>
+    <sub-title lang="it">S7E62</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251125223000 +0100" stop="20251125233000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Turisti per case - 1^TV</title>
+    <sub-title lang="it">S1E6</sub-title>
+    <desc lang="it">Ida, Gianluca e Tommaso esplorano il Monferrato tra cultura e una beauty farm unica.</desc>
+  </programme>
+  <programme start="20251125233000 +0100" stop="20251126003000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Turisti per case</title>
+    <sub-title lang="it">S1E5</sub-title>
+    <desc lang="it">In questa puntata, Gianluca portera' Ida e Tommaso in Veneto tra lusso e dimore storiche.</desc>
+  </programme>
+  <programme start="20251126003000 +0100" stop="20251126010000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E3 ║ Yvonne</sub-title>
+    <desc lang="it">Yvonne, 57 anni e infermiera in pensione, ha subito un lifting facciale che non e' andato a buon fine. Il dottor Vik Vijh riuscira' a risolvere il problema?</desc>
+  </programme>
+  <programme start="20251126010000 +0100" stop="20251126012500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E3 ║ Yvonne</sub-title>
+    <desc lang="it">Yvonne, 57 anni e infermiera in pensione, ha subito un lifting facciale che non e' andato a buon fine. Il dottor Vik Vijh riuscira' a risolvere il problema?</desc>
+  </programme>
+  <programme start="20251126012500 +0100" stop="20251126022000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E4 ║ Alison</sub-title>
+    <desc lang="it">Alison, 43 anni, si e' sottoposta ad un intervento per aumentare il seno, ma le sono rimaste numerose infezioni. Il dottor Vik riuscira' a sistemare le cose?</desc>
+  </programme>
+  <programme start="20251126022000 +0100" stop="20251126031000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E5 ║ Anne</sub-title>
+    <desc lang="it">Anne, 57 anni e insegnante di cucina, ha subito un'operazione per ridurre il seno, ma ora ha degli strani capezzoli alti. Il dottor Vik Vijh riuscira' a riparare il danno?</desc>
+  </programme>
+  <programme start="20251126031000 +0100" stop="20251126040000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E6 ║ Deborah</sub-title>
+    <desc lang="it">Dopo 15 anni vissuti con il seno mutilato, la 50enne Debbie si sottopone all'operazione di cui aveva disperatamente bisogno. Il dottor Vik Vijh riuscira' a farle ritrovare la sicurezza in se stessa?</desc>
+  </programme>
+  <programme start="20251126040000 +0100" stop="20251126045000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E7 ║ Maciek</sub-title>
+    <desc lang="it">Maciek, 36 anni, ha un naso rifatto che e' un disastro a causa di un'operazione che ha ulteriormente allungato il suo naso. Il dottor Vik Vijh riuscira' a riparare il danno?</desc>
+  </programme>
+  <programme start="20251126045000 +0100" stop="20251126054000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E8 ║ Fiyon</sub-title>
+    <desc lang="it">Fiyon, 49 anni, soffre dopo essersi sottoposta ad un intervento per l'applicazione di filler facciali che si sono trasformati in bozzoli grandi e duri. Il dottor Vik Vijh riuscira' a sistemare il problema?</desc>
+  </programme>
+  <programme start="20251126054000 +0100" stop="20251126063000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E9 ║ Kate</sub-title>
+    <desc lang="it">Kate, optometrista di 21 anni, si vergogna cosi' tanto del suo naso rifatto che porta gli occhiali nonostante la sua vista sia impeccabile. Il dottor Vijh riuscira' a porre rimedio a questo disastro?</desc>
+  </programme>
+  <programme start="20251126063000 +0100" stop="20251126070000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E6 ║ Decisioni</sub-title>
+    <desc lang="it">Il lobo dell'orecchio di Shakisaha si e' spaccato a meta' durante un'operazione finita male. Dopo una terribile malattia, Kelly Ann ha delle protuberanze sulle gambe.</desc>
+  </programme>
+  <programme start="20251126070000 +0100" stop="20251126080000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E1 ║ Brett</sub-title>
+    <desc lang="it">Il parrucchiere Brett cerca di riequilibrare il suo petto dopo che un impianto difettoso per migliorare i muscoli lo ha reso asimmetrico. Inoltre, i capelli di una studentessa devono essere sistemati.</desc>
+  </programme>
+  <programme start="20251126080000 +0100" stop="20251126085500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E2 ║ Tracey</sub-title>
+    <desc lang="it">Un'operazione da incubo ha traumatizzato una mamma. Gemma, ora, ha lo stomaco pieno di cicatrici. Il chirurgo plastico Vik Vijh si cimenta in un'addominoplastica per tentare di riparare il danno.</desc>
+  </programme>
+  <programme start="20251126085500 +0100" stop="20251126095000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Incidenti di bellezza</title>
+    <sub-title lang="it">S2E3 ║ Yvonne</sub-title>
+    <desc lang="it">Yvonne, 57 anni e infermiera in pensione, ha subito un lifting facciale che non e' andato a buon fine. Il dottor Vik Vijh riuscira' a risolvere il problema?</desc>
+  </programme>
+  <programme start="20251126095000 +0100" stop="20251126104000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S6E1 ║ Triangolo amoroso</sub-title>
+    <desc lang="it">Cearia non sa scegliere tra il suo invadente cugino Sam e il cugino gipsy Kyle. Angie organizza una festa per sua figlia Jewel, che compie 18 anni, per trovarle marito.</desc>
+  </programme>
+  <programme start="20251126104000 +0100" stop="20251126113500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S6E2 ║ Problemi</sub-title>
+    <desc lang="it">Jewel sta per sposare Nick, ma il gorger Josiah pianifica di creare problemi al matrimonio. La sorella di Nuckie organizza un bridal shower prima del suo grande giorno, ma arrivano alcuni ospiti indesiderati.</desc>
+  </programme>
+  <programme start="20251126113500 +0100" stop="20251126123000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S6E3 ║ Sorpresa!</sub-title>
+    <desc lang="it">Nuckie sta per sposare il gorger Jonas ma il suo ex marito Pookie torna in citta' e la donna non sa cosa fare. La terza festa di compleanno di Jett per sua figlia Scarlett fa arrabbiare sua madre.</desc>
+  </programme>
+  <programme start="20251126123000 +0100" stop="20251126133500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E5 ║ Federico Fusca vs. Ruben Bondi'</sub-title>
+    <desc lang="it">Con Ruben Bondi' e Federico Fusca, oggi in cucina c'e' talento e tanta simpatia!</desc>
+  </programme>
+  <programme start="20251126133500 +0100" stop="20251126144000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E6 ║ Chiara e Fabrizio vs. Serena e Gianna</sub-title>
+    <desc lang="it">Chi convincera' i giudici tra la coppia vicini di casa o le vicine di negozio?</desc>
+  </programme>
+  <programme start="20251126144000 +0100" stop="20251126154500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E60</sub-title>
+    <desc lang="it">Chi tra Corrado, Nadia e Blasco riuscira' a trovare la combinazione perfetta per Alessandro e Gianluca?</desc>
+  </programme>
+  <programme start="20251126154500 +0100" stop="20251126165000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E62</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251126165000 +0100" stop="20251126175000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Abito da sposa cercasi</title>
+    <sub-title lang="it">S20E5 ║ Mi sono fidanzata</sub-title>
+    <desc lang="it">Monica attende da 20 anni di indossare un vestito che la faccia sembrare una regina.</desc>
+  </programme>
+  <programme start="20251126175000 +0100" stop="20251126185000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Abito da sposa cercasi</title>
+    <sub-title lang="it">S20E6 ║ Un bel problema</sub-title>
+    <desc lang="it">Nina vuole trovare un abito da ricevimento il piu' presto possibile. Anche Ashley e Amber sono alla ricerca del vestito perfetto.</desc>
+  </programme>
+  <programme start="20251126185000 +0100" stop="20251126202500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Primo appuntamento</title>
+    <sub-title lang="it">S6E1</sub-title>
+    <desc lang="it">La prima single e' Naomi che vorrebbe innamorarsi di un uomo un 'rude' e tatuato, per lei arriva Tiziano, un pugile. Tra i due nasce subito un'amicizia.</desc>
+  </programme>
+  <programme start="20251126202500 +0100" stop="20251126213000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E61</sub-title>
+    <desc lang="it">Chi tra Nico, Matteo e Moira riuscira' a trovare la soluzione migliore per Alessia e Lidia?</desc>
+  </programme>
+  <programme start="20251126213000 +0100" stop="20251126223000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista - 1^TV</title>
+    <sub-title lang="it">S7E63</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251126223000 +0100" stop="20251126234000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S2E4 ║ Escrescenza misteriosa</sub-title>
+    <desc lang="it">I dottori aiutano un uomo con una strana escrescenza sul piede e una donna con piedi duri come una pietra. Un'altra paziente ha il piede simile ad una mano.</desc>
+  </programme>
+  <programme start="20251126234000 +0100" stop="20251127003500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S2E5 ║ Come i cavalli</sub-title>
+    <desc lang="it">I dottori tentano di aiutare una donna talmente disperata da avvolgere i piedi con cerotti usati dai veterinari per curare i cavalli feriti.</desc>
+  </programme>
+  <programme start="20251127003500 +0100" stop="20251127010000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S2E6 ║ Odore infernale</sub-title>
+    <desc lang="it">Il dottor Brad rimuove delle escrescenze a forma di corni dai piedi di una donna. Inoltre, la dottoressa Ebonie aiuta una donna che non cura i piedi da due anni.</desc>
+  </programme>
+  <programme start="20251127010000 +0100" stop="20251127013000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S2E6 ║ Odore infernale</sub-title>
+    <desc lang="it">Il dottor Brad rimuove delle escrescenze a forma di corni dai piedi di una donna. Inoltre, la dottoressa Ebonie aiuta una donna che non cura i piedi da due anni.</desc>
+  </programme>
+  <programme start="20251127013000 +0100" stop="20251127022500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S2E7 ║ Piedi da sistemare</sub-title>
+    <desc lang="it">Dopo 25 operazioni fallite, una donna e' disperata a causa delle dita dei piedi attorcigliate. Inoltre, il dottor Brad esamina un gigantesco callo.</desc>
+  </programme>
+  <programme start="20251127022500 +0100" stop="20251127032000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S2E8 ║ Un alluce horror</sub-title>
+    <desc lang="it">La dottoressa Ebonie affronta un alluce valgo da film dell'orrore. Intanto, la dottoressa Sarah tratta un terribile caso di fungo e unghie malmesse.</desc>
+  </programme>
+  <programme start="20251127032000 +0100" stop="20251127041500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S2E9 ║ Piedi bestiali</sub-title>
+    <desc lang="it">Un marito devoto spera di sistemare i suoi piedi e salvare il suo matrimonio. Una donna chiede aiuto a causa dei suoi piedi palmati.</desc>
+  </programme>
+  <programme start="20251127041500 +0100" stop="20251127051000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S2E10 ║ Dito alieno</sub-title>
+    <desc lang="it">La dottoressa Ebonie deve rimuovere un'escrescenza da un piede. Il dottor Brad usa il bisturi su un tallone ma il paziente rifiuta gli anestetici.</desc>
+  </programme>
+  <programme start="20251127051000 +0100" stop="20251127060500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S1E1 ║ Funghi</sub-title>
+    <desc lang="it">Una donna con una pericolosa cicatrice sul piede si rivolge al dottor Schaeffer per avere aiuto. Un uomo arriva con un terribile caso di fungo sul piede.</desc>
+  </programme>
+  <programme start="20251127060500 +0100" stop="20251127070000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S1E2 ║ Brutte cose</sub-title>
+    <desc lang="it">Un uomo con una malattia rara ha il piede piu' grande che il dottor Schaeffer abbia mai visto. Un atleta ha due piedi di grandezza differente: l'operazione e' complicata.</desc>
+  </programme>
+  <programme start="20251127070000 +0100" stop="20251127080000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S1E25 ║ Un disastro</sub-title>
+    <desc lang="it">Jeff, ferito da un colpo di pistola quando era piccolo, ha un piede che non cresce correttamente. Alisa e' caduta nella doccia e ora i suoi piedi sono danneggiati.</desc>
+  </programme>
+  <programme start="20251127080000 +0100" stop="20251127085500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S1E26 ║ Bolle</sub-title>
+    <desc lang="it">Ron ha una rara patologia e ha decine di masse tumorali sui piedi. Laura ha un alluce deformato e ha molte difficolta'.</desc>
+  </programme>
+  <programme start="20251127085500 +0100" stop="20251127095000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite</title>
+    <sub-title lang="it">S1E27 ║ Massa misteriosa</sub-title>
+    <desc lang="it">Troy ha un tumore che ha deformato il suo piede sinistro. Dopo essersi sottoposta a un'operazione, la ballerina Danielle ha notato che il suo piede e' diventato nero.</desc>
+  </programme>
+  <programme start="20251127095000 +0100" stop="20251127104000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S6E4 ║ Prima della sentenza</sub-title>
+    <desc lang="it">Jett e Bubba si affrettano a sposarsi prima che la sentenza del carcere entri in vigore. Mona Lisa organizza una straordinaria festa per sua figlia.</desc>
+  </programme>
+  <programme start="20251127104000 +0100" stop="20251127113500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S6E5 ║ Speranze</sub-title>
+    <desc lang="it">Samantha non vede l'ora di sposarsi, ma sua sorella rovinera' il suo grande giorno? Il fratello maggiore di Lexi diventa molto protettivo.</desc>
+  </programme>
+  <programme start="20251127113500 +0100" stop="20251127123000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S6E6 ║ I genitori</sub-title>
+    <desc lang="it">Traci e David si sposeranno, ma la madre di lei disapprova il loro legame e rappresenta una minaccia per il loro grande giorno. Lee Ann e Joe discutono sulla festa.</desc>
+  </programme>
+  <programme start="20251127123000 +0100" stop="20251127133500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E7 ║ Giorgia e Aurora vs. Stefania e Rebecca</sub-title>
+    <desc lang="it">Due coppie di mamma e figlia si sfideranno tra tradizioni di famiglia e nuovi sapori.</desc>
+  </programme>
+  <programme start="20251127133500 +0100" stop="20251127144000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E8 ║ Barbara e Chiara vs. Alessandra e Gloria</sub-title>
+    <desc lang="it">Oggi la sfida e' tra due coppie di sorelle milanesi. Chi riuscira' a conquistare i giudici?</desc>
+  </programme>
+  <programme start="20251127144000 +0100" stop="20251127154500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E61</sub-title>
+    <desc lang="it">Chi tra Nico, Matteo e Moira riuscira' a trovare la soluzione migliore per Alessia e Lidia?</desc>
+  </programme>
+  <programme start="20251127154500 +0100" stop="20251127165000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E63</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251127165000 +0100" stop="20251127175000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E56</sub-title>
+    <desc lang="it">Ci tra Corrado, Nadia e Blasco riuscira' a trovare la casa della vita di Stefania?</desc>
+  </programme>
+  <programme start="20251127175000 +0100" stop="20251127182000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">E' nato l'amore</title>
+    <sub-title lang="it">S1E3 ║ Valentina e Danilo</sub-title>
+    <desc lang="it">Dopo una momento molto difficile di sofferenza, adesso e' ora di ripartire.</desc>
+  </programme>
+  <programme start="20251127182000 +0100" stop="20251127185000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">E' nato l'amore</title>
+    <sub-title lang="it">S1E4 ║ Valeria e Alessandro</sub-title>
+    <desc lang="it">Il destino li ha fatti conoscere ma e' l'amore ad aver scelto il loro futuro.</desc>
+  </programme>
+  <programme start="20251127185000 +0100" stop="20251127202500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Primo appuntamento</title>
+    <sub-title lang="it">S6E2</sub-title>
+    <desc lang="it">Il ristorante apre le porte a due ex fidanzati, Federica e Giuliano che non hanno ancora trovato dei compagni. Ci riusciranno oggi? Inoltre incontriamo Marco e Giulia, entrambi insicuri.</desc>
+  </programme>
+  <programme start="20251127202500 +0100" stop="20251127213000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E62</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251127213000 +0100" stop="20251127223000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista - 1^TV</title>
+    <sub-title lang="it">S7E64</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251127223000 +0100" stop="20251127230500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">SOS Acne - 1^TV</title>
+    <sub-title lang="it">S2E3 ║ Acne e genetica</sub-title>
+    <desc lang="it">Ines si occupa dell'acne dei gemelli Jacopo e Nicolo' e si prende cura della pelle di Maria Esposito.</desc>
+  </programme>
+  <programme start="20251127230500 +0100" stop="20251127234000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">SOS Acne - 1^TV</title>
+    <sub-title lang="it">S2E4 ║ Trattamenti speciali</sub-title>
+    <desc lang="it">Gabriele, Massimo e Chiara si rivolgono alla dott.ssa Ines. Guariranno dalle loro patologie?</desc>
+  </programme>
+  <programme start="20251127234000 +0100" stop="20251128003500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S7E9 ║ Dolore estremo</sub-title>
+    <desc lang="it">La dottoressa Emma affronta uno dei casi piu' estremi che abbia mai visto.</desc>
+  </programme>
+  <programme start="20251128003500 +0100" stop="20251128010000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S7E10 ║ Capelli</sub-title>
+    <desc lang="it">Ashleigh ha perso tutti i capelli. Serena non esce di casa a causa della peluria facciale.</desc>
+  </programme>
+  <programme start="20251128010000 +0100" stop="20251128013000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S7E10 ║ Capelli</sub-title>
+    <desc lang="it">Ashleigh ha perso tutti i capelli. Serena non esce di casa a causa della peluria facciale.</desc>
+  </programme>
+  <programme start="20251128013000 +0100" stop="20251128022500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S6E1 ║ Macchie sul collo</sub-title>
+    <desc lang="it">A Morgan e Charlotte era stato detto che il peso era la causa dei loro problemi cutanei.</desc>
+  </programme>
+  <programme start="20251128022500 +0100" stop="20251128032000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S6E2 ║ Non sei una strega</sub-title>
+    <desc lang="it">La patologia cutanea di Matt lo debilita. Kaley ottiene finalmente una diagnosi.</desc>
+  </programme>
+  <programme start="20251128032000 +0100" stop="20251128041500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S6E3 ║ In cerca di diagnosi</sub-title>
+    <desc lang="it">Adam spera di avere una diagnosi riguardo numerosi bozzoli che coprono il suo corpo.</desc>
+  </programme>
+  <programme start="20251128041500 +0100" stop="20251128051500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S6E4 ║ Stranezze della natura</sub-title>
+    <desc lang="it">A causa di una patologia, Honor ha la sensazione che il suo volto sia infuocato.</desc>
+  </programme>
+  <programme start="20251128051500 +0100" stop="20251128061000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S6E5 ║ Parti intime</sub-title>
+    <desc lang="it">Nick e' in imbarazzo a causa di una ciste e non vede un medico da 25 anni.</desc>
+  </programme>
+  <programme start="20251128061000 +0100" stop="20251128070000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S6E6 ║ Sfida</sub-title>
+    <desc lang="it">La patologia di Bianca rappresenta una delle piu' grandi sfide per la dottoressa Emma.</desc>
+  </programme>
+  <programme start="20251128070000 +0100" stop="20251128080000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Vite al limite</title>
+    <sub-title lang="it">S4E7 ║ La storia di Dottie</sub-title>
+    <desc lang="it">Dottie adora essere una mamma ma, pesando circa 300 chili, la donna rischia di perdere i suoi due figli. Riuscira' a prendere delle decisioni drastiche e a stravolgere la sua vita?</desc>
+  </programme>
+  <programme start="20251128080000 +0100" stop="20251128085500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Vite al limite</title>
+    <sub-title lang="it">S4E1 ║ La storia di Nikki</sub-title>
+    <desc lang="it">Nikki pesa circa 300 chili e rischia di non muoversi piu'. La donna ha un bypass gastrico e deve affrontare la sua dipendenza dal cibo.</desc>
+  </programme>
+  <programme start="20251128085500 +0100" stop="20251128095000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Vite al limite</title>
+    <sub-title lang="it">S4E2 ║ La storia di Ashley Da</sub-title>
+    <desc lang="it">Il tempo stringe per la 26enne Ashley, che pesa circa 300 chili: la giovane si vergogna del suo corpo. La chirurgia offre speranze ma non senza ostacoli da superare.</desc>
+  </programme>
+  <programme start="20251128095000 +0100" stop="20251128104000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S6E7 ║ La maledizione</sub-title>
+    <desc lang="it">Brittany organizza una cerimonia tradizionale per il suo defunto padre. Riuscira' ad allontanare la maledizione che sembra essersi abbattuta su di lei?</desc>
+  </programme>
+  <programme start="20251128104000 +0100" stop="20251128113500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S6E8 ║ Ex mariti</sub-title>
+    <desc lang="it">Dopo essere scappata con l'ex della sorella, Maison, Karen e' finalmente pronta per un perfetto matrimonio gitano. Ma Melissa non lo permettera'.</desc>
+  </programme>
+  <programme start="20251128113500 +0100" stop="20251128123000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy</title>
+    <sub-title lang="it">S2E1 ║ Uno strass e' per sempre</sub-title>
+    <desc lang="it">La sedicenne Sammy partecipa a un concorso di bellezza riservato alle ragazze gypsy. E quattro cugine competono per l'abito piu' sfarzoso alla loro Prima Comunione.</desc>
+  </programme>
+  <programme start="20251128123000 +0100" stop="20251128133500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E9 ║ Valentina e Gisella vs. Loretta e Christian</sub-title>
+    <desc lang="it">Madri e figli si sfidano: Gisella e Valentina contro Loretta e Christian.</desc>
+  </programme>
+  <programme start="20251128133500 +0100" stop="20251128144000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E10 ║ Nadia e Natalina vs. Blasco e Corrado</sub-title>
+    <desc lang="it">Per loro vendere case a Roma e' un gioco da ragazzi, saranno altrettanto bravi ad ospitare?</desc>
+  </programme>
+  <programme start="20251128144000 +0100" stop="20251128154500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E62</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251128154500 +0100" stop="20251128165000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E64</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251128165000 +0100" stop="20251128175000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Abito da sposa cercasi</title>
+    <sub-title lang="it">S20E9 ║ Abito di riserva</sub-title>
+    <desc lang="it">Red non si accontenta dell'abito che ha gia' comprato. Randy fa un tuffo nel passato mentre una sposa deve fare i conti con se' stessa.</desc>
+  </programme>
+  <programme start="20251128175000 +0100" stop="20251128185000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Abito da sposa cercasi</title>
+    <sub-title lang="it">S20E10 ║ Manca solo il marito</sub-title>
+    <desc lang="it">Jessica, personal trainer, vuole un abito che metta in mostra i suoi muscoli. Marie-Therese cerca un vestito nuziale nonostante sia ancora single.</desc>
+  </programme>
+  <programme start="20251128185000 +0100" stop="20251128202500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Primo appuntamento</title>
+    <sub-title lang="it">S6E3</sub-title>
+    <desc lang="it">Jana cena con il boxer Domenico. Tra loro e' stato un duello ma ha trionfato l'amore. Non e' stato cosi' per Diana e Francesco: lei se ne e' andata senza neppure consumare la cena.</desc>
+  </programme>
+  <programme start="20251128202500 +0100" stop="20251128213000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E63</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251128213000 +0100" stop="20251128223500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista - 1^TV</title>
+    <sub-title lang="it">S7E65</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251128223500 +0100" stop="20251129003500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Bake Off Italia: dolci in forno - 1^TV</title>
+    <sub-title lang="it">S13E13</sub-title>
+    <desc lang="it">La sfida tra nuovi aspiranti pasticceri. Conduce Brenda Lodigiani.</desc>
+  </programme>
+  <programme start="20251129003500 +0100" stop="20251129010000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S6E9 ║ Grande sorpresa</sub-title>
+    <desc lang="it">Kelly ha perso fiducia in se stessa a causa di un'enorme cisti vicino al mento.</desc>
+  </programme>
+  <programme start="20251129010000 +0100" stop="20251129012500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S6E9 ║ Grande sorpresa</sub-title>
+    <desc lang="it">Kelly ha perso fiducia in se stessa a causa di un'enorme cisti vicino al mento.</desc>
+  </programme>
+  <programme start="20251129012500 +0100" stop="20251129021500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S6E10 ║ Volti</sub-title>
+    <desc lang="it">Dopo un'operazione, il volto di Kristie non e' piu' lo stesso e ha difficolta' di movimento.</desc>
+  </programme>
+  <programme start="20251129021500 +0100" stop="20251129030500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S5E1 ║ Non fatelo a casa</sub-title>
+    <desc lang="it">La pelle di mani e piedi di Yvonne e' spessa. Neville ha un misterioso bozzolo sulla pelle.</desc>
+  </programme>
+  <programme start="20251129030500 +0100" stop="20251129035500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S5E2 ║ Parte aliena</sub-title>
+    <desc lang="it">Lisa ha lesioni simili a verruche. Dawn vuole rimuovere il suo enorme lipoma.</desc>
+  </programme>
+  <programme start="20251129035500 +0100" stop="20251129044500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S5E3 ║ Sta per scoppiare</sub-title>
+    <desc lang="it">Una cisti grande quanto una pallina da golf sta rovinando la vita a Dave.</desc>
+  </programme>
+  <programme start="20251129044500 +0100" stop="20251129053500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S5E4 ║ Il Big One</sub-title>
+    <desc lang="it">Da diversi anni, il gigantesco bozzolo sul collo di Paul continua a crescere.</desc>
+  </programme>
+  <programme start="20251129053500 +0100" stop="20251129062500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica della pelle</title>
+    <sub-title lang="it">S5E5 ║ Il ritorno</sub-title>
+    <desc lang="it">Chrissie ha rimosso un lipoma 14 anni fa, ma ora e' ritornato e sta aumentando.</desc>
+  </programme>
+  <programme start="20251129062500 +0100" stop="20251129070000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">SOS Acne</title>
+    <sub-title lang="it">S1E3 ║ Il lipoma</sub-title>
+    <desc lang="it">Giuseppe, Rossella e Aurora si rivolgono alla dott.ssa Ines. Guariranno dalle patologie?</desc>
+  </programme>
+  <programme start="20251129070000 +0100" stop="20251129075500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">ER: storie incredibili</title>
+    <sub-title lang="it">S10E1 ║ Ricognizione</sub-title>
+    <desc lang="it">Il viso e il corpo di un uomo si sono ingranditi. Un dottore del pronto soccorso tenta di capire perche' una giovane donna ha bruciori interni dopo una giornata in spiaggia.</desc>
+  </programme>
+  <programme start="20251129075500 +0100" stop="20251129085000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">ER: storie incredibili</title>
+    <sub-title lang="it">S10E2 ║ Scioccante</sub-title>
+    <desc lang="it">Un pianista si sega accidentalmente un dito e scompare, fino a quando sua moglie e il cane arrivano al pronto soccorso. Inoltre, come fa un pacemaker ad uccidere un uomo mentre lo tiene ancora in vita?</desc>
+  </programme>
+  <programme start="20251129085000 +0100" stop="20251129092500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Ti spazzo in due</title>
+    <sub-title lang="it">S2E4 ║ Alla conquista di Torino</sub-title>
+    <desc lang="it">Le Paglionico superano i confini e si mettono alla prova in una lugubre tavernetta all'ombra della Mole, senza rinunciare alle prelibatezze locali.</desc>
+  </programme>
+  <programme start="20251129092500 +0100" stop="20251129100000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Ti spazzo in due</title>
+    <sub-title lang="it">S2E5 ║ Incrostazioni d'epoca</sub-title>
+    <desc lang="it">Daniela e' imprigionata tra i ricordi di un glorioso passato: per liberarla da generazioni di sporco scende in campo anche Douglas, l'uomo Paglionico.</desc>
+  </programme>
+  <programme start="20251129100000 +0100" stop="20251129103500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Ti spazzo in due</title>
+    <sub-title lang="it">S2E6 ║ Una casa abbandonata</sub-title>
+    <desc lang="it">Una casa chiusa da anni mette alla prova le Paglionico, ma Antonella ha ancora l'energia per organizzare una grande sorpresa per le ragazze. Finale di stagione!</desc>
+  </programme>
+  <programme start="20251129103500 +0100" stop="20251129111000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Ti spazzo in due</title>
+    <sub-title lang="it">S3E1</sub-title>
+    <desc lang="it">Il sorriso di Antonella e' messo a dura prova da Silvia e le sue.</desc>
+  </programme>
+  <programme start="20251129111000 +0100" stop="20251129121500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S20E21</sub-title>
+    <desc lang="it">Csaba, Tommaso e Roberto sono in Puglia per giudicare la sfida tra due coppie frizzanti.</desc>
+  </programme>
+  <programme start="20251129121500 +0100" stop="20251129132000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S20E16</sub-title>
+    <desc lang="it">I giudici di Cortesie per gli ospiti sono pronti a provare un menu' tipico a Catania.</desc>
+  </programme>
+  <programme start="20251129132000 +0100" stop="20251129142500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S20E17</sub-title>
+    <desc lang="it">Oggi a Milano la sfida e' tra due generazioni con stili e gusti molto diversi.</desc>
+  </programme>
+  <programme start="20251129142500 +0100" stop="20251129153000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Turisti per case</title>
+    <sub-title lang="it">S1E6</sub-title>
+    <desc lang="it">Ida, Gianluca e Tommaso esplorano il Monferrato tra cultura e una beauty farm unica.</desc>
+  </programme>
+  <programme start="20251129153000 +0100" stop="20251129163500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E61</sub-title>
+    <desc lang="it">Chi tra Nico, Matteo e Moira riuscira' a trovare la soluzione migliore per Alessia e Lidia?</desc>
+  </programme>
+  <programme start="20251129163500 +0100" stop="20251129174000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E62</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251129174000 +0100" stop="20251129184000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E63</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251129184000 +0100" stop="20251129194000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E48</sub-title>
+    <desc lang="it">Chi tra Moira, Nico e Matteo riuscira' a soddisfare le richieste di Silvia e Antonio?</desc>
+  </programme>
+  <programme start="20251129194000 +0100" stop="20251129204000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E49</sub-title>
+    <desc lang="it">Chi tra Blasco, Corrado e Nadia riuscira' a soddisfare le richieste di Alessandra e Gianluca?</desc>
+  </programme>
+  <programme start="20251129204000 +0100" stop="20251129224500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Bake Off Italia: dolci in forno</title>
+    <sub-title lang="it">S13E13</sub-title>
+    <desc lang="it">La sfida tra nuovi aspiranti pasticceri. Conduce Brenda Lodigiani.</desc>
+  </programme>
+  <programme start="20251129224500 +0100" stop="20251130010000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dottor Hekim - Medico geniale - 1^TV</title>
+    <sub-title lang="it">S2E3</sub-title>
+    <desc lang="it">Un medico anticonformista tenta di risolvere casi molto complessi.</desc>
+  </programme>
+  <programme start="20251130010000 +0100" stop="20251130013000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dottor Hekim - Medico geniale - 1^TV</title>
+    <sub-title lang="it">S2E3</sub-title>
+    <desc lang="it">Un medico anticonformista tenta di risolvere casi molto complessi.</desc>
+  </programme>
+  <programme start="20251130013000 +0100" stop="20251130022500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica del pus</title>
+    <sub-title lang="it">S4E2</sub-title>
+    <desc lang="it">Un team di dermatologi aiuta alcuni pazienti affetti da patologie estreme.</desc>
+  </programme>
+  <programme start="20251130022500 +0100" stop="20251130032000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica del pus</title>
+    <sub-title lang="it">S4E3</sub-title>
+    <desc lang="it">Un team di dermatologi aiuta alcuni pazienti affetti da patologie estreme.</desc>
+  </programme>
+  <programme start="20251130032000 +0100" stop="20251130041500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica del pus</title>
+    <sub-title lang="it">S4E4</sub-title>
+    <desc lang="it">Un team di dermatologi aiuta alcuni pazienti affetti da patologie estreme.</desc>
+  </programme>
+  <programme start="20251130041500 +0100" stop="20251130051000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica del pus</title>
+    <sub-title lang="it">S4E5</sub-title>
+    <desc lang="it">Un team di dermatologi aiuta alcuni pazienti affetti da patologie estreme.</desc>
+  </programme>
+  <programme start="20251130051000 +0100" stop="20251130060500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica del pus</title>
+    <sub-title lang="it">S4E6</sub-title>
+    <desc lang="it">Un team di dermatologi aiuta alcuni pazienti affetti da patologie estreme.</desc>
+  </programme>
+  <programme start="20251130060500 +0100" stop="20251130070000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">La clinica del pus</title>
+    <sub-title lang="it">S4E7</sub-title>
+    <desc lang="it">Un team di dermatologi aiuta alcuni pazienti affetti da patologie estreme.</desc>
+  </programme>
+  <programme start="20251130070000 +0100" stop="20251130073000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Piedi al limite: i primi passi</title>
+    <sub-title lang="it">S1E3 ║ Grande mistero</sub-title>
+    <desc lang="it">La nuova paziente della dottoressa Vincent ha i piedi enormi. La dottoressa Haller e' scioccata quando la paziente Nicole mostra il modo insolito in cui cammina.</desc>
+  </programme>
+  <programme start="20251130073000 +0100" stop="20251130082500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Malattie misteriose</title>
+    <sub-title lang="it">S9E7 ║ Puberta' a tre anni</sub-title>
+    <desc lang="it">Una bimba di 3 anni ha una strana perdita di sangue vaginale e uno studente in preda ai crampi non riesce ad appoggiare il piede. I medici riusciranno ad aiutarli?</desc>
+  </programme>
+  <programme start="20251130082500 +0100" stop="20251130112500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dottor Hekim - Medico geniale</title>
+    <sub-title lang="it">S2E3</sub-title>
+    <desc lang="it">Un medico anticonformista tenta di risolvere casi molto complessi.</desc>
+  </programme>
+  <programme start="20251130112500 +0100" stop="20251130115500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">E' nato l'amore - 1^TV</title>
+    <sub-title lang="it">S1E5</sub-title>
+    <desc lang="it">Ogni storia e' diversa ma tutte raccontano lo stesso piccolo grande miracolo.</desc>
+  </programme>
+  <programme start="20251130115500 +0100" stop="20251130122500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">E' nato l'amore - 1^TV</title>
+    <sub-title lang="it">S1E6</sub-title>
+    <desc lang="it">Ogni storia e' diversa ma tutte raccontano lo stesso piccolo grande miracolo.</desc>
+  </programme>
+  <programme start="20251130122500 +0100" stop="20251130132000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E39 ║ Marco e Valentina vs. Mauro e Lara</sub-title>
+    <desc lang="it">Due coppie di innamorati sono pronte ad ospitare i giudici.</desc>
+  </programme>
+  <programme start="20251130132000 +0100" stop="20251130142000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E40 ║ Paola e Fausto vs. Giuseppe e Mario</sub-title>
+    <desc lang="it">I giudici sono a Palermo per una sfida tra una coppia di fidanzati e una di fratelli.</desc>
+  </programme>
+  <programme start="20251130142000 +0100" stop="20251130162000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Bake Off Italia: dolci in forno</title>
+    <sub-title lang="it">S13E13</sub-title>
+    <desc lang="it">La sfida tra nuovi aspiranti pasticceri. Conduce Brenda Lodigiani.</desc>
+  </programme>
+  <programme start="20251130162000 +0100" stop="20251130172000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S20E3</sub-title>
+    <desc lang="it">A 'Cortesie per gli ospiti' e' gia' Natale, questo il tema di una delle coppie in gara.</desc>
+  </programme>
+  <programme start="20251130172000 +0100" stop="20251130182500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E64</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251130182500 +0100" stop="20251130193000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E65</sub-title>
+    <desc lang="it">Casa a prima vista arriva a Napoli, in Abruzzo e in Emilia-Romagna.</desc>
+  </programme>
+  <programme start="20251130193000 +0100" stop="20251130203000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E47</sub-title>
+    <desc lang="it">Chi tra Ida, Gianluca e Mariana riuscira' a trovare la casa perfetta per Chiara e Matteo?</desc>
+  </programme>
+  <programme start="20251130203000 +0100" stop="20251130213000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E9</sub-title>
+    <desc lang="it">Chi tra Blasco, Nadia e Corrado riuscira' a conquistare Francesca e Linda?</desc>
+  </programme>
+  <programme start="20251130213000 +0100" stop="20251130224500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Turisti per case</title>
+    <sub-title lang="it">S1E6</sub-title>
+    <desc lang="it">Ida, Gianluca e Tommaso esplorano il Monferrato tra cultura e una beauty farm unica.</desc>
+  </programme>
+  <programme start="20251130224500 +0100" stop="20251201002500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">90 giorni per innamorarsi - 1^TV</title>
+    <sub-title lang="it">S11E14 ║ Tutto vale in amore e in guerra</sub-title>
+    <desc lang="it">Mahdi va via dal suo suo addio al celibato. Shawn ha dei dubbi sul suo futuro con Alliya.</desc>
+  </programme>
+  <programme start="20251201002500 +0100" stop="20251201010000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E7 ║ La coda</sub-title>
+    <desc lang="it">L'enorme rigonfiamento alla spina dorsale di Taylor e' piu' pericoloso di quanto lei pensi. John ha un'imbarazzante protuberanza sul fianco e Noelle vuole correggere le sue orecchie.</desc>
+  </programme>
+  <programme start="20251201010000 +0100" stop="20251201012000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E7 ║ La coda</sub-title>
+    <desc lang="it">L'enorme rigonfiamento alla spina dorsale di Taylor e' piu' pericoloso di quanto lei pensi. John ha un'imbarazzante protuberanza sul fianco e Noelle vuole correggere le sue orecchie.</desc>
+  </programme>
+  <programme start="20251201012000 +0100" stop="20251201021500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E8 ║ L'unicorno</sub-title>
+    <desc lang="it">Louis e' ricoperto di pelle squamosa che lo fa sentire un alligatore, Jennifer non riesce a concentrarsi sulla sua carriera a causa di una protuberanza a forma di unicorno sulla fronte.</desc>
+  </programme>
+  <programme start="20251201021500 +0100" stop="20251201031000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E9 ║ La rosacea</sub-title>
+    <desc lang="it">Il naso di Patrick e' pieno di irregolarita': l'uomo riesce a stento a respirare. Matt ha avuto una neurofibromatosi e la sua intera esistenza e' dolorosa.</desc>
+  </programme>
+  <programme start="20251201031000 +0100" stop="20251201040000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E10 ║ Sfigurata</sub-title>
+    <desc lang="it">April e' piena di bozzi che le hanno sfigurato le braccia. Genner e' arrivata dalle Filippine per chiedere aiuto alla dottoressa e sistemare il suo naso irregolare.</desc>
+  </programme>
+  <programme start="20251201040000 +0100" stop="20251201045000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E11 ║ Il tumore</sub-title>
+    <desc lang="it">Matt ha un problema alla pelle che fa crescere tumori su tutto il corpo. Inoltre, Jennifer ha un bozzo a forma di unicorno sulla fronte.</desc>
+  </programme>
+  <programme start="20251201045000 +0100" stop="20251201054000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E12 ║ Tumori in viso</sub-title>
+    <desc lang="it">Amber ha centinaia di tumori sul volto. Le sorelle Cheri e Janice hanno dei pericolosi nei, mentre Tatiana ha un'imbarazzante protuberanza sul suo posteriore.</desc>
+  </programme>
+  <programme start="20251201054000 +0100" stop="20251201063000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E13 ║ Braccio di ferro</sub-title>
+    <desc lang="it">Lisa teme che la protuberanza sulla testa possa essere un cancro. Chuck ha un bozzo sul braccio che lo fa assomigliare a braccio di ferro e 2 fratelli hanno dei bozzi simili.</desc>
+  </programme>
+  <programme start="20251201063000 +0100" stop="20251201070000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S1E2 ║ Video chat</sub-title>
+    <desc lang="it">A causa della pandemia di Covid-19, la dottoressa Lee consiglia i suoi pazienti tramite videochiamate. L'enorme voglia di Monica le sta ricoprendo il collo.</desc>
+  </programme>
+  <programme start="20251201070000 +0100" stop="20251201080000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S4E13 ║ Cisti vicino l'occhio</sub-title>
+    <desc lang="it">Elaine definisce 'terzo seno' la sua escrescenza. La cisti di Jessica e' troppo vicina a un occhio e potrebbe essere pericolosa. La dottoressa Lee deve rimuoverla.</desc>
+  </programme>
+  <programme start="20251201080000 +0100" stop="20251201085500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S4E14 ║ Iguane</sub-title>
+    <desc lang="it">La dottoressa Lee affronta le strane escrescenze sulla testa di Madison. Chanel ha delle cisti dolorose con perdite maleodoranti.</desc>
+  </programme>
+  <programme start="20251201085500 +0100" stop="20251201095000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Dr. Pimple Popper: la dottoressa schiacciabrufoli</title>
+    <sub-title lang="it">S4E15 ║ Stucco</sub-title>
+    <desc lang="it">Bob ha delle misteriose piaghe su tutto il corpo. Virginia non vede l'ora di rimuovere un nodulo e Tom vuole disperatamente curare il suo prurito.</desc>
+  </programme>
+  <programme start="20251201095000 +0100" stop="20251201104000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S2E2 ║ Tradizioni</sub-title>
+    <desc lang="it">Le tradizioni gypsy vanno spesso contro la legge occidentale ma le comunita' che vi aderiscono sono pronte a correre il rischio...</desc>
+  </programme>
+  <programme start="20251201104000 +0100" stop="20251201113500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S2E3 ║ Pulizie di casa</sub-title>
+    <desc lang="it">Non andando piu' a scuola, Santana passa la maggior parte del suo tempo a fare le pulizie in casa. Cassa invece e' in controtendenza: frequenta ancora le lezioni.</desc>
+  </programme>
+  <programme start="20251201113500 +0100" stop="20251201123000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Il mio grosso grasso matrimonio gipsy USA</title>
+    <sub-title lang="it">S2E4 ║ Fuori dalla comunita'</sub-title>
+    <desc lang="it">L'amore e il matrimonio al di fuori della comunita' gypsy puo' non essere visto di buon occhio da alcuni membri. Indaghiamo su questo problema che rappresenta ancora un tabu'.</desc>
+  </programme>
+  <programme start="20251201123000 +0100" stop="20251201133500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E11 ║ Bruno e Giacomo vs. Daniela e Maria</sub-title>
+    <desc lang="it">Cosa c'e' di piu' divertente che una sfida tra amici e vicini di casa?</desc>
+  </programme>
+  <programme start="20251201133500 +0100" stop="20251201144000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Cortesie per gli ospiti</title>
+    <sub-title lang="it">S21E12 ║ Alessandro e Francesco vs. Carmen e Manuela</sub-title>
+    <desc lang="it">I nostri giudici stasera saranno immersi in una sfida uomini contro donne.</desc>
+  </programme>
+  <programme start="20251201144000 +0100" stop="20251201154500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S1E3</sub-title>
+    <desc lang="it">Conosciamo Carolina e Marco. I due hanno un budget di 300.000 euro. Chi tra Ida, Mariana e Gianluca riuscira' a conquistarli e a regalare il sogno della sauna a Carolina?</desc>
+  </programme>
+  <programme start="20251201154500 +0100" stop="20251201165000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S1E5</sub-title>
+    <desc lang="it">Maria, accompagnata dalla mamma Vittoria, sta cercando un trilocale a Milano. Chi tra Ida, Mariana e Gianluca riuscira' a soddisfare tutte le sue richieste?</desc>
+  </programme>
+  <programme start="20251201165000 +0100" stop="20251201175000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Abito da sposa cercasi</title>
+    <sub-title lang="it">S19E1 ║ Non diciamo sempre si'</sub-title>
+    <desc lang="it">Il Kleinfeld cambia e le spose sono tornate! Kendall aiuta sua sorella a trovare un abito e Randy deve essere onesto con qualcuno.</desc>
+  </programme>
+  <programme start="20251201175000 +0100" stop="20251201185000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Abito da sposa cercasi</title>
+    <sub-title lang="it">S19E2 ║ Guidata dal sentimento</sub-title>
+    <desc lang="it">Shaela e' cieca ma sa esattamente che tipo di abito vuole. Stacey e' in ritardo sulla scelta di un vestito straordinario per il ricevimento.</desc>
+  </programme>
+  <programme start="20251201185000 +0100" stop="20251201202500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Primo appuntamento</title>
+    <sub-title lang="it">S6E4</sub-title>
+    <desc lang="it">Dopo l'appuntamento disastroso della scorsa stagione Elisa torna nel ristorante di.</desc>
+  </programme>
+  <programme start="20251201202500 +0100" stop="20251201213000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S1E4</sub-title>
+    <desc lang="it">Conosciamo Ornella e Luca, marito e moglie che hanno il sogno di trasferire l'intera famiglia a Seregno. Chi tra Ida, Mariana e Gianluca riuscira' a conquistarli?</desc>
+  </programme>
+  <programme start="20251201213000 +0100" stop="20251201223000 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Casa a prima vista</title>
+    <sub-title lang="it">S7E1</sub-title>
+    <desc lang="it">Chi tra Blasco, Nadia e Corrado trovera' la casa perfetta sul litorale romano?</desc>
+  </programme>
+  <programme start="20251201223000 +0100" stop="20251201223500 +0100" channel="RealTimePlus1.it">
+    <title lang="it">Hercai - Amore e vendetta I riassunti - 1^TV</title>
+    <sub-title lang="it">S3E30</sub-title>
+    <desc lang="it">Ecco cosa e' accaduto nella puntata precedente a Reyyan e Miran in Hercai - Amore e vendetta.</desc>
+  </programme>
+  <programme start="20251125010000 +0100" stop="20251125024000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE Raw - 1^TV</title>
+    <sub-title lang="it">E125 ║ St</sub-title>
+    <desc lang="it">Maxxine Dupri sfida Becky Lynch per il Titolo Intercontinentale. Prosegue il The Last Time Is Now Tournament.</desc>
+  </programme>
+  <programme start="20251125024000 +0100" stop="20251125034500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S1E10 ║ Sotto assedio</sub-title>
+    <desc lang="it">Durante la vigilia di Capodanno, una lite domestica finisce in tragedia quando due poliziotti sono alle prese con un uomo armato. In Iowa, un inseguimento termina male.</desc>
+  </programme>
+  <programme start="20251125034500 +0100" stop="20251125045000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E1 ║ 90 minuti</sub-title>
+    <desc lang="it">Un agente partecipa a un inseguimento della polizia tra le pianure del Texas. La sua vita cambia per sempre quando si ritrova faccia a faccia con i sospettati armati.</desc>
+  </programme>
+  <programme start="20251125045000 +0100" stop="20251125054500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E3</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251125054500 +0100" stop="20251125063500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E5</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251125063500 +0100" stop="20251125070000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S2E3 ║ Lady fortuna</sub-title>
+    <desc lang="it">Gli acquirenti partecipano ad un'asta su alcune proprieta' a St. Paul, dove lanciano offerte su vari articoli, da pezzi di auto ad una bambola rara, fino al costume di una mascotte di hockey.</desc>
+  </programme>
+  <programme start="20251125070000 +0100" stop="20251125072500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S5E3 ║ Affare benedetto</sub-title>
+    <desc lang="it">A Quebec City, Mark e Billy vanno ad un'asta in chiesa: saranno 'benedetti'? Valerie acquista una valigia che contiene la macchina fotografica Kodak del Presidente Taft.</desc>
+  </programme>
+  <programme start="20251125072500 +0100" stop="20251125075000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S5E4 ║ Affari titanici</sub-title>
+    <desc lang="it">Ad Halifax, gli acquirenti sperano di trovare un tesoro sottomarino. Ma solo Mark riesce ad ottenere una placca vintage di una nave da guerra e un oggetto per sommozzatori.</desc>
+  </programme>
+  <programme start="20251125075000 +0100" stop="20251125085500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">A caccia di tesori</title>
+    <sub-title lang="it">S18E7 ║ La star della country music</sub-title>
+    <desc lang="it">Mike e Frank tornano alla ricerca di oggetti preziosi.</desc>
+  </programme>
+  <programme start="20251125085500 +0100" stop="20251125104500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S6E2 ║ Missione pericolosa</sub-title>
+    <desc lang="it">Una squadra mette alla prova un nuovo arrivato, ma le cose non vanno come sperato.</desc>
+  </programme>
+  <programme start="20251125104500 +0100" stop="20251125124500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S6E3</sub-title>
+    <desc lang="it">Rory e Oscar sono costretti a usare la trivellatrice del padre per la prima volta.</desc>
+  </programme>
+  <programme start="20251125124500 +0100" stop="20251125144500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Spagna</title>
+    <sub-title lang="it">S5E4</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti del Security and Customs Services ai confini spagnoli mentre affrontano la costante minaccia dello spaccio di droga, armi e di sospetti terroristi.</desc>
+  </programme>
+  <programme start="20251125144500 +0100" stop="20251125154500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari al buio - Texas</title>
+    <sub-title lang="it">S6E1</sub-title>
+    <desc lang="it">In Texas, gli acquirenti fanno affari con oggetti di magazzini abbandonati.</desc>
+  </programme>
+  <programme start="20251125154500 +0100" stop="20251125164000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari al buio - Texas</title>
+    <sub-title lang="it">S6E2</sub-title>
+    <desc lang="it">In Texas, gli acquirenti fanno affari con oggetti di magazzini abbandonati.</desc>
+  </programme>
+  <programme start="20251125164000 +0100" stop="20251125175500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari a tutti i costi</title>
+    <sub-title lang="it">S5E6</sub-title>
+    <desc lang="it">Un misterioso caravan dal potenziale esplosivo manda in delirio i compratori e le loro offerte. Brandon si occupa di alcuni oggetti per la boxe, ma Lori potrebbe arrabbiarsi molto per questa trattativa.</desc>
+  </programme>
+  <programme start="20251125175500 +0100" stop="20251125195500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S6E4</sub-title>
+    <desc lang="it">Alcuni team di intrepidi cercatori di oro rischiano tutto per cercare l'oro e fare fortuna. Ma le insidie che dovranno affrontare saranno numerose.</desc>
+  </programme>
+  <programme start="20251125195500 +0100" stop="20251125210000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S6E9</sub-title>
+    <desc lang="it">Marcus e Linden devono confrontarsi con un rivale. I Gold Timers chiedono l'aiuto di un geologo e Robbie si infuria e va via dalla zona dei Ferals.</desc>
+  </programme>
+  <programme start="20251125210000 +0100" stop="20251125224000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Border Control: Nord Europa</title>
+    <sub-title lang="it">S1E3 ║ Contenitore misterioso</sub-title>
+    <desc lang="it">Alex scopre un contenitore misterioso e sospetta ci sia della droga.</desc>
+  </programme>
+  <programme start="20251125224000 +0100" stop="20251125234000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Real TV: crimini di strada - 1^TV</title>
+    <sub-title lang="it">S1E4 ║ Senza via di fuga</sub-title>
+    <desc lang="it">Andrea Agresti analizza i crimini ripresi dalle telecamere e diventati virali. Manuel Spadaccini ci consiglia come comportarci in situazioni ad alto rischio.</desc>
+  </programme>
+  <programme start="20251125234000 +0100" stop="20251126005000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Real TV: crimini di strada</title>
+    <sub-title lang="it">S1E3 ║ Cattive intenzioni</sub-title>
+    <desc lang="it">Andrea Agresti analizza i crimini ripresi dalle telecamere e diventati virali. Manuel Spadaccini ci consiglia come comportarci in situazioni ad alto rischio.</desc>
+  </programme>
+  <programme start="20251126005000 +0100" stop="20251126010000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE Smackdown - 1^TV</title>
+    <sub-title lang="it">E125 ║ St</sub-title>
+    <desc lang="it">Le Superstar della WWE sbarcano su Dmax con i nuovi episodi di WWE Smackdown.</desc>
+  </programme>
+  <programme start="20251126010000 +0100" stop="20251126024000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE Smackdown - 1^TV</title>
+    <sub-title lang="it">E125 ║ St</sub-title>
+    <desc lang="it">Le Superstar della WWE sbarcano su Dmax con i nuovi episodi di WWE Smackdown.</desc>
+  </programme>
+  <programme start="20251126024000 +0100" stop="20251126034500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E2 ║ La morte</sub-title>
+    <desc lang="it">Gli agenti affrontano un sospettato. In Florida, un uomo che fugge nel bosco viene fermato. In Indiana, un uomo con una pistola lotta contro la polizia.</desc>
+  </programme>
+  <programme start="20251126034500 +0100" stop="20251126045000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E3 ║ Il coltello</sub-title>
+    <desc lang="it">Nello Utah, la polizia interviene dopo che una madre e i figli sono sfuggiti a un uomo armato di machete. In California un terapeuta viene aggredito da un suo ex paziente.</desc>
+  </programme>
+  <programme start="20251126045000 +0100" stop="20251126055000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E6</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251126055000 +0100" stop="20251126063000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E7</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251126063000 +0100" stop="20251126070000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E8</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251126070000 +0100" stop="20251126073000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S5E6 ║ I pegni</sub-title>
+    <desc lang="it">Il 'Principe dei Pegni' sta vendendo un sacco di oggetti antichi appartenenti ad una collezione personale. Mark, Billy o Valerie riusciranno a portare a casa un buon affare?</desc>
+  </programme>
+  <programme start="20251126073000 +0100" stop="20251126080000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S5E7 ║ Grande vendita</sub-title>
+    <desc lang="it">A Buckaroo, viene realizzato il numero di vendite piu' alto dell'anno. Gli acquirenti potrebbero trovare di tutto, da strumenti per la trivellazione petrolifera a preziosi oggetti d'arte.</desc>
+  </programme>
+  <programme start="20251126080000 +0100" stop="20251126090000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">A caccia di tesori</title>
+    <sub-title lang="it">S18E8 ║ Un centenario negozio di stampe</sub-title>
+    <desc lang="it">Mike e Frank tornano alla ricerca di oggetti preziosi.</desc>
+  </programme>
+  <programme start="20251126090000 +0100" stop="20251126110000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S6E4</sub-title>
+    <desc lang="it">Una squadra rischia la vita per effettuare delle operazioni sotto terra.</desc>
+  </programme>
+  <programme start="20251126110000 +0100" stop="20251126130000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S6E5</sub-title>
+    <desc lang="it">Il nuovo collaboratore dei Bushmen affronta un pericoloso primo giorno di lavoro.</desc>
+  </programme>
+  <programme start="20251126130000 +0100" stop="20251126150000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Spagna</title>
+    <sub-title lang="it">S5E5</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti del Security and Customs Services ai confini spagnoli mentre affrontano la costante minaccia dello spaccio di droga, armi e di sospetti terroristi.</desc>
+  </programme>
+  <programme start="20251126150000 +0100" stop="20251126155500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari al buio - Texas</title>
+    <sub-title lang="it">S6E3</sub-title>
+    <desc lang="it">In Texas, gli acquirenti fanno affari con oggetti di magazzini abbandonati.</desc>
+  </programme>
+  <programme start="20251126155500 +0100" stop="20251126165000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari al buio - Texas</title>
+    <sub-title lang="it">S6E4</sub-title>
+    <desc lang="it">In Texas, gli acquirenti fanno affari con oggetti di magazzini abbandonati.</desc>
+  </programme>
+  <programme start="20251126165000 +0100" stop="20251126174500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari a tutti i costi</title>
+    <sub-title lang="it">S1E1 ║ Sanguinosa battaglia</sub-title>
+    <desc lang="it">Gli acquirenti fanno fatica ad avvicinarsi ad un container che emana un terribile odore, ma un articolo prezioso cattura l'attenzione di Brandi. Inoltre, sale la tensione tra Brandon e Jesse.</desc>
+  </programme>
+  <programme start="20251126174500 +0100" stop="20251126184000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S6E10</sub-title>
+    <desc lang="it">La riserva d'acqua dei Dust Devils si esaurisce. Le piogge fermano una squadra.</desc>
+  </programme>
+  <programme start="20251126184000 +0100" stop="20251126203000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S6E6</sub-title>
+    <desc lang="it">Alcuni team di intrepidi cercatori di oro rischiano tutto per cercare l'oro e fare fortuna. Ma le insidie che dovranno affrontare saranno numerose.</desc>
+  </programme>
+  <programme start="20251126203000 +0100" stop="20251126222500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Border Control: Nord Europa</title>
+    <sub-title lang="it">S1E4 ║ La pistola</sub-title>
+    <desc lang="it">Una borsa emana un odore terribile. Inoltre, un cane trova una pistola.</desc>
+  </programme>
+  <programme start="20251126222500 +0100" stop="20251126232000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Quella pazza fattoria - 1^TV</title>
+    <sub-title lang="it">S4E5</sub-title>
+    <desc lang="it">I lavori alla fattoria procedono ma alcuni strani avvenimenti preoccupano Davide.</desc>
+  </programme>
+  <programme start="20251126232000 +0100" stop="20251127001500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Quella pazza fattoria</title>
+    <sub-title lang="it">S4E4 ║ Per fare un albero...anzi un parco</sub-title>
+    <desc lang="it">Se c'e' la necessita' di ritornare alla normalita', c'e' anche la voglia di nuovi progetti.</desc>
+  </programme>
+  <programme start="20251127001500 +0100" stop="20251127010000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE NXT - 1^TV</title>
+    <sub-title lang="it">E125 ║ St</sub-title>
+    <desc lang="it">Tatum Paxley difende il titolo femminile contro Jacy Jayne. Blake Monroe affronta Sol Ruca per il Titolo Nordamericano.</desc>
+  </programme>
+  <programme start="20251127010000 +0100" stop="20251127011000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE NXT - 1^TV</title>
+    <sub-title lang="it">E125 ║ St</sub-title>
+    <desc lang="it">Tatum Paxley difende il titolo femminile contro Jacy Jayne. Blake Monroe affronta Sol Ruca per il Titolo Nordamericano.</desc>
+  </programme>
+  <programme start="20251127011000 +0100" stop="20251127021000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E4 ║ Inseguiti</sub-title>
+    <desc lang="it">In Texas, la polizia tenta di fermare un uomo. In Florida, i poliziotti finiscono in una pericolosa palude durante un inseguimento e l'arresto si trasforma in un soccorso.</desc>
+  </programme>
+  <programme start="20251127021000 +0100" stop="20251127031000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E5 ║ Problemi domestici</sub-title>
+    <desc lang="it">Nello stato di New York, la vita di un poliziotto cambia per sempre quando interviene per una lite domestica. In Indiana, un agente tenta di fermare un sospettato.</desc>
+  </programme>
+  <programme start="20251127031000 +0100" stop="20251127040500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E6 ║ In bilico</sub-title>
+    <desc lang="it">In Arkansas, la polizia ferma un uomo armato di coltello. A Delray Beach, gli agenti salvano due bambini in bilico su un cornicione.</desc>
+  </programme>
+  <programme start="20251127040500 +0100" stop="20251127045500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E9</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251127045500 +0100" stop="20251127054500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E10</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251127054500 +0100" stop="20251127063500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E11</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251127063500 +0100" stop="20251127070000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S2E5 ║ Mike Tyson</sub-title>
+    <desc lang="it">Gli acquirenti arrivano ad un'asta di proprieta' a Jacksonville, in Florida. Tra le offerte, ci saranno degli oggetti da collezione della cultura pop e delle casse sigillate.</desc>
+  </programme>
+  <programme start="20251127070000 +0100" stop="20251127073000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S5E9 ║ Dal passato</sub-title>
+    <desc lang="it">In California, Mark e Billy capiscono cosa vuol dire fare affari e soldi a Hollywood. Intanto Valerie spera di fare il grande colpo, in pieno stile Costa Ovest!</desc>
+  </programme>
+  <programme start="20251127073000 +0100" stop="20251127080000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S5E10 ║ Eroe</sub-title>
+    <desc lang="it">A Long Island, New York, e' in arrivo una grande sorpresa che coinvolge Valerie. Nella sua citta' natale, Mark restera' un eroe o diventera' una nullita'?</desc>
+  </programme>
+  <programme start="20251127080000 +0100" stop="20251127090000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">A caccia di tesori</title>
+    <sub-title lang="it">S18E9 ║ La fattoria dei tesori!</sub-title>
+    <desc lang="it">Mike e Frank tornano alla ricerca di oggetti preziosi.</desc>
+  </programme>
+  <programme start="20251127090000 +0100" stop="20251127110000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S6E6</sub-title>
+    <desc lang="it">Una squadra investe in un nuovo terreno, ma mancano i soldi per l'attrezzatura.</desc>
+  </programme>
+  <programme start="20251127110000 +0100" stop="20251127130000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S6E7 ║ Potenziale investitore</sub-title>
+    <desc lang="it">Una squadra rischia di perdere un potenziale investitore a causa dei progressi scarsi.</desc>
+  </programme>
+  <programme start="20251127130000 +0100" stop="20251127150000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Spagna</title>
+    <sub-title lang="it">S6E1</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti del Security and Customs Services ai confini spagnoli mentre affrontano la costante minaccia dello spaccio di droga, armi e di sospetti terroristi.</desc>
+  </programme>
+  <programme start="20251127150000 +0100" stop="20251127155500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari al buio - Texas</title>
+    <sub-title lang="it">S6E5</sub-title>
+    <desc lang="it">In Texas, gli acquirenti fanno affari con oggetti di magazzini abbandonati.</desc>
+  </programme>
+  <programme start="20251127155500 +0100" stop="20251127165000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari al buio - Texas</title>
+    <sub-title lang="it">S6E6</sub-title>
+    <desc lang="it">In Texas, gli acquirenti fanno affari con oggetti di magazzini abbandonati.</desc>
+  </programme>
+  <programme start="20251127165000 +0100" stop="20251127174500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari a tutti i costi</title>
+    <sub-title lang="it">S1E2 ║ Guerra di soldi</sub-title>
+    <desc lang="it">Le squadre arrivano a Hollywood dove Brandon e Lori ottengono degli strumenti musicali e degli oggetti di grande valore. Inoltre, un'esplosione mette gli acquirenti in difficolta'.</desc>
+  </programme>
+  <programme start="20251127174500 +0100" stop="20251127193500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S6E7</sub-title>
+    <desc lang="it">Alcuni team di intrepidi cercatori di oro rischiano tutto per cercare l'oro e fare fortuna. Ma le insidie che dovranno affrontare saranno numerose.</desc>
+  </programme>
+  <programme start="20251127193500 +0100" stop="20251127203000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S6E15</sub-title>
+    <desc lang="it">Una squadra recluta un nuovo lavoratore. I Gold Timers vengono rallentati da una tempesta.</desc>
+  </programme>
+  <programme start="20251127203000 +0100" stop="20251127222500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Border Control: Nord Europa</title>
+    <sub-title lang="it">S1E5 ║ Contrabbando</sub-title>
+    <desc lang="it">Stefan ferma un guidatore ubriaco, mentre Alex scopre della cannabis.</desc>
+  </programme>
+  <programme start="20251127222500 +0100" stop="20251128001500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Metal Detecting: tesori sepolti - 1^TV</title>
+    <sub-title lang="it">S1E2</sub-title>
+    <desc lang="it">Alcuni gruppi usano i metal detector alla ricerca di oggetti preziosi.</desc>
+  </programme>
+  <programme start="20251128001500 +0100" stop="20251128010000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Per un pugno di gemme</title>
+    <sub-title lang="it">S3E3</sub-title>
+    <desc lang="it">Alcuni cacciatori di zaffiri lavorano in condizioni sempre piu' estreme.</desc>
+  </programme>
+  <programme start="20251128010000 +0100" stop="20251128020500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Per un pugno di gemme</title>
+    <sub-title lang="it">S3E3</sub-title>
+    <desc lang="it">Alcuni cacciatori di zaffiri lavorano in condizioni sempre piu' estreme.</desc>
+  </programme>
+  <programme start="20251128020500 +0100" stop="20251128031000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E7 ║ Uomo armato</sub-title>
+    <desc lang="it">In Arkansas, gli agenti restano bloccati da un uomo armato per quattro ore. La polizia del Wisconsin tenta di fermare un uomo nudo e armato di pistola.</desc>
+  </programme>
+  <programme start="20251128031000 +0100" stop="20251128040500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E8 ║ Aggressioni</sub-title>
+    <desc lang="it">Un agente dell'Ohio rischia la vita contro un sospettato. Un uomo del Wisconsin aggredisce i suoi colleghi: la polizia deve trovare un modo per fermarlo.</desc>
+  </programme>
+  <programme start="20251128040500 +0100" stop="20251128045500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E12</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251128045500 +0100" stop="20251128054500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E13</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251128054500 +0100" stop="20251128063500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S4E14</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti della Policia Nacional. Vedremo in azione varie unita' che lottano contro il crimine e tentano di far rispettare la legge, rischiando la vita ogni giorno.</desc>
+  </programme>
+  <programme start="20251128063500 +0100" stop="20251128070000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S2E6 ║ Capsula spaziale</sub-title>
+    <desc lang="it">Gli acquirenti partecipano ad un'asta governativa a Sacramento, in California. Mark Meyer riduce il profitto dei Martin con un'offerta al rialzo su un set di coltelli.</desc>
+  </programme>
+  <programme start="20251128070000 +0100" stop="20251128073000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S5E12 ║ Guadagni</sub-title>
+    <desc lang="it">La squadra e' nella capitale del Canada per partecipare ad un'asta di proprieta' immobiliari. Mark e' entusiasta di alcuni articoli militari. L'attenzione di Valerie e' su una cintura di castita'.</desc>
+  </programme>
+  <programme start="20251128073000 +0100" stop="20251128080000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S5E13 ║ New York City</sub-title>
+    <desc lang="it">La squadra arriva a un'asta a New York. I ragazzi credono di essere intoccabili, ma Valerie ha alcuni assi nella manica.</desc>
+  </programme>
+  <programme start="20251128080000 +0100" stop="20251128090000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">A caccia di tesori</title>
+    <sub-title lang="it">S18E10 ║ Hamburger Icon</sub-title>
+    <desc lang="it">Mike e Frank tornano alla ricerca di oggetti preziosi.</desc>
+  </programme>
+  <programme start="20251128090000 +0100" stop="20251128110000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S6E8 ║ Non e' come sembra</sub-title>
+    <desc lang="it">Una squadra e' convinta di essere sulla buona strada, ma non tutto e' come sembra.</desc>
+  </programme>
+  <programme start="20251128110000 +0100" stop="20251128130000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S6E9</sub-title>
+    <desc lang="it">Tornano i cacciatori piu' coraggiosi d'Australia per cercare gemme preziose.</desc>
+  </programme>
+  <programme start="20251128130000 +0100" stop="20251128150000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Spagna</title>
+    <sub-title lang="it">S6E2</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti del Security and Customs Services ai confini spagnoli mentre affrontano la costante minaccia dello spaccio di droga, armi e di sospetti terroristi.</desc>
+  </programme>
+  <programme start="20251128150000 +0100" stop="20251128155500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari al buio - Texas</title>
+    <sub-title lang="it">S6E7</sub-title>
+    <desc lang="it">In Texas, gli acquirenti fanno affari con oggetti di magazzini abbandonati.</desc>
+  </programme>
+  <programme start="20251128155500 +0100" stop="20251128165000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari al buio - Texas</title>
+    <sub-title lang="it">S6E8</sub-title>
+    <desc lang="it">In Texas, gli acquirenti fanno affari con oggetti di magazzini abbandonati.</desc>
+  </programme>
+  <programme start="20251128165000 +0100" stop="20251128174500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari a tutti i costi</title>
+    <sub-title lang="it">S1E3 ║ Nelle paludi</sub-title>
+    <desc lang="it">A New Orleans, Brandon e Lori finiscono per farsi la guerra su un deposito di liquori. Intanto, i fratelli Taylor usano l'intimidazione per lottare e ottenere qualcosa.</desc>
+  </programme>
+  <programme start="20251128174500 +0100" stop="20251128184000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S6E16</sub-title>
+    <desc lang="it">Un confronto potrebbe causare problemi. I Dust Devils fanno una scommessa rischiosa.</desc>
+  </programme>
+  <programme start="20251128184000 +0100" stop="20251128203000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S6E9</sub-title>
+    <desc lang="it">Alcuni team di intrepidi cercatori di oro rischiano tutto per cercare l'oro e fare fortuna. Ma le insidie che dovranno affrontare saranno numerose.</desc>
+  </programme>
+  <programme start="20251128203000 +0100" stop="20251128222500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Border Control: Nord Europa</title>
+    <sub-title lang="it">S1E6 ║ La verita'</sub-title>
+    <desc lang="it">Alex ferma un uomo che potrebbe trasportare droga e che non dice la verita'.</desc>
+  </programme>
+  <programme start="20251128222500 +0100" stop="20251128233000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Stop! Border Control: Roma Fiumicino - 1^TV</title>
+    <sub-title lang="it">S3E3</sub-title>
+    <desc lang="it">Scopriamo il lavoro degli agenti a Fiumicino.</desc>
+  </programme>
+  <programme start="20251128233000 +0100" stop="20251129003500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Stop! Border Control: Roma Fiumicino</title>
+    <sub-title lang="it">S3E2</sub-title>
+    <desc lang="it">Scopriamo il lavoro degli agenti a Fiumicino.</desc>
+  </programme>
+  <programme start="20251129003500 +0100" stop="20251129010000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Stati Uniti</title>
+    <sub-title lang="it">S1E5 ║ Vecchio computer</sub-title>
+    <desc lang="it">Gli agenti ispezionano un vecchio computer che contiene un segreto.</desc>
+  </programme>
+  <programme start="20251129010000 +0100" stop="20251129013000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Stati Uniti</title>
+    <sub-title lang="it">S1E5 ║ Vecchio computer</sub-title>
+    <desc lang="it">Gli agenti ispezionano un vecchio computer che contiene un segreto.</desc>
+  </programme>
+  <programme start="20251129013000 +0100" stop="20251129022500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Stati Uniti</title>
+    <sub-title lang="it">S1E6 ║ Carico illecito</sub-title>
+    <desc lang="it">Gli agenti indagano su un passeggero che tenta di trasportare un carico illecito.</desc>
+  </programme>
+  <programme start="20251129022500 +0100" stop="20251129031500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E9 ║ Armati e pericolosi</sub-title>
+    <desc lang="it">In California, la polizia affronta un bodybuilder armato di coltello. Inoltre, un criminale ricercato attira un agente in un sexy shop.</desc>
+  </programme>
+  <programme start="20251129031500 +0100" stop="20251129040500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Bodycam - Agenti in prima linea</title>
+    <sub-title lang="it">S2E10 ║ Rischio in volo</sub-title>
+    <desc lang="it">In Georgia, un presunto spacciatore tenta di lottare fino alla fine. In Ohio, gli agenti di polizia temono per le loro vite quando affrontano un uomo armato.</desc>
+  </programme>
+  <programme start="20251129040500 +0100" stop="20251129045500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S5E1</sub-title>
+    <desc lang="it">Gli agenti della Policia Nacional tentano di fermare le attivita' criminali, di mantenere l'ordine e inoltre rischiano la loro vita per aiutare il prossimo.</desc>
+  </programme>
+  <programme start="20251129045500 +0100" stop="20251129054500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S5E2</sub-title>
+    <desc lang="it">Gli agenti della Policia Nacional tentano di fermare le attivita' criminali, di mantenere l'ordine e inoltre rischiano la loro vita per aiutare il prossimo.</desc>
+  </programme>
+  <programme start="20251129054500 +0100" stop="20251129063500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cops Spagna</title>
+    <sub-title lang="it">S5E3</sub-title>
+    <desc lang="it">Gli agenti della Policia Nacional tentano di fermare le attivita' criminali, di mantenere l'ordine e inoltre rischiano la loro vita per aiutare il prossimo.</desc>
+  </programme>
+  <programme start="20251129063500 +0100" stop="20251129070000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S2E7 ║ Doppia faccia</sub-title>
+    <desc lang="it">Gli acquirenti partecipano ad un'asta organizzata dalla polizia a Stockton, in California. Uno degli 'specialisti' scopre lo stampo per una maschera di una famosa icona di Hollywood.</desc>
+  </programme>
+  <programme start="20251129070000 +0100" stop="20251129072500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E11 ║ Corvette del '68</sub-title>
+    <desc lang="it">I ragazzi si preparano allo scontro contro un ex-impiegato per aggiudicarsi una Corvette del 1968. Allen testa le sue abilita' con un'antica arma ninja.</desc>
+  </programme>
+  <programme start="20251129072500 +0100" stop="20251129075000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E12 ║ Affari con Big Sis</sub-title>
+    <desc lang="it">Allen e Ton sono ad Hollywood per acquistare qualcosa da esporre nel loro negozio. I ragazzi portano con loro per la prima volta anche Big Sis ed Allen viene 'colpito' da una pistola da difesa.</desc>
+  </programme>
+  <programme start="20251129075000 +0100" stop="20251129082000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E13 ║ Abbandonare la nave</sub-title>
+    <desc lang="it">La pressione per la gestione del negozio inizia ad avere degli effetti negativi sui ragazzi e Ton decide di abbandonare la nave e lasciare la citta'. Come reagira' Allen?</desc>
+  </programme>
+  <programme start="20251129082000 +0100" stop="20251129084500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E14 ║ Separazione</sub-title>
+    <desc lang="it">Ton e' ancora assente e Allen porta Elle alla sua prima asta. I pezzi di alcune moto vintage potrebbero non essere sufficienti per risollevare le sorti della giornata e l'assenza di Ton si fa sentire.</desc>
+  </programme>
+  <programme start="20251129084500 +0100" stop="20251129091500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E15 ║ Allen vs. Ton</sub-title>
+    <desc lang="it">Allen e Ton arrivano ad un'asta separatamente, ma un nemico comune potrebbe spingerli ad unire le loro forze. La scoperta di alcuni go-kart li fara' tornare insieme?</desc>
+  </programme>
+  <programme start="20251129091500 +0100" stop="20251129094000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E16 ║ Ben ti sta!</sub-title>
+    <desc lang="it">Ton e Allen partecipano a un'asta mentre gli impiegati del negozio organizzano un evento. Entrambe le iniziative sono un fallimento e i ragazzi finiscono in un mercatino delle pulci. Faranno affari?</desc>
+  </programme>
+  <programme start="20251129094000 +0100" stop="20251129100500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E17 ║ Senza paracadute</sub-title>
+    <desc lang="it">Le cose si mettono male quando appare il proprietario del negozio. Ton tenta di mediare con lui, mentre Allen si occupa di testare un paracadute sperimentale.</desc>
+  </programme>
+  <programme start="20251129100500 +0100" stop="20251129103500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E18 ║ A Santa Barbara</sub-title>
+    <desc lang="it">La proprietaria di un negozio fa di tutto per evitare che Ton e Allen acquistino nuovi oggetti a Santa Barbara. Inoltre, i ragazzi scoprono una barca di legno vintage.</desc>
+  </programme>
+  <programme start="20251129103500 +0100" stop="20251129110000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E19 ║ Il biliardino</sub-title>
+    <desc lang="it">Quando il loro camion si rompe, Ton e Allen rischiano tutto pur di trovare i soldi per sistemarlo. I due recuperano un biliardino, tre caricatori Thompson e diversi Twinkies.</desc>
+  </programme>
+  <programme start="20251129110000 +0100" stop="20251129113000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affare fatto</title>
+    <sub-title lang="it">S4E20 ║ Lo scontro</sub-title>
+    <desc lang="it">I ragazzi si confrontano con un ex impiegato. Un set di gomme per enormi tir e una scatola misteriosa rappresentano la loro ultima possibilita' per ottenere la vittoria.</desc>
+  </programme>
+  <programme start="20251129113000 +0100" stop="20251129133000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE Raw</title>
+    <sub-title lang="it">E125 ║ St</sub-title>
+    <desc lang="it">Maxxine Dupri sfida Becky Lynch per il Titolo Intercontinentale. Prosegue il The Last Time Is Now Tournament.</desc>
+  </programme>
+  <programme start="20251129133000 +0100" stop="20251129143000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE NXT</title>
+    <sub-title lang="it">E125 ║ St</sub-title>
+    <desc lang="it">Tatum Paxley difende il titolo femminile contro Jacy Jayne. Blake Monroe affronta Sol Ruca per il Titolo Nordamericano.</desc>
+  </programme>
+  <programme start="20251129143000 +0100" stop="20251129153000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Real Crash TV</title>
+    <sub-title lang="it">S5E9</sub-title>
+    <desc lang="it">Osserviamo scene assurde alla guida grazie alle immagini delle telecamere.</desc>
+  </programme>
+  <programme start="20251129153000 +0100" stop="20251129163000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Real Crash TV</title>
+    <sub-title lang="it">S4E9</sub-title>
+    <desc lang="it">Osserviamo scene assurde alla guida grazie alle immagini delle telecamere.</desc>
+  </programme>
+  <programme start="20251129163000 +0100" stop="20251129173000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Filthy Fortunes - 1^TV</title>
+    <sub-title lang="it">S1E6 ║ Preziosa collezione</sub-title>
+    <desc lang="it">La squadra si occupa di una collezione di marmi dal valore di 60.000 dollari.</desc>
+  </programme>
+  <programme start="20251129173000 +0100" stop="20251129183000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari d'oro</title>
+    <sub-title lang="it">S2E9 ║ Circolo Polare</sub-title>
+    <desc lang="it">A Tankavaara, i cercatori d'oro hanno finalmente a disposizione diversi strumenti.</desc>
+  </programme>
+  <programme start="20251129183000 +0100" stop="20251129193000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari d'oro</title>
+    <sub-title lang="it">S2E9 ║ Circolo Polare</sub-title>
+    <desc lang="it">A Tankavaara, i cercatori d'oro hanno finalmente a disposizione diversi strumenti.</desc>
+  </programme>
+  <programme start="20251129193000 +0100" stop="20251129203000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari d'oro</title>
+    <sub-title lang="it">S2E9 ║ Circolo Polare</sub-title>
+    <desc lang="it">A Tankavaara, i cercatori d'oro hanno finalmente a disposizione diversi strumenti.</desc>
+  </programme>
+  <programme start="20251129203000 +0100" stop="20251129213000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari d'oro</title>
+    <sub-title lang="it">S2E9 ║ Circolo Polare</sub-title>
+    <desc lang="it">A Tankavaara, i cercatori d'oro hanno finalmente a disposizione diversi strumenti.</desc>
+  </programme>
+  <programme start="20251129213000 +0100" stop="20251129222500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari d'oro</title>
+    <sub-title lang="it">S2E9 ║ Circolo Polare</sub-title>
+    <desc lang="it">A Tankavaara, i cercatori d'oro hanno finalmente a disposizione diversi strumenti.</desc>
+  </programme>
+  <programme start="20251129222500 +0100" stop="20251130001500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Falegnami ad alta quota</title>
+    <sub-title lang="it">S3E3</sub-title>
+    <desc lang="it">Paolo e' in bali'a di un progetto artistico fuori dalle sue corde.</desc>
+  </programme>
+  <programme start="20251130001500 +0100" stop="20251130010000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE Raw - 1^TV</title>
+    <sub-title lang="it">E126 ║ St</sub-title>
+    <desc lang="it">Le Superstar della WWE sbarcano su Dmax con i nuovi episodi di WWE Raw.</desc>
+  </programme>
+  <programme start="20251130010000 +0100" stop="20251130020500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE Raw - 1^TV</title>
+    <sub-title lang="it">E126 ║ St</sub-title>
+    <desc lang="it">Le Superstar della WWE sbarcano su Dmax con i nuovi episodi di WWE Raw.</desc>
+  </programme>
+  <programme start="20251130020500 +0100" stop="20251130030000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Cacciatori di fantasmi</title>
+    <sub-title lang="it">S15E4 ║ A scuola</sub-title>
+    <desc lang="it">La squadra indaga su una misteriosa scuola a Deming, nel Nuovo Messico. La struttura e' situata in un luogo infestato dagli spiriti degli Apache.</desc>
+  </programme>
+  <programme start="20251130030000 +0100" stop="20251130035500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Mountain Monsters</title>
+    <sub-title lang="it">S5E6 ║ Coyote assassino</sub-title>
+    <desc lang="it">La squadra continua a indagare ma capisce di essere su un terreno pericoloso quando scopre diversi cadaveri di coyote.</desc>
+  </programme>
+  <programme start="20251130035500 +0100" stop="20251130045000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Mountain Monsters</title>
+    <sub-title lang="it">S5E7 ║ L'ira</sub-title>
+    <desc lang="it">La squadra fa una scoperta legata agli anni '70 e trova un indizio, inciso su una pietra, che il leader Trapper ha lasciato per loro nella Tygart Valley.</desc>
+  </programme>
+  <programme start="20251130045000 +0100" stop="20251130063500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Mountain Monsters</title>
+    <sub-title lang="it">S5E8 ║ I lupi</sub-title>
+    <desc lang="it">La squadra tenta di capire cosa accade nella valle. Intanto, Willy ha incontrato un mostro e ha fatto una scoperta scioccante.</desc>
+  </programme>
+  <programme start="20251130063500 +0100" stop="20251130070000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E4 ║ La guerra dell'oro</sub-title>
+    <desc lang="it">Una nonna minaccia Seth con un fucile quando scopre che la sua pelliccia e' strappata. Les si occupa di una distributrice vintage di cicche da masticare e di una 'seducente' vendita d'oro.</desc>
+  </programme>
+  <programme start="20251130070000 +0100" stop="20251130072500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E1 ║ Lavoro matto</sub-title>
+    <desc lang="it">Un cliente mette alla prova la pazienza dello staff con una dimostrazione di oggetti inutili. Ma quando propone un'edizione limitata di auto sportive, gli occhi di Rick si illuminano.</desc>
+  </programme>
+  <programme start="20251130072500 +0100" stop="20251130075000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E2 ║ Rabbia</sub-title>
+    <desc lang="it">Ashley si intromette in un'accesa trattativa facendo infuriare terribilmente Les. Intanto, lo stesso Les e' tentato da una Hot Rod vintage che costa un bel po'...</desc>
+  </programme>
+  <programme start="20251130075000 +0100" stop="20251130082000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E3 ║ Il test</sub-title>
+    <desc lang="it">Un cliente vuole vendere una pelliccia sostenendo che sia fatta con il pelo di una rara scimmia. Intanto, Les lancia una sfida e Seth e' costretto a dimostrare le sue capacita'.</desc>
+  </programme>
+  <programme start="20251130082000 +0100" stop="20251130084500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E4 ║ La guerra dell'oro</sub-title>
+    <desc lang="it">Una nonna minaccia Seth con un fucile quando scopre che la sua pelliccia e' strappata. Les si occupa di una distributrice vintage di cicche da masticare e di una 'seducente' vendita d'oro.</desc>
+  </programme>
+  <programme start="20251130084500 +0100" stop="20251130091500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E5 ║ Faida familiare</sub-title>
+    <desc lang="it">Un cliente si tira indietro su un costoso oggetto di gioielleria. Intanto, la differenza di opinioni tra Les e Seth causa una vera e propria faida familiare.</desc>
+  </programme>
+  <programme start="20251130091500 +0100" stop="20251130094000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E6 ║ Sangue amaro</sub-title>
+    <desc lang="it">Les e Seth si infuriano quando un impiegato sfascia un televisore a schermo piatto. In seguito, Ashley critica Seth di fronte allo staff su come ha gestito l'intera faccenda.</desc>
+  </programme>
+  <programme start="20251130094000 +0100" stop="20251130100500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E7 ║ La vendetta di Les</sub-title>
+    <desc lang="it">Les esige vendetta quando Seth spende il denaro del negozio su un acquisto impulsivo. In seguito Les apre il portafogli quando un ragazzo porta un raro pezzo della storia di Detroit.</desc>
+  </programme>
+  <programme start="20251130100500 +0100" stop="20251130103500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E8 ║ Allarme rosso</sub-title>
+    <desc lang="it">Les si infuria con Ashley quando il suo comportamento gli fa perdere un grosso cliente. Inoltre, c'e' tensione in negozio quando un mago della truffa raggira un cliente rubandogli i soldi.</desc>
+  </programme>
+  <programme start="20251130103500 +0100" stop="20251130110000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E9 ║ Rivalita'</sub-title>
+    <desc lang="it">L'accesa rivalita' fra Seth e Ashley raggiunge il punto massimo: lo staff e' sconvolto. Intanto, un oggetto vintage di un collezionista suscita una vivace negoziazione.</desc>
+  </programme>
+  <programme start="20251130110000 +0100" stop="20251130113000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Banco dei pugni</title>
+    <sub-title lang="it">S3E10 ║ I modi di Les</sub-title>
+    <desc lang="it">Tutto viene messo in discussione quando Seth mette in cattiva luce Les di fronte allo staff. Les da' battaglia a Seth su una difficile decisione economica: chi la spuntera'?</desc>
+  </programme>
+  <programme start="20251130113000 +0100" stop="20251130133000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE Smackdown</title>
+    <sub-title lang="it">E125 ║ St</sub-title>
+    <desc lang="it">Le Superstar della WWE sbarcano su Dmax con i nuovi episodi di WWE Smackdown.</desc>
+  </programme>
+  <programme start="20251130133000 +0100" stop="20251130143000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Falegnami ad alta quota</title>
+    <sub-title lang="it">S4E5 ║ Lost in Translation</sub-title>
+    <desc lang="it">I Curzel vengono coinvolti nella ristrutturazione di un nuovo rifugio al confine con l'Austria.</desc>
+  </programme>
+  <programme start="20251130143000 +0100" stop="20251130153000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Falegnami ad alta quota</title>
+    <sub-title lang="it">S4E6 ║ Dall'Austria al Garda</sub-title>
+    <desc lang="it">Giovanni affronta imprevisti al rifugio Tribulaun. Paolo trascina Germano al rifugio Chierego.</desc>
+  </programme>
+  <programme start="20251130153000 +0100" stop="20251130173000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Vado a vivere nel bosco</title>
+    <sub-title lang="it">S6E6 ║ Tra due vulcani</sub-title>
+    <desc lang="it">Una famiglia hawaiana cerca di stabilirsi tra due vulcani attivi.</desc>
+  </programme>
+  <programme start="20251130173000 +0100" stop="20251130183000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Vado a vivere nel bosco</title>
+    <sub-title lang="it">S3E6 ║ Decontaminazione</sub-title>
+    <desc lang="it">I Raney aiutano una coppia dell'Oregon con un pozzo di acqua salata tossica. Marty costruisce un laghetto e Matt lavora su un dissalatore a energia solare.</desc>
+  </programme>
+  <programme start="20251130183000 +0100" stop="20251130203000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Vado a vivere nel bosco</title>
+    <sub-title lang="it">S6E6 ║ Tra due vulcani</sub-title>
+    <desc lang="it">Una famiglia hawaiana cerca di stabilirsi tra due vulcani attivi.</desc>
+  </programme>
+  <programme start="20251130203000 +0100" stop="20251130213000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">L'Eldorado della droga: viaggio in USA</title>
+    <sub-title lang="it">S3E12</sub-title>
+    <desc lang="it">Gli agenti devono fermare i contrabbandieri e i trafficanti di droga.</desc>
+  </programme>
+  <programme start="20251130213000 +0100" stop="20251130222500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">L'Eldorado della droga: viaggio in USA</title>
+    <sub-title lang="it">S3E12</sub-title>
+    <desc lang="it">Gli agenti devono fermare i contrabbandieri e i trafficanti di droga.</desc>
+  </programme>
+  <programme start="20251130222500 +0100" stop="20251130232000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Stati Uniti - 1^TV</title>
+    <sub-title lang="it">S1E7 ║ Carico di marijuana</sub-title>
+    <desc lang="it">Gli agenti bloccano un carico di marijuana e si occupano di uno strano personaggio.</desc>
+  </programme>
+  <programme start="20251130232000 +0100" stop="20251201001500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Stati Uniti</title>
+    <sub-title lang="it">S1E6 ║ Carico illecito</sub-title>
+    <desc lang="it">Gli agenti indagano su un passeggero che tenta di trasportare un carico illecito.</desc>
+  </programme>
+  <programme start="20251201001500 +0100" stop="20251201010000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE Smackdown - 1^TV</title>
+    <sub-title lang="it">E126 ║ St</sub-title>
+    <desc lang="it">Le Superstar della WWE sbarcano su Dmax con i nuovi episodi di WWE Smackdown.</desc>
+  </programme>
+  <programme start="20251201010000 +0100" stop="20251201021000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">WWE Smackdown - 1^TV</title>
+    <sub-title lang="it">E126 ║ St</sub-title>
+    <desc lang="it">Le Superstar della WWE sbarcano su Dmax con i nuovi episodi di WWE Smackdown.</desc>
+  </programme>
+  <programme start="20251201021000 +0100" stop="20251201031000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Ce l'avevo quasi fatta</title>
+    <sub-title lang="it">S5E5 ║ Con la mia famiglia</sub-title>
+    <desc lang="it">Un quadruplo omicidio sconvolge una piccola citta' nel Wyoming; perche' il 15enne James Wiley ha ucciso sua madre e i tre fratelli e come e' riuscito a fuggire di prigione?</desc>
+  </programme>
+  <programme start="20251201031000 +0100" stop="20251201040500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Ce l'avevo quasi fatta</title>
+    <sub-title lang="it">S5E6 ║ Rapina in vacanza</sub-title>
+    <desc lang="it">William e' costretto a rubare per aiutare la sua fidanzata e la figlia, usando un diversivo per evitare sospetti. Come ha fatto la loro rapina a finire in un omicidio?</desc>
+  </programme>
+  <programme start="20251201040500 +0100" stop="20251201045500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Ce l'avevo quasi fatta</title>
+    <sub-title lang="it">S5E7 ║ Verso la Costa Rica</sub-title>
+    <desc lang="it">Di giorno, Harden e' un agente assicuratore; di notte, l'uomo ruba la coca per acquistare altra droga. Quanto oltre si spingera' per proteggere la sua doppia vita?</desc>
+  </programme>
+  <programme start="20251201045500 +0100" stop="20251201054500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Ce l'avevo quasi fatta</title>
+    <sub-title lang="it">S5E8 ║ Terrore a Miami</sub-title>
+    <desc lang="it">Una giovane donna terrorizza Miami e quando uccide due turisti, il panico aumenta in citta'. I poliziotti riusciranno a fermare Patsy Jones prima che uccida ancora?</desc>
+  </programme>
+  <programme start="20251201054500 +0100" stop="20251201063500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Ce l'avevo quasi fatta</title>
+    <sub-title lang="it">S5E9 ║ Omicidi</sub-title>
+    <desc lang="it">Un uomo uccide la sua fidanzata e il suo bambino per poi affermare che i due sono scomparsi. Il killer fugge con una nuova ragazza. Verra' catturato prima che possa uccidere ancora?</desc>
+  </programme>
+  <programme start="20251201063500 +0100" stop="20251201070000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S5E8 ║ Acquisti</sub-title>
+    <desc lang="it">C'e' solo un boss all'asta di Concord: Jim Saturley. Gli acquirenti partecipano alle sue aste da oltre 20 anni. Billy, Valerie e Mark si ambienteranno subito!</desc>
+  </programme>
+  <programme start="20251201070000 +0100" stop="20251201073000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S1E2 ║ Londra</sub-title>
+    <desc lang="it">Ogni anno, negli aeroporti londinesi vengono smarriti circa 500 mila bagagli. Dopo sei mesi, vengono venduti al miglior offerente. Mark, Billy, Laurence e Sally riusciranno ad aggiudicarseli?</desc>
+  </programme>
+  <programme start="20251201073000 +0100" stop="20251201080000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari in valigia</title>
+    <sub-title lang="it">S1E3 ║ Indianapolis</sub-title>
+    <desc lang="it">Mark, Billy, Laurence e Sally arrivano in un hangar dell'aeroporto di Indianapolis. Dovranno lottare con la gente del luogo per assicurarsi bagagli smarriti, cimeli antichi e oggetti sportivi.</desc>
+  </programme>
+  <programme start="20251201080000 +0100" stop="20251201090000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">A caccia di tesori</title>
+    <sub-title lang="it">S18E11 ║ Relique da parco dei divertimenti</sub-title>
+    <desc lang="it">Mike e Frank tornano alla ricerca di oggetti preziosi.</desc>
+  </programme>
+  <programme start="20251201090000 +0100" stop="20251201110000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S6E10</sub-title>
+    <desc lang="it">Tornano i cacciatori piu' coraggiosi d'Australia per cercare gemme preziose.</desc>
+  </programme>
+  <programme start="20251201110000 +0100" stop="20251201130000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Predatori di gemme</title>
+    <sub-title lang="it">S7E1</sub-title>
+    <desc lang="it">Tornano i cacciatori piu' coraggiosi d'Australia per cercare gemme preziose.</desc>
+  </programme>
+  <programme start="20251201130000 +0100" stop="20251201150000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Airport Security: Spagna</title>
+    <sub-title lang="it">S6E3</sub-title>
+    <desc lang="it">Seguiamo il lavoro degli agenti del Security and Customs Services ai confini spagnoli mentre affrontano la costante minaccia dello spaccio di droga, armi e di sospetti terroristi.</desc>
+  </programme>
+  <programme start="20251201150000 +0100" stop="20251201155000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari a tutti i costi</title>
+    <sub-title lang="it">S2E1</sub-title>
+    <desc lang="it">I nuovi arrivati Scott e Chrissy tentano di conquistare il territorio di Brandon e Lori, costringendo la coppia a spendere molti soldi. In seguito, un set di pallet scatenera' una dura competizione.</desc>
+  </programme>
+  <programme start="20251201155000 +0100" stop="20251201164000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari a tutti i costi</title>
+    <sub-title lang="it">S2E2</sub-title>
+    <desc lang="it">Alcuni nemici abbassano la guardia per combattere uniti una nuova minaccia. Inoltre, c'e' una sorta di ritorno al futuro quando Desert Dan si affida ad una sua impressione e rischia tutto su uno pneumatico.</desc>
+  </programme>
+  <programme start="20251201164000 +0100" stop="20251201175000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Affari al buio Miami</title>
+    <sub-title lang="it">S1E1</sub-title>
+    <desc lang="it">I cacciatori d'aste vanno alla ricerca di oggetti a Miami.</desc>
+  </programme>
+  <programme start="20251201175000 +0100" stop="20251201193500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S6E10</sub-title>
+    <desc lang="it">Alcuni team di intrepidi cercatori di oro rischiano tutto per cercare l'oro e fare fortuna. Ma le insidie che dovranno affrontare saranno numerose.</desc>
+  </programme>
+  <programme start="20251201193500 +0100" stop="20251201203000 +0100" channel="DMAXPlus1.it">
+    <title lang="it">I pionieri dell'oro</title>
+    <sub-title lang="it">S7E1</sub-title>
+    <desc lang="it">Jacqui ed Andrew incontrano un coccodrillo lungo le sponde del fiume Palmer. Inoltre, i Feral attraversano Jarman Island per effettuare delle ricerche su un terreno.</desc>
+  </programme>
+  <programme start="20251201203000 +0100" stop="20251201222500 +0100" channel="DMAXPlus1.it">
+    <title lang="it">Border Control: Nord Europa</title>
+    <sub-title lang="it">S1E7 ║ Cibi proibiti</sub-title>
+    <desc lang="it">Tomas sospetta che una coppia stia trasportando cibo e scopre un'enorme quantita' di carne.</desc>
+  </programme>
+</tv>
