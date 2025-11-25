@@ -49,7 +49,11 @@ plus1_map = {
     "SkyCinemaDrama.it": "Sky Cinema Drama +1",
     "SkyCinemaRomance.it": "Sky Cinema Romance +1",
     "SkyCinemaSuspense.it": "Sky Cinema Suspense +1",
-    "20Mediaset.it": "Mediaset 20 +1"
+    "20Mediaset.it": "Mediaset 20 +1",
+    "FoodNetwork.it": "Food Network +1",
+    "TwentySeven.it": "Twenty Seven +1",
+    "Rai5.it": "Rai 5 +1",
+    "Rai4.it": "Rai 4 +1"
 }
 
 # ------------------------------------------
