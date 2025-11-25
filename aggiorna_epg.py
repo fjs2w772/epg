@@ -53,7 +53,8 @@ plus1_map = {
     "FoodNetwork.it": "Food Network +1",
     "TwentySeven.it": "Twenty Seven +1",
     "Rai5.it": "Rai 5 +1",
-    "Rai4.it": "Rai 4 +1"
+    "Rai4.it": "Rai 4 +1",
+    "Tv8.it": "TV8 +1"
 }
 
 # ------------------------------------------
