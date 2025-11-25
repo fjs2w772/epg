@@ -14,7 +14,7 @@ feeds = {
 }
 
 # ------------------------------------------
-#  RINOMINE CANALI
+#  RINOMINE CANALI (come concordato)
 # ------------------------------------------
 
 rename_map = {
@@ -31,12 +31,12 @@ rename_map = {
 }
 
 # ------------------------------------------
-#  CANALI +1 DA CREARE
+#  CANALI PER I QUALI CREARE VERSIONE +1
 # ------------------------------------------
 
 plus1_map = {
-    "Italia1.it": "Italia 1 +1",
-    "La7.it": "La 7 +1",
+    "Italia1.it": "Italia 1 +1 HD",
+    "La7.it": "La 7 +1 HD",
     "Cielo.it": "Cielo +1",
     "Giallo.it": "Giallo +1",
     "Cine34.it": "Cine 34 +1",
@@ -54,44 +54,26 @@ plus1_map = {
     "TwentySeven.it": "Twenty Seven +1",
     "Rai5.it": "Rai 5 +1",
     "Rai4.it": "Rai 4 +1",
-    "Tv8.it": "TV8 +1",
-    "DMAX.it": "DMAX +1"
+    "Tv8.it": "TV8 +1"
 }
 
 # ------------------------------------------
-#  FORZATURA DISPLAY-NAME PER ASSOCIAZIONE TIVIMATE
+#  ECCEZIONI PER XTREAM CODES
+# (usano lo stesso id del canale base!)
 # ------------------------------------------
 
-forced_displaynames = {
-    "Italia1.it.plus1": [
-        "Italia 1 + 1 HD",
-        "Italia 1 +1 HD",
-        "Italia 1 +1",
-        "Italia1 +1",
-        "Italia1 + 1"
-    ],
-
-    "La7.it.plus1": [
-        "La 7 + 1 HD",
-        "La 7 +1 HD",
-        "La 7 +1",
-        "La7 +1",
-        "La7 + 1",
-        "LA 7 + 1"
-    ]
+xtream_same_id_plus1 = {
+    "Italia1.it": "Italia 1 +1 HD",
+    "La7.it": "La 7 +1 HD"
 }
 
 # ------------------------------------------
-#  CREAZIONE STRUTTURA XML COMBINATA
+#  CREAZIONE XML COMBINATO
 # ------------------------------------------
 
 root_combined = ET.Element("tv")
 seen_channels = set()
 seen_programmes = set()
-
-# ------------------------------------------
-#  FUNZIONE: FORMATTARE XML
-# ------------------------------------------
 
 def indent(elem, level=0):
     i = "\n" + level * "  "
@@ -106,7 +88,7 @@ def indent(elem, level=0):
         elem.tail = i
 
 # ------------------------------------------
-#  SCARICO E PROCESSO I FEED ORIGINALI
+#  ELABORAZIONE FEED
 # ------------------------------------------
 
 for name, url in feeds.items():
@@ -116,65 +98,52 @@ for name, url in feeds.items():
     xml_data = lzma.decompress(resp.content)
     feed_root = ET.fromstring(xml_data)
 
-    # CHANNELS
+    # CANALI ORIGINALI
     for ch in feed_root.findall("channel"):
         cid = ch.attrib["id"]
 
-        # RINOMINA
+        # RINOMINA CANALI
         if cid in rename_map:
             for dn in ch.findall("display-name"):
                 dn.text = rename_map[cid]
-
-        # FORZA ALIAS PER TIVIMATE
-        if cid in forced_displaynames:
-            for alias in forced_displaynames[cid]:
-                dn_alias = ET.SubElement(ch, "display-name")
-                dn_alias.text = alias
 
         if cid not in seen_channels:
             root_combined.append(ch)
             seen_channels.add(cid)
 
-        # AGGIUNTA CANALI +1
-        if cid in plus1_map:
+        # CREAZIONE +1 — CASO NORMALE
+        if cid in plus1_map and cid not in xtream_same_id_plus1:
             new_id = cid + ".plus1"
-
             if new_id not in seen_channels:
                 plus_ch = ET.Element("channel", id=new_id)
-
-                dn0 = ET.SubElement(plus_ch, "display-name")
-                dn0.text = plus1_map[cid]
-
-                dn1 = ET.SubElement(plus_ch, "display-name", lang="it")
-                dn1.text = plus1_map[cid]
-
-                dn2 = ET.SubElement(plus_ch, "display-name", lang="en")
-                dn2.text = plus1_map[cid]
-
-                # AGGIUNTA ALIAS SE PRESENTI
-                if new_id in forced_displaynames:
-                    for alias in forced_displaynames[new_id]:
-                        dna = ET.SubElement(plus_ch, "display-name")
-                        dna.text = alias
-
+                dn = ET.SubElement(plus_ch, "display-name")
+                dn.text = plus1_map[cid]
                 root_combined.append(plus_ch)
                 seen_channels.add(new_id)
 
+        # CREAZIONE +1 — CASO XTREAM (STESSO ID)
+        if cid in xtream_same_id_plus1:
+            new_id = cid  # stesso id!
+            alias_name = xtream_same_id_plus1[cid]
+
+            plus_ch = ET.Element("channel", id=new_id)
+            dn = ET.SubElement(plus_ch, "display-name")
+            dn.text = alias_name
+
+            root_combined.append(plus_ch)
+
     # PROGRAMMI
     for pr in feed_root.findall("programme"):
-        key = (
-            pr.attrib["start"],
-            pr.attrib["stop"],
-            pr.attrib["channel"]
-        )
+        key = (pr.attrib["start"], pr.attrib["stop"], pr.attrib["channel"])
 
         if key not in seen_programmes:
             root_combined.append(pr)
             seen_programmes.add(key)
 
         cid = pr.attrib["channel"]
-        if cid in plus1_map:
 
+        # CREAZIONE PROGRAMMI +1 NORMALI
+        if cid in plus1_map and cid not in xtream_same_id_plus1:
             fmt = "%Y%m%d%H%M%S %z"
             start = datetime.strptime(pr.attrib["start"], fmt) + timedelta(hours=1)
             stop = datetime.strptime(pr.attrib["stop"], fmt) + timedelta(hours=1)
@@ -192,12 +161,30 @@ for name, url in feeds.items():
 
             root_combined.append(new_pr)
 
+        # CREAZIONE PROGRAMMI +1 XTREAM (STESSO ID)
+        if cid in xtream_same_id_plus1:
+            fmt = "%Y%m%d%H%M%S %z"
+            start = datetime.strptime(pr.attrib["start"], fmt) + timedelta(hours=1)
+            stop = datetime.strptime(pr.attrib["stop"], fmt) + timedelta(hours=1)
+
+            new_pr = ET.Element(
+                "programme",
+                start=start.strftime(fmt),
+                stop=stop.strftime(fmt),
+                channel=cid
+            )
+
+            for child in pr:
+                new_child = ET.SubElement(new_pr, child.tag, child.attrib)
+                new_child.text = child.text
+
+            root_combined.append(new_pr)
+
 # ------------------------------------------
-#  FORMATTAZIONE E SALVATAGGIO
+#  SALVATAGGIO XML + XZ
 # ------------------------------------------
 
 indent(root_combined)
-
 tree = ET.ElementTree(root_combined)
 tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
 
@@ -205,4 +192,4 @@ with lzma.open("epg.xz", "wb") as f:
     with open("epg.xml", "rb") as infile:
         f.write(infile.read())
 
-print("✅ EPG COMPLETATA — Alias e +1 corretti!")
+print("✅ EPG generata con +1 corretti per XTream Codes!")
