@@ -1,14 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv><channel id="Nove.it">
-    <display-name lang="it">Nove</display-name>
-  </channel>
-  <channel id="RealTimePlus1.it">
-    <display-name lang="it">RealTime +1</display-name>
-  </channel>
-  <channel id="DMAXPlus1.it">
-    <display-name lang="it">DMAX +1</display-name>
-  </channel>
-  <programme start="20251125000000 +0100" stop="20251125010500 +0100" channel="Nove.it">
+<tv><channel id="DMAXPlus1.it"><display-name lang="it">Discovery Dmax +1</display-name></channel><channel id="Nove.it"><display-name lang="it">Discovery Nove</display-name></channel><channel id="RealTimePlus1.it"><display-name lang="it">Real Time +1</display-name></channel><programme start="20251125000000 +0100" stop="20251125010500 +0100" channel="Nove.it">
     <title lang="it">Little Big Italy</title>
     <sub-title lang="it">S7E10 ║ Sofia</sub-title>
     <desc lang="it">Francesco Panella scopre i migliori ristoranti italiani all'estero.</desc>
