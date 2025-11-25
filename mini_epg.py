@@ -17,7 +17,6 @@ feeds = {
 # ------------------------------------------
 mini_channels_display = {
     # NON si associavano
-    "Nove.it": "Discovery Nove",
     "Italia1.it.plus1": "Italia 1 + 1",
     "La7.it.plus1": "La 7 + 1",
 
