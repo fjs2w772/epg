@@ -2,22 +2,23 @@ import requests
 import lzma
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
+from typing import Dict, List, Set, Tuple, Optional
 
 # ------------------------------------------
 #  FEED ORIGINALI (FUNZIONANTI)
 # ------------------------------------------
 
-feeds = {
+FEEDS: Dict[str, str] = {
     "Sky": "http://www.xmltvepg.nl/rytecIT_Sky.xz",
     "Basic": "http://www.xmltvepg.nl/rytecIT_Basic.xz",
-    "SportMovies": "http://www.xmltvepg.nl/rytecIT_SportMovies.xz"
+    "SportMovies": "http://www.xmltvepg.nl/rytecIT_SportMovies.xz",
 }
 
 # ------------------------------------------
-#  RINOMINE CANALI (come volevi tu)
+#  RINOMINE CANALI
 # ------------------------------------------
 
-rename_map = {
+RENAME_MAP: Dict[str, str] = {
     "Nove.it": "Nove",
     "20Mediaset.it": "Mediaset 20",
     "TopCrime.it": "TopCrime",
@@ -27,15 +28,14 @@ rename_map = {
     "DAZNZona.it": "Dazn 1",
     "ZonaDAZN2.it": "Dazn 2",
     "Tgcom24.it": "Tgcom 24",
-    "RaiSport.it": "Rai Sport+"
+    "RaiSport.it": "Rai Sport+",
 }
 
 # ----------------------------------------------------
-#  FORCED DISPLAY-NAME PER AGGANCIO AUTOMATICO TIVIMATE
+#  DISPLAY-NAME FORZATI PER MATCH AUTOMATICO TIVIMATE
 # ----------------------------------------------------
 
-forced_displaynames = {
-
+FORCED_DISPLAYNAMES: Dict[str, List[str]] = {
     # --- NOVE ---
     "Nove.it": [
         "Discovery Nove FHD", "Nove", "NOVE"
@@ -152,13 +152,11 @@ forced_displaynames = {
     ]
 }
 
-
-
 # ------------------------------------------
-#  CANALI +1 DA CREARE (come concordato)
+#  CANALI +1 DA CREARE
 # ------------------------------------------
 
-plus1_map = {
+PLUS1_MAP: Dict[str, str] = {
     "Italia1.it": "Italia 1 +1",
     "La7.it": "La7 +1",
     "Cielo.it": "Cielo +1",
@@ -178,22 +176,18 @@ plus1_map = {
     "TwentySeven.it": "Twenty Seven +1",
     "Rai5.it": "Rai 5 +1",
     "Rai4.it": "Rai 4 +1",
-    "Tv8.it": "TV8 +1"
+    "Tv8.it": "TV8 +1",
 }
 
 # ------------------------------------------
-#  CREAZIONE STRUTTURA XML COMBINATA
+#  FUNZIONI DI UTILITÀ
 # ------------------------------------------
 
-root_combined = ET.Element("tv")
-seen_channels = set()
-seen_programmes = set()
 
-# ------------------------------------------
-#  FUNZIONE: FORMATTARE XML (indent)
-# ------------------------------------------
-
-def indent(elem, level=0):
+def indent(elem: ET.Element, level: int = 0) -> None:
+    """
+    Format XML with indentation to keep epg.xml leggibile.
+    """
     i = "\n" + level * "  "
     if len(elem):
         if not elem.text or not elem.text.strip():
@@ -205,117 +199,227 @@ def indent(elem, level=0):
     if level and (not elem.tail or not elem.tail.strip()):
         elem.tail = i
 
-# ------------------------------------------
-#  SCARICO E PROCESSO I FEED ORIGINALI
-# ------------------------------------------
 
-for name, url in feeds.items():
-    print(f"Scarico feed {name}...")
-    resp = requests.get(url)
-    resp.raise_for_status()
-    xml_data = lzma.decompress(resp.content)
-    feed_root = ET.fromstring(xml_data)
+def download_and_parse_feed(name: str, url: str) -> Optional[ET.Element]:
+    """
+    Scarica il feed .xz, decomprime e restituisce la root XML.
+    Se qualcosa va storto, restituisce None (il resto dei feed continua).
+    """
+    try:
+        print(f"[INFO] Scarico feed '{name}' da {url}...")
+        resp = requests.get(url, timeout=60)
+        resp.raise_for_status()
+        xml_data = lzma.decompress(resp.content)
+        root = ET.fromstring(xml_data)
+        print(f"[OK] Feed '{name}' scaricato e parsato.")
+        return root
+    except Exception as exc:
+        print(f"[ERRORE] Impossibile processare feed '{name}': {exc}")
+        return None
 
-    # -------------------------
-    #  CHANNELS ORIGINALI
-    # -------------------------
-    for ch in feed_root.findall("channel"):
-        cid = ch.attrib["id"]
 
-        # RINOMINA CANALI
-        if cid in rename_map:
-            for dn in ch.findall("display-name"):
-                dn.text = rename_map[cid]
+def apply_rename_map_to_channel(channel: ET.Element) -> None:
+    """
+    Applica RENAME_MAP al channel-id, modificando i display-name se necessario.
+    """
+    cid = channel.attrib.get("id")
+    if cid in RENAME_MAP:
+        new_name = RENAME_MAP[cid]
+        for dn in channel.findall("display-name"):
+            dn.text = new_name
 
-        if cid not in seen_channels:
-            root_combined.append(ch)
-            seen_channels.add(cid)
 
-        # AGGIUNTA CANALE +1
-        if cid in plus1_map:
-            new_id = cid + ".plus1"
-            if new_id not in seen_channels:
-                plus_ch = ET.Element("channel", id=new_id)
+def create_plus1_channel(original_id: str, display_name: str) -> ET.Element:
+    """
+    Crea un nuovo elemento <channel> per il canale +1 con vari display-name.
+    """
+    new_id = original_id + ".plus1"
+    ch = ET.Element("channel", id=new_id)
 
-                # display-name senza lingue
-                dn0 = ET.SubElement(plus_ch, "display-name")
-                dn0.text = plus1_map[cid]
+    # display-name senza lang
+    dn0 = ET.SubElement(ch, "display-name")
+    dn0.text = display_name
 
-                # display-name IT
-                dn1 = ET.SubElement(plus_ch, "display-name", lang="it")
-                dn1.text = plus1_map[cid]
+    # display-name IT
+    dn1 = ET.SubElement(ch, "display-name", lang="it")
+    dn1.text = display_name
 
-                # display-name EN
-                dn2 = ET.SubElement(plus_ch, "display-name", lang="en")
-                dn2.text = plus1_map[cid]
+    # display-name EN
+    dn2 = ET.SubElement(ch, "display-name", lang="en")
+    dn2.text = display_name
 
-                root_combined.append(plus_ch)
-                seen_channels.add(new_id)
+    return ch
 
-    # -------------------------
-    # PROGRAMMI ORIGINALI
-    # -------------------------
-    for pr in feed_root.findall("programme"):
-        key = (
-            pr.attrib["start"],
-            pr.attrib["stop"],
-            pr.attrib["channel"]
+
+def create_plus1_programme(original: ET.Element, new_channel_id: str) -> Optional[ET.Element]:
+    """
+    Crea un nuovo <programme> spostato di +1h per il canale +1.
+    Mantiene lo stesso timezone dell'originale.
+    """
+    fmt = "%Y%m%d%H%M%S %z"
+    try:
+        start_str = original.attrib["start"]
+        stop_str = original.attrib["stop"]
+
+        start_dt = datetime.strptime(start_str, fmt) + timedelta(hours=1)
+        stop_dt = datetime.strptime(stop_str, fmt) + timedelta(hours=1)
+
+        new_pr = ET.Element(
+            "programme",
+            start=start_dt.strftime(fmt),
+            stop=stop_dt.strftime(fmt),
+            channel=new_channel_id,
         )
 
-        # Aggiungi programma originale
-        if key not in seen_programmes:
-            root_combined.append(pr)
-            seen_programmes.add(key)
+        # Copia tutti i sotto-elementi (title, sub-title, desc, ecc.)
+        for child in original:
+            new_child = ET.SubElement(new_pr, child.tag, child.attrib)
+            new_child.text = child.text
 
-        # Duplica +1?
-        cid = pr.attrib["channel"]
-        if cid in plus1_map:
+        return new_pr
+    except Exception as exc:
+        print(f"[ERRORE] Impossibile creare programme +1 per {original.attrib.get('channel')}: {exc}")
+        return None
 
-            # Shift orario di +1 ora
-            fmt = "%Y%m%d%H%M%S %z"
-            start = datetime.strptime(pr.attrib["start"], fmt) + timedelta(hours=1)
-            stop = datetime.strptime(pr.attrib["stop"], fmt) + timedelta(hours=1)
 
-            new_pr = ET.Element(
-                "programme",
-                start=start.strftime(fmt),
-                stop=stop.strftime(fmt),
-                channel=cid + ".plus1"
-            )
+def add_forced_displaynames_to_channel(channel: ET.Element) -> None:
+    """
+    Aggiunge alias di display-name per migliorare il match su Tivimate,
+    evitando duplicati.
+    """
+    cid = channel.attrib.get("id")
+    if cid not in FORCED_DISPLAYNAMES:
+        return
 
-            # Copia i sotto-elementi (title, desc, etc.)
-            for child in pr:
-                new_child = ET.SubElement(new_pr, child.tag, child.attrib)
-                new_child.text = child.text
+    existing_names: Set[str] = set()
+    for dn in channel.findall("display-name"):
+        if dn.text:
+            existing_names.add(dn.text.strip())
 
-            root_combined.append(new_pr)
+    for name in FORCED_DISPLAYNAMES[cid]:
+        if name not in existing_names:
+            new_dn = ET.SubElement(channel, "display-name")
+            new_dn.text = name
+            existing_names.add(name)
 
-# ------------------------------------------
-#  AGGIUNTA DISPLAY-NAME FORZATI PER MATCH TIVIMATE
-# ------------------------------------------
-
-for ch in root_combined.findall("channel"):
-    cid = ch.attrib["id"]
-    if cid in forced_displaynames:
-        for name in forced_displaynames[cid]:
-            dn = ET.SubElement(ch, "display-name")
-            dn.text = name
 
 # ------------------------------------------
-#  FORMATTAZIONE FINALE XML
+#  LOGICA PRINCIPALE
 # ------------------------------------------
 
-indent(root_combined)
 
-tree = ET.ElementTree(root_combined)
-tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+def build_epg() -> ET.Element:
+    """
+    Scarica tutti i feed, combina channels e programmes,
+    genera i +1, applica rinomine e alias, e restituisce la root <tv>.
+    """
+    root = ET.Element("tv")
 
-# ------------------------------------------
-#  CREO epg.xz COME DA TUO SCRIPT ORIGINALE
-# ------------------------------------------
+    # Conserviamo canali e programmi separati per garantire
+    # che tutti i <channel> vengano prima dei <programme>.
+    combined_channels: List[ET.Element] = []
+    combined_programmes: List[ET.Element] = []
 
-with lzma.open("epg.xz", "wb") as f:
-    with open("epg.xml", "rb") as infile:
-        f.write(infile.read())
+    seen_channels: Set[str] = set()
+    seen_programmes: Set[Tuple[str, str, str]] = set()
 
-print("🎉 EPG Completata con rinomine, alias e +1!")
+    for name, url in FEEDS.items():
+        feed_root = download_and_parse_feed(name, url)
+        if feed_root is None:
+            # Passa al prossimo feed
+            continue
+
+        # -------------------------
+        #  CHANNELS ORIGINALI
+        # -------------------------
+        for ch in feed_root.findall("channel"):
+            cid = ch.attrib.get("id")
+            if not cid:
+                continue
+
+            # RINOMINA CANALI
+            apply_rename_map_to_channel(ch)
+
+            # Aggiungi solo se non già visto
+            if cid not in seen_channels:
+                combined_channels.append(ch)
+                seen_channels.add(cid)
+
+            # AGGIUNTA CANALE +1 SE PREVISTO
+            if cid in PLUS1_MAP:
+                plus1_id = cid + ".plus1"
+                if plus1_id not in seen_channels:
+                    display_name_plus1 = PLUS1_MAP[cid]
+                    plus_ch = create_plus1_channel(cid, display_name_plus1)
+                    combined_channels.append(plus_ch)
+                    seen_channels.add(plus1_id)
+
+        # -------------------------
+        #  PROGRAMMI ORIGINALI
+        # -------------------------
+        for pr in feed_root.findall("programme"):
+            start = pr.attrib.get("start")
+            stop = pr.attrib.get("stop")
+            channel = pr.attrib.get("channel")
+
+            if not start or not stop or not channel:
+                continue
+
+            key = (start, stop, channel)
+
+            # Aggiungi programma originale se non visto
+            if key not in seen_programmes:
+                combined_programmes.append(pr)
+                seen_programmes.add(key)
+
+            # Se il canale ha una versione +1, crea anche il relativo programme
+            if channel in PLUS1_MAP:
+                plus1_id = channel + ".plus1"
+                new_pr = create_plus1_programme(pr, plus1_id)
+                if new_pr is not None:
+                    new_key = (
+                        new_pr.attrib["start"],
+                        new_pr.attrib["stop"],
+                        new_pr.attrib["channel"],
+                    )
+                    if new_key not in seen_programmes:
+                        combined_programmes.append(new_pr)
+                        seen_programmes.add(new_key)
+
+    # -------------------------
+    #  AGGIUNTA DISPLAY-NAME FORZATI
+    # -------------------------
+    for ch in combined_channels:
+        add_forced_displaynames_to_channel(ch)
+
+    # -------------------------
+    #  ASSEMBLA <tv>: PRIMA CHANNELS, POI PROGRAMMES
+    # -------------------------
+    for ch in combined_channels:
+        root.append(ch)
+
+    for pr in combined_programmes:
+        root.append(pr)
+
+    return root
+
+
+def main() -> None:
+    """
+    Entry point: costruisce l'EPG e scrive epg.xml.
+    """
+    print("[INFO] Generazione EPG in corso...")
+    root = build_epg()
+
+    # Formattazione leggibile
+    indent(root)
+
+    tree = ET.ElementTree(root)
+    output_filename = "epg.xml"
+
+    tree.write(output_filename, encoding="utf-8", xml_declaration=True)
+    print(f"[OK] File EPG generato: {output_filename}")
+
+
+if __name__ == "__main__":
+    main()
