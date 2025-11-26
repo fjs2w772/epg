@@ -20,7 +20,6 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        # lzma è nella libreria standard, serve solo requests
         run: |
           pip install requests
 
@@ -28,7 +27,7 @@ jobs:
         run: |
           python aggiorna_epg.py
 
-            - name: Commit and push updated EPG
+      - name: Commit and push updated EPG
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
@@ -37,4 +36,3 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
