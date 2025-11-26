@@ -28,11 +28,11 @@ jobs:
         run: |
           python aggiorna_epg.py
 
-      - name: Commit and push updated EPG
+            - name: Commit and push updated EPG
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add epg.xml epg.xz
+          git add epg.xml
           git commit -m "EPG auto-update" || echo "Nothing to commit"
           git push
         env:
