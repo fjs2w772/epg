@@ -1,164 +1,37 @@
-import requests
-import lzma
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
+name: Update EPG
 
-# ------------------------------------------
-#  FEED ORIGINALI (FUNZIONANTI)
-# ------------------------------------------
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
 
-feeds = {
-    "Sky": "http://www.xmltvepg.nl/rytecIT_Sky.xz",
-    "Basic": "http://www.xmltvepg.nl/rytecIT_Basic.xz",
-    "SportMovies": "http://www.xmltvepg.nl/rytecIT_SportMovies.xz"
-}
+jobs:
+  build_epg:
+    runs-on: ubuntu-latest
 
-# ------------------------------------------
-#  RINOMINE CANALI
-# ------------------------------------------
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-rename_map = {
-    "Nove.it": "Nove",
-    "20Mediaset.it": "Mediaset 20",
-    "TopCrime.it": "TopCrime",
-    "LA7Cinema.it": "LA 7 Cinema",
-    "HGTV.it": "HGTV Home Garden",
-    "SkySportAction.it": "Sky Sport Golf",
-    "DAZNZona.it": "Dazn 1",
-    "ZonaDAZN2.it": "Dazn 2",
-    "Tgcom24.it": "Tgcom 24",
-    "RaiSport.it": "Rai Sport+"
-}
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
 
-# ----------------------------------------------------
-#  DISPLAY-NAME FORZATI PER MATCH TIVIMATE
-# ----------------------------------------------------
+      - name: Install dependencies
+        run: |
+          pip install requests
 
-forced_displaynames = {
-    "Nove.it": ["Discovery Nove FHD", "Nove", "NOVE"]
-}
+      - name: Run EPG script
+        run: |
+          python aggiorna_epg.py
 
-# ------------------------------------------
-#  CANALI +1 DA CREARE
-# ------------------------------------------
-
-plus1_map = {
-    "Italia1.it": "Italia 1 +1",
-    "La7.it": "La7 +1",
-    "Cielo.it": "Cielo +1",
-    "Giallo.it": "Giallo +1",
-    "Cine34.it": "Cine 34 +1",
-    "Tv8.it": "TV8 +1"
-}
-
-# ------------------------------------------
-#  CREAZIONE STRUTTURA XML COMBINATA
-# ------------------------------------------
-
-root_combined = ET.Element("tv")
-seen_channels = set()
-seen_programmes = set()
-
-# ------------------------------------------
-#  FUNZIONE: FORMATTARE XML (indent)
-# ------------------------------------------
-
-def indent(elem, level=0):
-    i = "\n" + level * "  "
-    if len(elem):
-        if not elem.text or not elem.text.strip():
-            elem.text = i + "  "
-        for child in elem:
-            indent(child, level + 1)
-        if not child.tail or not child.tail.strip():
-            child.tail = i
-    if level and (not elem.tail or not elem.tail.strip()):
-        elem.tail = i
-
-# ------------------------------------------
-#  SCARICO E PROCESSO I FEED ORIGINALI
-# ------------------------------------------
-
-for name, url in feeds.items():
-    resp = requests.get(url)
-    resp.raise_for_status()
-    xml_data = lzma.decompress(resp.content)
-    feed_root = ET.fromstring(xml_data)
-
-    # CHANNELS
-    for ch in feed_root.findall("channel"):
-        cid = ch.attrib["id"]
-
-        if cid in rename_map:
-            for dn in ch.findall("display-name"):
-                dn.text = rename_map[cid]
-
-        if cid not in seen_channels:
-            root_combined.append(ch)
-            seen_channels.add(cid)
-
-        if cid in plus1_map:
-            new_id = cid + ".plus1"
-            if new_id not in seen_channels:
-                plus_ch = ET.Element("channel", id=new_id)
-                dn1 = ET.SubElement(plus_ch, "display-name", lang="it")
-                dn1.text = plus1_map[cid]
-                root_combined.append(plus_ch)
-                seen_channels.add(new_id)
-
-    # PROGRAMMI
-    for pr in feed_root.findall("programme"):
-        key = (pr.attrib["start"], pr.attrib["stop"], pr.attrib["channel"])
-
-        if key not in seen_programmes:
-            root_combined.append(pr)
-            seen_programmes.add(key)
-
-        cid = pr.attrib["channel"]
-        if cid in plus1_map:
-            fmt = "%Y%m%d%H%M%S %z"
-            start = datetime.strptime(pr.attrib["start"], fmt) + timedelta(hours=1)
-            stop = datetime.strptime(pr.attrib["stop"], fmt) + timedelta(hours=1)
-
-            new_pr = ET.Element(
-                "programme",
-                start=start.strftime(fmt),
-                stop=stop.strftime(fmt),
-                channel=cid + ".plus1"
-            )
-
-            for child in pr:
-                new_child = ET.SubElement(new_pr, child.tag, child.attrib)
-                new_child.text = child.text
-
-            root_combined.append(new_pr)
-
-# ------------------------------------------
-#  AGGIUNTA DISPLAY-NAME FORZATI
-# ------------------------------------------
-
-for ch in root_combined.findall("channel"):
-    cid = ch.attrib["id"]
-    if cid in forced_displaynames:
-        for name in forced_displaynames[cid]:
-            dn = ET.SubElement(ch, "display-name")
-            dn.text = name
-
-# ------------------------------------------
-#  SALVATAGGIO epg.xml
-# ------------------------------------------
-
-indent(root_combined)
-
-tree = ET.ElementTree(root_combined)
-tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
-
-# ------------------------------------------
-#  CREO epg.xz COME NELLA VERSIONE ORIGINALE
-# ------------------------------------------
-
-with lzma.open("epg.xz", "wb") as f:
-    with open("epg.xml", "rb") as infile:
-        f.write(infile.read())
-
-print("✅ EPG generata con epg.xml + epg.xz")
+      - name: Commit and push updated EPG
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add epg.xml epg.xz
+          git commit -m "EPG auto-update" || echo "Nothing to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
