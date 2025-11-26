@@ -2,9 +2,8 @@ name: Update EPG
 
 on:
   schedule:
-    # 03:00 UTC ≈ 04:00 in Italia (CET, ora solare)
     - cron: "0 3 * * *"
-  workflow_dispatch:       # permette di avviarlo a mano da GitHub
+  workflow_dispatch:
 
 jobs:
   build_epg:
@@ -31,7 +30,7 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add epg.xml
+          git add epg.xml epg.xz
           git commit -m "EPG auto-update" || echo "Nothing to commit"
           git push
         env:
