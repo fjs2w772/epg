@@ -8,6 +8,8 @@ on:
 jobs:
   build_epg:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # <-- FONDAMENTALE: permette al bot di fare il commit e il push
 
     steps:
       - name: Checkout repository
@@ -30,8 +32,8 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add epg.xml epg.xz
-          git commit -m "EPG auto-update" || echo "Nothing to commit"
+          git add epg_sky.xml  # Metti il nome esatto del file XML generato dal tuo script Python
+          git commit -m "EPG Sky auto-update" || echo "Nothing to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
