@@ -119,7 +119,25 @@ def build_epg() -> ET.Element:
             start_str = ev.get("startTime")
             stop_str = ev.get("endTime")
             title = ev.get("title", "")
-            desc = ev.get("description", "")
+            
+            # Estrazione avanzata per catturare la trama ufficiale e fonderla con il cast
+            descrizione = ev.get("longDescription") or ev.get("description") or ev.get("synopsis") or ""
+            
+            cast_list = ev.get("cast", [])
+            if isinstance(cast_list, list):
+                cast_str = ", ".join([c.get("name", str(c)) for c in cast_list if c])
+            else:
+                cast_str = str(cast_list)
+
+            # Unione pulita di trama e cast per replicare le informazioni del decoder
+            if descrizione and cast_str:
+                full_desc = f"{descrizione}\n\nCast: {cast_str}"
+            elif descrizione:
+                full_desc = descrizione
+            elif cast_str:
+                full_desc = f"Cast: {cast_str}"
+            else:
+                full_desc = ""
             
             if not start_str or not stop_str:
                 continue
@@ -142,9 +160,9 @@ def build_epg() -> ET.Element:
                 title_elem = ET.SubElement(pr_elem, "title", lang="it")
                 title_elem.text = title
                 
-                if desc:
+                if full_desc:
                     desc_elem = ET.SubElement(pr_elem, "desc", lang="it")
-                    desc_elem.text = desc
+                    desc_elem.text = full_desc
                 
                 combined_programmes.append(pr_elem)
                 seen_programmes.add(key)
